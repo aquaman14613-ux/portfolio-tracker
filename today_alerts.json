@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-22",
+  "alerts_sent": [
+    {
+      "ticker": "SPUS",
+      "trigger": "weight_breach",
+      "detail": "44.63% of net liquidation vs 10% ceiling / 12% mandatory-review threshold",
+      "sent_utc": "2026-08-22T12:20:00Z",
+      "channel": "email:kbialmannai@gmail.com",
+      "suppress_repeat": true,
+      "note": "Structural core-ETF concentration, not an event-driven move. Suppressed from re-alerting until the position weight materially changes or the rule is amended. No news catalyst found."
+    }
+  ],
+  "suppressed_standing_conditions": [
+    {
+      "ticker": "SPUS",
+      "condition": "weight > 12%",
+      "reason": "Known structural allocation; awaiting user decision on whether the single-position ceiling applies to diversified ETFs.",
+      "recheck_if": "weight moves more than 5 percentage points from 44.63%, or position quantity changes"
+    }
+  ]
+}
