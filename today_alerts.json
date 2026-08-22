@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-22",
+  "alerts": [
+    {
+      "ticker": "SPUS",
+      "trigger": "weight_breach",
+      "threshold": "10% ceiling / 12% mandatory review",
+      "observed": "44.63% of net liquidation ($17,468.76 of $39,142.74)",
+      "sent_at": "2026-08-22T01:19:30Z",
+      "channel": "email:kbialmannai@gmail.com",
+      "subject": "⚠ Portfolio Alert – SPUS – 44.6% position weight, over 12% review line",
+      "notes": "Structural concentration, not event-driven. Price flat (-0.41% vs cost, +0.36% intraday); no adverse news found. Broad Shariah index ETF (~200 holdings), so the single-name ceiling may be a deliberate exception — flagged once for review, suppressed on subsequent runs today."
+    }
+  ]
+}
