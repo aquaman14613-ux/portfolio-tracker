@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-22",
+  "alerts": [
+    {
+      "id": "2026-08-22-SPUS-weight-ceiling",
+      "ticker": "SPUS",
+      "trigger": "weight_breach",
+      "threshold": "10% ceiling / 12% mandatory review",
+      "observed": "44.63% of net liquidation",
+      "sent_at": "2026-08-22T03:20:02Z",
+      "channel": "email:kbialmannai@gmail.com",
+      "subject": "⚠ Portfolio Alert – SPUS – 44.6% weight, 10%/12% ceiling breach",
+      "notes": "Structural, not news-driven. SPUS is a 220-holding diversified index ETF; no news event found. Alert also covers derived look-through findings: AVGO effective weight 11.72% (9.43% direct + 2.29% via SPUS), and correlated mega-cap tech cluster ~46% vs the 30% theme cap.",
+      "suppress_repeat": true,
+      "suppress_reason": "Structural allocation fact — will remain true every run. Do not re-alert unless SPUS weight changes by more than 5 percentage points from 44.63%, or AVGO look-through weight crosses 12%."
+    }
+  ],
+  "suppression_rules": [
+    {
+      "ticker": "SPUS",
+      "trigger": "weight_breach",
+      "reason": "Core diversified ETF holding, deliberately oversized. Re-alert only if weight moves >5pp from 44.63%.",
+      "baseline_weight_pct": 44.63
+    }
+  ]
+}
