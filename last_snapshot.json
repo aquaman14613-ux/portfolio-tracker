@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "run_timestamp_utc": "2026-08-22T13:20:14Z",
+  "quote_timestamp_utc": "2026-08-21T23:59:45Z",
+  "quote_basis": "Last completed session (Friday 2026-08-21 close). Run fired Saturday 2026-08-22 with markets closed; session move figures are Friday's, not live intraday.",
+  "ibkr_status": {
+    "reachable": true,
+    "consecutive_failures": 0,
+    "last_success_utc": "2026-08-22T13:20:14Z"
+  },
+  "account": {
+    "currency": "USD",
+    "net_liquidation": 39142.75,
+    "gross_position_value": 35703.28,
+    "total_cash_value": 3439.47,
+    "cash_pct_of_netliq": 8.79,
+    "cash_target_band_pct": [7.5, 10.0],
+    "cash_in_band": true,
+    "leverage": "0.91"
+  },
+  "positions": [
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "quantity": 10,
+      "market_price": 369.0,
+      "average_cost": 384.56667,
+      "market_value": 3690.0,
+      "prior_close": 364.03,
+      "weight_pct": 9.43,
+      "session_change_pct": 1.37,
+      "vs_cost_pct": -4.05,
+      "unrealized_pnl": -155.6667
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "quantity": 10,
+      "market_price": 379.01000975,
+      "average_cost": 392.881,
+      "market_value": 3790.1000975,
+      "prior_close": 374.48,
+      "weight_pct": 9.68,
+      "session_change_pct": 1.21,
+      "vs_cost_pct": -3.53,
+      "unrealized_pnl": -138.7099025
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "quantity": 100,
+      "market_price": 10.21000005,
+      "average_cost": 10.140003,
+      "market_value": 1021.000005,
+      "prior_close": 10.15,
+      "weight_pct": 2.61,
+      "session_change_pct": 0.59,
+      "vs_cost_pct": 0.69,
+      "unrealized_pnl": 6.999705
+    },
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "quantity": 30,
+      "market_price": 127.94000245,
+      "average_cost": 118.59333667,
+      "market_value": 3838.2000735,
+      "prior_close": 129.75,
+      "weight_pct": 9.81,
+      "session_change_pct": -1.39,
+      "vs_cost_pct": 7.88,
+      "unrealized_pnl": 280.3999735
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "quantity": 70,
+      "market_price": 46.7400017,
+      "average_cost": 44.93428857,
+      "market_value": 3271.800119,
+      "prior_close": 46.14,
+      "weight_pct": 8.36,
+      "session_change_pct": 1.3,
+      "vs_cost_pct": 4.02,
+      "unrealized_pnl": 126.399919
+    },
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "quantity": 298,
+      "market_price": 58.61999895,
+      "average_cost": 58.86007013,
+      "market_value": 17468.7596871,
+      "prior_close": 58.41,
+      "weight_pct": 44.63,
+      "session_change_pct": 0.36,
+      "vs_cost_pct": -0.41,
+      "unrealized_pnl": -71.5412129,
+      "instrument_type": "broad_market_etf",
+      "concentration_rule_note": "Diversified Shariah-screened S&P 500 ETF. Treated as core holding, not a single-issuer position, for the 10%/12% ceiling. See today_alerts.json entry SPUS-CONCENTRATION-STANDING."
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "quantity": 10,
+      "market_price": 261.9500122,
+      "average_cost": 280.07,
+      "market_value": 2619.500122,
+      "prior_close": 264.63,
+      "weight_pct": 6.69,
+      "session_change_pct": -1.01,
+      "vs_cost_pct": -6.47,
+      "unrealized_pnl": -181.199878
+    }
+  ],
+  "closed_positions_observed": [
+    {
+      "ticker": "KEEL",
+      "contract_id": 870986030,
+      "quantity": 0,
+      "daily_pnl": -100.7655,
+      "note": "Position flat at this run. IBKR still reports a daily P&L line, indicating it was closed out during the session. Not evaluated against holding thresholds."
+    }
+  ],
+  "stage1_result": {
+    "intraday_move_5pct": {
+      "breached": false,
+      "largest_abs_move_pct": 1.45,
+      "largest_abs_move_ticker": "NVO"
+    },
+    "weight_breach_10_12pct": {
+      "breached": true,
+      "tickers": ["SPUS"],
+      "escalated_to_stage2": false,
+      "suppression_reason": "SPUS is a diversified broad-market ETF; single-position ceiling applies to single-issuer risk. Standing structural allocation, not a new trigger."
+    },
+    "cost_breach_15_20pct": {
+      "breached": false,
+      "worst_drawdown_pct": -6.47,
+      "worst_drawdown_ticker": "VRT"
+    },
+    "approaching_watchlist": [
+      { "ticker": "NOW", "weight_pct": 9.81, "note": "0.19pp below 10% ceiling" },
+      { "ticker": "ISRG", "weight_pct": 9.68, "note": "0.32pp below 10% ceiling" },
+      { "ticker": "AVGO", "weight_pct": 9.43, "note": "0.57pp below 10% ceiling" }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-22",
+  "last_run_utc": "2026-08-22T13:20:14Z",
+  "emails_sent_today": 0,
+  "alerts": [
+    {
+      "id": "SPUS-CONCENTRATION-STANDING",
+      "ticker": "SPUS",
+      "type": "weight_breach",
+      "observed": "44.63% of net liquidation vs 10% ceiling / 12% mandatory-review line",
+      "first_seen_utc": "2026-08-22T13:20:14Z",
+      "status": "suppressed_standing",
+      "email_sent": false,
+      "reason": "SPUS is the SP Funds S&P 500 Sharia Industry Exclusions ETF - a diversified broad-market fund held as the portfolio's Shariah-compliant core. The single-position ceiling targets idiosyncratic single-issuer risk, and the 30% theme cap is defined by GICS sub-industry / >0.7 correlation / shared revenue driver, none of which a broad index fund meets. This is a standing structural allocation rather than a new event, so it was not escalated to a news search or alert email.",
+      "suppress_until_changed": true,
+      "recheck_trigger": "Re-raise only if SPUS weight moves materially from this level (>=+5pp or <=-5pp), if it is reclassified as a concentrated holding, or if the user directs that the ceiling apply to ETFs.",
+      "baseline_weight_pct": 44.63,
+      "needs_user_decision": true
+    }
+  ],
+  "notes": "First run of this routine - no prior last_snapshot.json or today_alerts.json existed in the repo, so there was no baseline to diff against. Stage 1 evaluated absolute threshold state only. Subsequent runs can compare against last_snapshot.json. Stage 2 was not entered: no news search performed, no alert email sent."
+}
