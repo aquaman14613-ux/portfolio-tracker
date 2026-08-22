@@ -1,0 +1,28 @@
+{
+  "last_run": "2026-08-22T08:20:21Z",
+  "last_run_result": "stage_1_flagged_stage_2_alert_sent",
+  "ibkr_consecutive_failures": 0,
+  "outage_alert_sent": false,
+  "alerts": [
+    {
+      "key": "SPUS:weight_breach",
+      "ticker": "SPUS",
+      "reason": "44.6% weight, above 12% review threshold",
+      "trigger": "single-position weight 44.63% vs 10% ceiling / 12% mandatory review",
+      "sent_at": "2026-08-22T08:21:04Z",
+      "channel": "email:kbialmannai@gmail.com",
+      "message_id": "<010001a0288f2511-21bb3c31-0d4d-4ca4-999c-b450709ca375-000000@email.amazonses.com>",
+      "suppress_repeat": true,
+      "note": "Standing structural condition, not an event. Suppressed from future runs. Re-alert only if SPUS weight rises materially above 44.63% or the position is restructured."
+    }
+  ],
+  "evaluated_no_trigger": [
+    "intraday_move_5pct: none, max magnitude NVO +1.45%",
+    "cost_minus_15pct: none, deepest VRT -6.47%",
+    "cost_minus_20pct: none",
+    "cash_target: 8.79%, in 7.5-10% range"
+  ],
+  "watch_next_run": [
+    "NOW 9.81%, ISRG 9.68%, AVGO 9.43% - all within 0.6pt of the 10% ceiling"
+  ]
+}
