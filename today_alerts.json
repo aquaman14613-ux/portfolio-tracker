@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-22",
+  "alerts_sent": [],
+  "ibkr_consecutive_failures": 0,
+  "last_ibkr_status": "ok",
+  "last_run": "2026-08-22T10:19:30Z",
+  "standing_suppressions": [
+    {
+      "ticker": "SPUS",
+      "rule": "single-position ceiling 10%/12%",
+      "reason": "Broad-market Shariah index ETF held as portfolio core, not a single-name concentration. Remove this entry to have weight breaches on SPUS alert normally.",
+      "since": "2026-08-22"
+    }
+  ]
+}
