@@ -1,0 +1,23 @@
+{
+  "as_of_utc": "2026-08-22T07:20:00Z",
+  "source": "IBKR",
+  "currency": "USD",
+  "account": {
+    "net_liquidation": 39142.74,
+    "gross_position_value": 35703.28,
+    "total_cash_value": 3439.46,
+    "cash_weight_pct": 8.79
+  },
+  "positions": [
+    {"ticker": "SPUS", "contract_id": 396046406, "qty": 298, "market_price": 58.62, "market_value": 17468.76, "avg_cost": 58.86007, "unrealized_pnl": -71.54, "pct_from_cost": -0.41, "daily_pnl": 62.58, "daily_pct": 0.36, "weight_pct": 44.63},
+    {"ticker": "NOW", "contract_id": 109911821, "qty": 30, "market_price": 127.94, "market_value": 3838.2, "avg_cost": 118.59334, "unrealized_pnl": 280.4, "pct_from_cost": 7.88, "daily_pnl": -54.3, "daily_pct": -1.4, "weight_pct": 9.81},
+    {"ticker": "ISRG", "contract_id": 9063285, "qty": 10, "market_price": 379.01, "market_value": 3790.1, "avg_cost": 392.881, "unrealized_pnl": -138.71, "pct_from_cost": -3.53, "daily_pnl": 45.3, "daily_pct": 1.21, "weight_pct": 9.68},
+    {"ticker": "AVGO", "contract_id": 313130367, "qty": 10, "market_price": 369.0, "market_value": 3690.0, "avg_cost": 384.56667, "unrealized_pnl": -155.67, "pct_from_cost": -4.05, "daily_pnl": 49.7, "daily_pct": 1.37, "weight_pct": 9.43},
+    {"ticker": "NVO", "contract_id": 10611, "qty": 70, "market_price": 46.74, "market_value": 3271.8, "avg_cost": 44.93429, "unrealized_pnl": 126.4, "pct_from_cost": 4.02, "daily_pnl": 42.0, "daily_pct": 1.3, "weight_pct": 8.36},
+    {"ticker": "VRT", "contract_id": 402783527, "qty": 10, "market_price": 261.95, "market_value": 2619.5, "avg_cost": 280.07, "unrealized_pnl": -181.2, "pct_from_cost": -6.47, "daily_pnl": -26.8, "daily_pct": -1.01, "weight_pct": 6.69},
+    {"ticker": "NOK", "contract_id": 661513, "qty": 100, "market_price": 10.21, "market_value": 1021.0, "avg_cost": 10.140003, "unrealized_pnl": 7.0, "pct_from_cost": 0.69, "daily_pnl": 6.0, "daily_pct": 0.59, "weight_pct": 2.61},
+    {"ticker": "KEEL", "contract_id": 870986030, "qty": 0, "market_price": 3.4297, "market_value": 0.0, "avg_cost": 0, "unrealized_pnl": 0.0, "pct_from_cost": null, "daily_pnl": -100.77, "daily_pct": null, "weight_pct": 0.0, "note": "flat - closed position"}
+  ],
+  "ibkr_consecutive_failures": 0,
+  "notes": "Weights computed against net liquidation (cash included, per the 7.5-10% cash target). Market closed (Saturday); daily figures reflect the prior session."
+}

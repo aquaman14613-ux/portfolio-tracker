@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-22",
+  "alerts": [
+    {
+      "key": "SPUS:weight_breach",
+      "ticker": "SPUS",
+      "type": "weight_breach",
+      "reason": "44.6% of net liquidation vs 10% ceiling / 12% mandatory review",
+      "detail": "17,468.76 USD of 39,142.74 USD net liq",
+      "sent_utc": "2026-08-22T07:20:00Z",
+      "channel": "email",
+      "suppress_until_resolved": true
+    }
+  ],
+  "checked": {
+    "intraday_move_5pct": "none",
+    "weight_breach_10_12pct": ["SPUS"],
+    "cost_breach_15_20pct": "none",
+    "cash_band_7_5_to_10pct": "in band (8.79%)"
+  },
+  "ibkr_consecutive_failures": 0
+}
