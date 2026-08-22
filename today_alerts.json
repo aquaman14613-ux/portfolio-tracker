@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-22",
+  "last_run_utc": "2026-08-22T15:18:29Z",
+  "ibkr_consecutive_failures": 0,
+  "outage_alert_sent": false,
+  "alerts": [
+    {
+      "id": "2026-08-22-SPUS-weight",
+      "ticker": "SPUS",
+      "trigger": "weight_breach",
+      "detail": "44.63% of net liquidation vs 10% single-position ceiling / 12% mandatory-review level.",
+      "emailed": true,
+      "emailed_at_utc": "2026-08-22T15:18:29Z",
+      "suppress_repeat": true,
+      "suppress_reason": "Structural core holding (SP Funds S&P 500 Sharia ETF, $2.88B AUM). Breach is standing, not a new event. Flagged once at cold start; do not re-alert unless weight moves +/-5pp from 44.63% or the ceiling in st0ck_rules.md gains an ETF carve-out."
+    }
+  ],
+  "checked_no_trigger": [
+    "AVGO",
+    "ISRG",
+    "NOK",
+    "NOW",
+    "NVO",
+    "VRT"
+  ],
+  "notes": "Cold start: neither last_snapshot.json nor today_alerts.json existed prior to this run, so no delta comparison was possible. Absolute thresholds were evaluated against live IBKR data and a baseline written. Stage 2 news search skipped - the only flag is an arithmetic weight breach, which news cannot confirm or refute."
+}

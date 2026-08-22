@@ -1,0 +1,121 @@
+{
+  "as_of_utc": "2026-08-22T15:18:29Z",
+  "session_note": "Saturday - market closed; daily P&L reflects the prior (Friday) session.",
+  "source": "IBKR",
+  "account": {
+    "net_liquidation": 39142.75,
+    "gross_position_value": 35703.28,
+    "total_cash_value": 3439.47,
+    "cash_pct": 8.79,
+    "unrealized_pnl": -129.4,
+    "currency": "USD"
+  },
+  "positions": [
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "quantity": 298,
+      "market_price": 58.62,
+      "average_cost": 58.86007,
+      "market_value": 17468.76,
+      "weight_pct": 44.63,
+      "intraday_pct": 0.36,
+      "vs_cost_pct": -0.41,
+      "unrealized_pnl": -71.54
+    },
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "quantity": 30,
+      "market_price": 127.94,
+      "average_cost": 118.59334,
+      "market_value": 3838.2,
+      "weight_pct": 9.81,
+      "intraday_pct": -1.39,
+      "vs_cost_pct": 7.88,
+      "unrealized_pnl": 280.4
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "quantity": 10,
+      "market_price": 379.01001,
+      "average_cost": 392.881,
+      "market_value": 3790.1,
+      "weight_pct": 9.68,
+      "intraday_pct": 1.21,
+      "vs_cost_pct": -3.53,
+      "unrealized_pnl": -138.71
+    },
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "quantity": 10,
+      "market_price": 369.0,
+      "average_cost": 384.56667,
+      "market_value": 3690.0,
+      "weight_pct": 9.43,
+      "intraday_pct": 1.37,
+      "vs_cost_pct": -4.05,
+      "unrealized_pnl": -155.67
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "quantity": 70,
+      "market_price": 46.74,
+      "average_cost": 44.93429,
+      "market_value": 3271.8,
+      "weight_pct": 8.36,
+      "intraday_pct": 1.3,
+      "vs_cost_pct": 4.02,
+      "unrealized_pnl": 126.4
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "quantity": 10,
+      "market_price": 261.95001,
+      "average_cost": 280.07,
+      "market_value": 2619.5,
+      "weight_pct": 6.69,
+      "intraday_pct": -1.01,
+      "vs_cost_pct": -6.47,
+      "unrealized_pnl": -181.2
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "quantity": 100,
+      "market_price": 10.21,
+      "average_cost": 10.140003,
+      "market_value": 1021.0,
+      "weight_pct": 2.61,
+      "intraday_pct": 0.59,
+      "vs_cost_pct": 0.69,
+      "unrealized_pnl": 7.0
+    },
+    {
+      "ticker": "KEEL",
+      "contract_id": 870986030,
+      "quantity": 0,
+      "market_price": 3.4297,
+      "average_cost": 0,
+      "market_value": 0,
+      "weight_pct": 0.0,
+      "intraday_pct": null,
+      "vs_cost_pct": null,
+      "unrealized_pnl": 0,
+      "note": "Flat - closed position carrying a -100.77 day P&L entry. No weight; excluded from threshold checks."
+    }
+  ],
+  "stage1_checks": {
+    "intraday_move_ge_5pct": [],
+    "weight_breach_10pct": ["SPUS"],
+    "weight_breach_12pct": ["SPUS"],
+    "cost_breach_minus_15pct": [],
+    "cost_breach_minus_20pct": [],
+    "cash_target_7_5_to_10pct": "within range (8.79%)"
+  },
+  "ibkr_consecutive_failures": 0
+}
