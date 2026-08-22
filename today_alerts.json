@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-22",
+  "alerts_sent": [],
+  "runs": [
+    {
+      "run_utc": "2026-08-22T06:20:06Z",
+      "stage1": "completed",
+      "ibkr": "ok",
+      "triggers_found": ["SPUS_weight_44.63pct"],
+      "stage2": "not_run",
+      "email_sent": false
+    }
+  ],
+  "suppressed": [
+    {
+      "key": "SPUS_single_position_ceiling",
+      "ticker": "SPUS",
+      "rule": "single-position ceiling 10% / 12% mandatory review",
+      "observed_weight_pct": 44.63,
+      "reason": "SPUS is a broad-market Shariah index ETF held as the portfolio core, not a single-company position. The concentration ceiling targets idiosyncratic single-name risk, so this reads as a false positive. Standing structural condition, not a new event.",
+      "status": "suppressed_pending_user_confirmation",
+      "first_observed": "2026-08-22",
+      "note": "Remove this entry to make future runs alert on SPUS weight."
+    }
+  ],
+  "ibkr_consecutive_failures": 0
+}

@@ -1,0 +1,115 @@
+{
+  "snapshot_utc": "2026-08-22T06:20:06Z",
+  "quote_asof_utc": "2026-08-21T23:59:45Z",
+  "source": "IBKR",
+  "account": {
+    "currency": "USD",
+    "net_liquidation": 39142.74,
+    "gross_position_value": 35703.28,
+    "total_cash_value": 3439.46,
+    "cash_pct_of_netliq": 8.79
+  },
+  "positions": [
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "quantity": 10,
+      "market_price": 369.0,
+      "market_value": 3690.0,
+      "average_price": 384.56667,
+      "unrealized_pnl": -155.6667,
+      "pct_from_cost": -4.05,
+      "prior_close": 364.03,
+      "change_pct": 1.37,
+      "weight_pct_netliq": 9.43
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "quantity": 10,
+      "market_price": 379.01,
+      "market_value": 3790.1,
+      "average_price": 392.881,
+      "unrealized_pnl": -138.71,
+      "pct_from_cost": -3.53,
+      "prior_close": 374.48,
+      "change_pct": 1.21,
+      "weight_pct_netliq": 9.68
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "quantity": 100,
+      "market_price": 10.21,
+      "market_value": 1021.0,
+      "average_price": 10.140003,
+      "unrealized_pnl": 6.9997,
+      "pct_from_cost": 0.69,
+      "prior_close": 10.15,
+      "change_pct": 0.69,
+      "weight_pct_netliq": 2.61
+    },
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "quantity": 30,
+      "market_price": 127.94,
+      "market_value": 3838.2,
+      "average_price": 118.59334,
+      "unrealized_pnl": 280.4,
+      "pct_from_cost": 7.88,
+      "prior_close": 129.75,
+      "change_pct": -1.39,
+      "weight_pct_netliq": 9.81
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "quantity": 70,
+      "market_price": 46.74,
+      "market_value": 3271.8,
+      "average_price": 44.93429,
+      "unrealized_pnl": 126.4,
+      "pct_from_cost": 4.02,
+      "prior_close": 46.14,
+      "change_pct": 1.45,
+      "weight_pct_netliq": 8.36
+    },
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "quantity": 298,
+      "market_price": 58.62,
+      "market_value": 17468.76,
+      "average_price": 58.86007,
+      "unrealized_pnl": -71.54,
+      "pct_from_cost": -0.41,
+      "prior_close": 58.41,
+      "change_pct": 0.48,
+      "weight_pct_netliq": 44.63
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "quantity": 10,
+      "market_price": 261.95,
+      "market_value": 2619.5,
+      "average_price": 280.07,
+      "unrealized_pnl": -181.2,
+      "pct_from_cost": -6.47,
+      "prior_close": 264.63,
+      "change_pct": -0.97,
+      "weight_pct_netliq": 6.69
+    }
+  ],
+  "closed_today": [
+    {
+      "ticker": "KEEL",
+      "contract_id": 870986030,
+      "quantity": 0,
+      "daily_pnl": -100.7655,
+      "note": "flat position, no exposure"
+    }
+  ],
+  "ibkr_consecutive_failures": 0
+}
