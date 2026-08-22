@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "last_run_utc": "2026-08-22T11:19:23Z",
+  "runs_logged": 1,
+  "consecutive_ibkr_failures": 0,
+  "outage_alert_sent": false,
+  "note": "Dedup log. Before sending, match on `key`. Entries with status 'open' and suppress_repeat true must NOT be re-sent; re-arm only when `resend_if` is satisfied.",
+  "alerts": [
+    {
+      "key": "weight_breach_12pct:SPUS",
+      "ticker": "SPUS",
+      "rule": "single_position_ceiling_12pct_mandatory_review",
+      "trigger_type": "structural",
+      "first_alerted_utc": "2026-08-22T11:19:23Z",
+      "last_alerted_utc": "2026-08-22T11:19:23Z",
+      "value_at_alert_pct": 44.63,
+      "detail": "SPUS 44.63% of net liquidation (17,468.76 / 39,142.75) vs 10% ceiling and 12% mandatory-review threshold.",
+      "status": "open",
+      "suppress_repeat": true,
+      "resend_if": "weight drops below 12% and later breaches again, OR weight exceeds 50%",
+      "channel": "email:kbialmannai@gmail.com"
+    }
+  ],
+  "checked_no_trigger": {
+    "intraday_move_ge_5pct": "none — largest was AVGO +1.37%",
+    "cost_breach_minus_15pct": "none — deepest was VRT -6.47%",
+    "cost_breach_minus_20pct": "none",
+    "weight_breach_10pct_excluding_SPUS": "none — highest was NOW 9.81%"
+  }
+}
