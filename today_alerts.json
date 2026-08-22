@@ -1,0 +1,21 @@
+{
+  "date": "2026-08-22",
+  "alerts_sent": [
+    {
+      "ticker": "SPUS",
+      "trigger": "weight_breach_12pct",
+      "detail": "44.63% of net liquidation ($17,468.76 of $39,142.75) vs 10% ceiling / 12% mandatory review.",
+      "sent_at": "2026-08-22",
+      "channel": "email:kbialmannai@gmail.com",
+      "subject": "⚠ Portfolio Alert – SPUS – 44.6% of portfolio, over 12% mandatory-review line",
+      "suppress_repeat_until_changed": true,
+      "note": "Do not re-alert on SPUS weight while it remains in breach at a similar level. Re-alert only if weight crosses a further band (>=50%) or falls back under 12% and breaches again."
+    }
+  ],
+  "checked_no_alert": {
+    "intraday_5pct": "none",
+    "cost_minus_15pct": "none (worst: VRT -6.47%)",
+    "cost_minus_20pct": "none",
+    "ibkr_outage": "none - IBKR responded normally"
+  }
+}
