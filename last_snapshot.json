@@ -1,0 +1,137 @@
+{
+  "timestamp": "2026-08-22T05:19:57Z",
+  "session_note": "Saturday — US market closed. Prices and daily P&L reflect the 2026-08-21 close.",
+  "source": "IBKR",
+  "account": {
+    "currency": "USD",
+    "net_liquidation": 39142.74,
+    "gross_position_value": 35703.28,
+    "total_cash_value": 3439.46,
+    "cash_pct": 8.79,
+    "leverage": "0.91"
+  },
+  "positions": [
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "quantity": 298,
+      "market_price": 58.62,
+      "market_value": 17468.76,
+      "average_price": 58.86007,
+      "weight_pct": 44.63,
+      "unrealized_pnl": -71.54,
+      "pnl_vs_cost_pct": -0.41,
+      "daily_pnl": 62.58,
+      "daily_move_pct": 0.36
+    },
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "quantity": 30,
+      "market_price": 127.94,
+      "market_value": 3838.2,
+      "average_price": 118.59334,
+      "weight_pct": 9.81,
+      "unrealized_pnl": 280.4,
+      "pnl_vs_cost_pct": 7.88,
+      "daily_pnl": -54.3,
+      "daily_move_pct": -1.4
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "quantity": 10,
+      "market_price": 379.01,
+      "market_value": 3790.1,
+      "average_price": 392.881,
+      "weight_pct": 9.68,
+      "unrealized_pnl": -138.71,
+      "pnl_vs_cost_pct": -3.53,
+      "daily_pnl": 45.3,
+      "daily_move_pct": 1.21
+    },
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "quantity": 10,
+      "market_price": 369.0,
+      "market_value": 3690.0,
+      "average_price": 384.56667,
+      "weight_pct": 9.43,
+      "unrealized_pnl": -155.67,
+      "pnl_vs_cost_pct": -4.05,
+      "daily_pnl": 49.7,
+      "daily_move_pct": 1.37
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "quantity": 70,
+      "market_price": 46.74,
+      "market_value": 3271.8,
+      "average_price": 44.93429,
+      "weight_pct": 8.36,
+      "unrealized_pnl": 126.4,
+      "pnl_vs_cost_pct": 4.02,
+      "daily_pnl": 42.0,
+      "daily_move_pct": 1.3
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "quantity": 10,
+      "market_price": 261.95,
+      "market_value": 2619.5,
+      "average_price": 280.07,
+      "weight_pct": 6.69,
+      "unrealized_pnl": -181.2,
+      "pnl_vs_cost_pct": -6.47,
+      "daily_pnl": -26.8,
+      "daily_move_pct": -1.01
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "quantity": 100,
+      "market_price": 10.21,
+      "market_value": 1021.0,
+      "average_price": 10.140003,
+      "weight_pct": 2.61,
+      "unrealized_pnl": 7.0,
+      "pnl_vs_cost_pct": 0.69,
+      "daily_pnl": 6.0,
+      "daily_move_pct": 0.59
+    }
+  ],
+  "closed_today": [
+    {
+      "ticker": "KEEL",
+      "contract_id": 870986030,
+      "quantity": 0,
+      "last_price": 3.4297,
+      "daily_pnl": -100.77,
+      "note": "Flat position carrying realized daily P&L; not a holding, excluded from weight and cost checks."
+    }
+  ],
+  "stage1_checks": {
+    "intraday_move_5pct": {
+      "breached": false,
+      "largest_abs_move": { "ticker": "NOW", "daily_move_pct": -1.4 }
+    },
+    "weight_10pct_12pct": {
+      "breached_by_single_stock": false,
+      "largest_single_stock": { "ticker": "NOW", "weight_pct": 9.81 },
+      "etf_core_holding": {
+        "ticker": "SPUS",
+        "weight_pct": 44.63,
+        "note": "Broad Shariah-screened S&P 500 index ETF held as the core allocation. Exceeds the 10%/12% single-position ceiling on a literal read, but is a diversified fund rather than idiosyncratic single-name concentration. Treated as structural, not an alertable event. Confirm intended treatment."
+      }
+    },
+    "cost_breach_15pct_20pct": {
+      "breached": false,
+      "worst_position": { "ticker": "VRT", "pnl_vs_cost_pct": -6.47 }
+    },
+    "cash_target_7_5_to_10pct": { "within_target": true, "cash_pct": 8.79 }
+  },
+  "result": "No Stage 1 trigger. Stage 2 news search not performed. No alert sent."
+}
