@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-22",
+  "last_run": "2026-08-22T02:19:16Z",
+  "ibkr_consecutive_failures": 0,
+  "outage_alert_sent": false,
+  "alerts_sent": [],
+  "acknowledged_standing_conditions": [
+    {
+      "ticker": "SPUS",
+      "condition": "weight_over_12pct",
+      "observed_weight_pct": 44.63,
+      "first_seen": "2026-08-22",
+      "suppress": true,
+      "rationale": "SPUS is a diversified Shariah-screened S&P 500 ETF (~200 underlying names) held as the portfolio core, not a single-name position. The 10%/12% ceiling targets single-name concentration, so this is a standing structural allocation rather than a new risk trigger. Re-alert only if the intent changes or weight moves materially from this level."
+    }
+  ]
+}

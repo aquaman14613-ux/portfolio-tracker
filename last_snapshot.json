@@ -1,0 +1,101 @@
+{
+  "as_of": "2026-08-22T02:19:16Z",
+  "session_note": "Saturday run — values reflect the 2026-08-21 (Friday) close.",
+  "source": "IBKR",
+  "ibkr_status": "ok",
+  "ibkr_consecutive_failures": 0,
+  "account": {
+    "currency": "USD",
+    "net_liquidation": 39142.74,
+    "gross_position_value": 35703.28,
+    "total_cash_value": 3439.46,
+    "cash_pct": 8.79
+  },
+  "positions": [
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "qty": 10,
+      "market_price": 369.0,
+      "avg_cost": 384.56666667,
+      "market_value": 3690.0,
+      "weight_pct": 9.43,
+      "day_pct": 1.37,
+      "vs_cost_pct": -4.05
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "qty": 10,
+      "market_price": 379.01000975,
+      "avg_cost": 392.881,
+      "market_value": 3790.1,
+      "weight_pct": 9.68,
+      "day_pct": 1.21,
+      "vs_cost_pct": -3.53
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "qty": 100,
+      "market_price": 10.21000005,
+      "avg_cost": 10.140003,
+      "market_value": 1021.0,
+      "weight_pct": 2.61,
+      "day_pct": 0.59,
+      "vs_cost_pct": 0.69
+    },
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "qty": 30,
+      "market_price": 127.94000245,
+      "avg_cost": 118.59333667,
+      "market_value": 3838.2,
+      "weight_pct": 9.81,
+      "day_pct": -1.39,
+      "vs_cost_pct": 7.88
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "qty": 70,
+      "market_price": 46.7400017,
+      "avg_cost": 44.93428857,
+      "market_value": 3271.8,
+      "weight_pct": 8.36,
+      "day_pct": 1.3,
+      "vs_cost_pct": 4.02
+    },
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "qty": 298,
+      "market_price": 58.61999895,
+      "avg_cost": 58.86007023,
+      "market_value": 17468.76,
+      "weight_pct": 44.63,
+      "day_pct": 0.36,
+      "vs_cost_pct": -0.41
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "qty": 10,
+      "market_price": 261.9500122,
+      "avg_cost": 280.07,
+      "market_value": 2619.5,
+      "weight_pct": 6.69,
+      "day_pct": -1.01,
+      "vs_cost_pct": -6.47
+    }
+  ],
+  "closed_today": [
+    {
+      "ticker": "KEEL",
+      "contract_id": 870986030,
+      "qty": 0,
+      "note": "Flat position, realized day P&L -100.77. No longer a holding; excluded from weight and threshold checks."
+    }
+  ]
+}
