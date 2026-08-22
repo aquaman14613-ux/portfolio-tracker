@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-22",
+  "alerts_sent": [],
+  "runs": [
+    {
+      "at": "2026-08-22T14:19:12Z",
+      "stage": 1,
+      "ibkr": "ok",
+      "outcome": "no_trigger",
+      "checks": {
+        "intraday_move_5pct": "clear — largest absolute move 1.40% (NOW). Saturday, market closed; figures reflect Fri 2026-08-21 close.",
+        "weight_10_12pct": "no new breach among single names — max NOW 9.81%, ISRG 9.68%, AVGO 9.43%. See standing_conditions for SPUS.",
+        "cost_15_20pct": "clear — worst drawdown from cost is VRT at -6.47%."
+      }
+    }
+  ],
+  "standing_conditions": [
+    {
+      "id": "spus-core-weight",
+      "ticker": "SPUS",
+      "condition": "Weight 44.63% of net liq, above the 10% ceiling and 12% mandatory-review line.",
+      "status": "acknowledged_not_alerted",
+      "rationale": "SPUS is the portfolio's core broad-market Shariah-screened S&P 500 ETF, not a single-name exposure. The single-position ceiling targets idiosyncratic concentration; a diversified index fund is deliberate construction, not a risk event. Standing structural fact that would otherwise fire on every run.",
+      "first_recorded": "2026-08-22",
+      "review": "Raise with the user as a portfolio-construction question, not as an automated alert. Re-evaluate if SPUS is ever replaced by or concentrated into single names."
+    }
+  ],
+  "notes": [
+    "First run in this repo — no prior last_snapshot.json or today_alerts.json existed, so this run establishes the baseline. No delta comparison was possible.",
+    "KEEL is flat (position 0) with -100.77 realized daily P&L; treated as a closed position, not an intraday move."
+  ]
+}
