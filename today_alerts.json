@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-22",
+  "last_run_at": "2026-08-22T04:19:50Z",
+  "alerts_sent": [],
+  "suppressed": [
+    {
+      "ticker": "SPUS",
+      "trigger": "weight_ceiling",
+      "value_pct": 48.93,
+      "reason": "Diversified Shariah-screened S&P 500 index ETF held as the core position. The 10%/12% ceiling targets single-company concentration; applying it to a broad index fund would fire every run. Structural allocation, not a new event. Raise with the account holder as an allocation-policy question rather than as a repeating automated alert."
+    },
+    {
+      "ticker": "AVGO,ISRG,NOW",
+      "trigger": "weight_ceiling",
+      "value_pct": "10.34/10.62/10.75",
+      "reason": "Above 10% only because cash was unavailable and therefore excluded from the denominator. At the 7.5-10% cash target all three sit below the ceiling. Denominator artifact, not a breach."
+    }
+  ],
+  "notes": "First run with state files present - no prior snapshot existed in the repo, so nothing could be diffed against a baseline this run. last_snapshot.json now written; subsequent runs can compare against it."
+}

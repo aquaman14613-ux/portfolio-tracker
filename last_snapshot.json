@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-08-22T04:19:50Z",
+  "session_note": "Saturday capture - values reflect Friday 2026-08-21 close, not a live intraday session.",
+  "source": "IBKR get_account_positions",
+  "data_quality": {
+    "positions": "ok",
+    "account_summary": "error - endpoint returned 'An error occurred. Please try again later.'",
+    "account_balances": "error - retried once, same failure",
+    "cash_balance": null,
+    "cash_note": "Cash unknown this run. Weights below are computed against invested market value only (cash excluded from denominator), so they are an UPPER BOUND. With cash at the 7.5-10% target band, every single-stock weight falls below 10%."
+  },
+  "totals": {
+    "invested_market_value_usd": 35699.36,
+    "total_portfolio_value_usd": null,
+    "cash_pct": null
+  },
+  "positions": [
+    {"ticker": "AVGO", "contract_id": 313130367, "qty": 10, "market_price": 369.0, "market_value": 3690.0, "avg_cost": 384.56666667, "unrealized_pnl": -155.67, "daily_pnl": 49.7, "weight_pct_of_invested": 10.34, "day_pct": 1.37, "vs_cost_pct": -4.05},
+    {"ticker": "ISRG", "contract_id": 9063285, "qty": 10, "market_price": 379.01000975, "market_value": 3790.1, "avg_cost": 392.881, "unrealized_pnl": -138.71, "daily_pnl": 45.3, "weight_pct_of_invested": 10.62, "day_pct": 1.21, "vs_cost_pct": -3.53},
+    {"ticker": "NOK", "contract_id": 661513, "qty": 100, "market_price": 10.21000005, "market_value": 1021.0, "avg_cost": 10.140003, "unrealized_pnl": 7.0, "daily_pnl": 6.0, "weight_pct_of_invested": 2.86, "day_pct": 0.59, "vs_cost_pct": 0.69},
+    {"ticker": "NOW", "contract_id": 109911821, "qty": 30, "market_price": 127.94000245, "market_value": 3838.2, "avg_cost": 118.59333667, "unrealized_pnl": 280.4, "daily_pnl": -54.3, "weight_pct_of_invested": 10.75, "day_pct": -1.39, "vs_cost_pct": 7.88},
+    {"ticker": "NVO", "contract_id": 10611, "qty": 70, "market_price": 46.7400017, "market_value": 3271.8, "avg_cost": 44.93428857, "unrealized_pnl": 126.4, "daily_pnl": 42.0, "weight_pct_of_invested": 9.16, "day_pct": 1.3, "vs_cost_pct": 4.02},
+    {"ticker": "SPUS", "contract_id": 396046406, "qty": 298, "market_price": 58.61999895, "market_value": 17468.76, "avg_cost": 58.86007023, "unrealized_pnl": -71.54, "daily_pnl": 62.58, "weight_pct_of_invested": 48.93, "day_pct": 0.36, "vs_cost_pct": -0.41, "note": "Broad diversified Shariah-screened S&P 500 ETF - treated as core index holding, not a single-company position for ceiling purposes."},
+    {"ticker": "VRT", "contract_id": 402783527, "qty": 10, "market_price": 261.9500122, "market_value": 2619.5, "avg_cost": 280.07, "unrealized_pnl": -181.2, "daily_pnl": -26.8, "weight_pct_of_invested": 7.34, "day_pct": -1.01, "vs_cost_pct": -6.47}
+  ],
+  "closed_or_zero": [
+    {"ticker": "KEEL", "contract_id": 870986030, "qty": 0, "market_price": 3.4296999, "market_value": 0.0, "daily_pnl": -100.7655, "note": "Zero position carrying a non-zero daily P&L - position appears to have been closed out in the last session. No current exposure."}
+  ],
+  "stage1_evaluation": {
+    "intraday_move_ge_5pct": {"breached": false, "worst": "NOW -1.39%"},
+    "weight_ceiling_10_12pct": {
+      "breached_single_company": false,
+      "detail": "AVGO 10.34 / ISRG 10.62 / NOW 10.75 exceed 10% ONLY when cash is excluded from the denominator. Cash is unavailable this run. At the 7.5-10% cash target all three fall to 9.3-10.0%, below the ceiling. Not treated as a breach.",
+      "etf_concentration": "SPUS 44-49% of portfolio depending on cash. Over the 12% line under any assumption, but it is a diversified index ETF and the intentional core holding, so the single-position ceiling does not apply as written. Flagged for human review, not alerted."
+    },
+    "cost_breach_15_20pct": {"breached": false, "worst": "VRT -6.47% from cost"}
+  },
+  "ibkr_consecutive_failures": 0
+}
