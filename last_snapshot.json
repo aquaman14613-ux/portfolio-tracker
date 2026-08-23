@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-08-23T17:06:00Z",
+  "source": "IBKR",
+  "net_liquidation": 39142.75,
+  "cash_balance": 3439.47,
+  "cash_weight_pct": 8.79,
+  "positions": [
+    {"symbol": "AVGO", "shares": 10, "avg_cost": 384.5667, "market_price": 369.00, "market_value": 3690.00, "weight_pct": 9.43, "unrealized_pnl": -155.67},
+    {"symbol": "ISRG", "shares": 10, "avg_cost": 392.881, "market_price": 379.01, "market_value": 3790.10, "weight_pct": 9.68, "unrealized_pnl": -138.71},
+    {"symbol": "NOK", "shares": 100, "avg_cost": 10.140, "market_price": 10.21, "market_value": 1021.00, "weight_pct": 2.61, "unrealized_pnl": 7.00},
+    {"symbol": "NOW", "shares": 30, "avg_cost": 118.5933, "market_price": 127.94, "market_value": 3838.20, "weight_pct": 9.81, "unrealized_pnl": 280.40},
+    {"symbol": "NVO", "shares": 70, "avg_cost": 44.9343, "market_price": 46.74, "market_value": 3271.80, "weight_pct": 8.36, "unrealized_pnl": 126.40},
+    {"symbol": "SPUS", "shares": 298, "avg_cost": 58.8601, "market_price": 58.62, "market_value": 17468.76, "weight_pct": 44.63, "unrealized_pnl": -71.54},
+    {"symbol": "VRT", "shares": 10, "avg_cost": 280.07, "market_price": 261.95, "market_value": 2619.50, "weight_pct": 6.69, "unrealized_pnl": -181.20}
+  ],
+  "excluded_zero_share_positions": ["KEEL"],
+  "note": "First tracked snapshot — no prior snapshot existed for week-over-week diff. Book was constructed this week from a fresh cash deposit (~$19.6k on 2026-08-19); all listed positions were newly initiated 2026-08-18 through 2026-08-21."
+}
