@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-08-24T20:18:58Z",
+  "session": "post-close 2026-08-24 (16:18 ET)",
+  "source": "IBKR",
+  "net_liquidation": 38729.23,
+  "total_cash_value": 3439.47,
+  "cash_pct": 8.88,
+  "gross_position_value": 35289.76,
+  "positions": [
+    {"ticker": "AVGO", "contract_id": 313130367, "qty": 10, "market_price": 358.74191285, "market_value": 3587.42, "avg_cost": 384.56667, "unrealized_pnl": -258.25, "daily_pnl": -97.08, "weight_pct": 9.26, "intraday_pct": -2.63, "vs_cost_pct": -6.72},
+    {"ticker": "ISRG", "contract_id": 9063285, "qty": 10, "market_price": 374.0, "market_value": 3740.0, "avg_cost": 392.881, "unrealized_pnl": -188.81, "daily_pnl": -48.1, "weight_pct": 9.66, "intraday_pct": -1.27, "vs_cost_pct": -4.81},
+    {"ticker": "NOK", "contract_id": 661513, "qty": 100, "market_price": 9.9399996, "market_value": 994.0, "avg_cost": 10.140003, "unrealized_pnl": -20.0, "daily_pnl": -27.0, "weight_pct": 2.57, "intraday_pct": -2.64, "vs_cost_pct": -1.97},
+    {"ticker": "NOW", "contract_id": 109911821, "qty": 30, "market_price": 127.3464966, "market_value": 3820.39, "avg_cost": 118.59333667, "unrealized_pnl": 262.59, "daily_pnl": -34.01, "weight_pct": 9.86, "intraday_pct": -0.88, "vs_cost_pct": 7.38},
+    {"ticker": "NVO", "contract_id": 10611, "qty": 70, "market_price": 46.90000155, "market_value": 3283.0, "avg_cost": 44.93428857, "unrealized_pnl": 137.6, "daily_pnl": 11.2, "weight_pct": 8.48, "intraday_pct": 0.34, "vs_cost_pct": 4.37},
+    {"ticker": "SPUS", "contract_id": 396046406, "qty": 298, "market_price": 58.1800003, "market_value": 17337.64, "avg_cost": 58.86007013, "unrealized_pnl": -202.66, "daily_pnl": -131.12, "weight_pct": 44.77, "intraday_pct": -0.75, "vs_cost_pct": -1.16, "concentration_check": "excluded"},
+    {"ticker": "VRT", "contract_id": 402783527, "qty": 10, "market_price": 254.9700012, "market_value": 2549.7, "avg_cost": 280.07, "unrealized_pnl": -251.0, "daily_pnl": -69.8, "weight_pct": 6.58, "intraday_pct": -2.66, "vs_cost_pct": -8.96}
+  ],
+  "stage1_result": "clean",
+  "checks": {
+    "intraday_5pct": {"breached": false, "worst": {"ticker": "VRT", "pct": -2.66}},
+    "weight_10_12pct": {"breached": false, "worst_eligible": {"ticker": "NOW", "pct": 9.86}, "note": "SPUS excluded per st0ck_rules.md"},
+    "cost_15_20pct": {"breached": false, "worst": {"ticker": "VRT", "pct": -8.96}}
+  }
+}
