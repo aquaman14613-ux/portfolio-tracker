@@ -1,0 +1,46 @@
+{
+  "snapshot_timestamp_utc": "2026-08-24T20:17:28Z",
+  "session": "post-close",
+  "source": "IBKR",
+  "base_currency": "USD",
+  "account": {
+    "net_liquidation": 38736.40,
+    "total_cash_value": 3439.47,
+    "stock_market_value": 35324.94,
+    "gross_position_value_reported": 35296.93,
+    "unrealized_pnl_account": -535.74,
+    "realized_pnl": 0,
+    "buying_power": 3439.47,
+    "excess_liquidity": 3439.47,
+    "initial_margin": 0,
+    "maintenance_margin": 0,
+    "leverage": "0.91"
+  },
+  "cash_pct_of_nlv": 8.88,
+  "performance": {
+    "measure": "TWR",
+    "inception_date": "2026-08-17",
+    "day_1_pct": -1.07,
+    "since_inception_pct": -2.18,
+    "spus_day_1_pct": -0.75,
+    "spus_trailing_1w_pct": 0.21,
+    "spus_trailing_1m_pct": -2.02
+  },
+  "positions": [
+    {"ticker": "AVGO", "contract_id": 313130367, "shares": 10, "mark": 358.89, "market_value": 3588.90, "avg_cost": 384.56667, "unrealized_pnl": -256.77, "unrealized_pct": -6.68, "daily_pnl": -95.60, "daily_pct": -2.59, "weight_pct": 9.27},
+    {"ticker": "ISRG", "contract_id": 9063285, "shares": 10, "mark": 374.10, "market_value": 3741.00, "avg_cost": 392.881, "unrealized_pnl": -187.81, "unrealized_pct": -4.78, "daily_pnl": -47.10, "daily_pct": -1.24, "weight_pct": 9.66},
+    {"ticker": "NOK", "contract_id": 661513, "shares": 100, "mark": 9.96, "market_value": 996.00, "avg_cost": 10.140003, "unrealized_pnl": -18.00, "unrealized_pct": -1.78, "daily_pnl": -25.00, "daily_pct": -2.45, "weight_pct": 2.57},
+    {"ticker": "NOW", "contract_id": 109911821, "shares": 30, "mark": 127.60, "market_value": 3828.00, "avg_cost": 118.59334, "unrealized_pnl": 270.20, "unrealized_pct": 7.60, "daily_pnl": -26.40, "daily_pct": -0.68, "weight_pct": 9.88},
+    {"ticker": "NVO", "contract_id": 10611, "shares": 70, "mark": 46.91, "market_value": 3283.70, "avg_cost": 44.93429, "unrealized_pnl": 138.30, "unrealized_pct": 4.40, "daily_pnl": 11.90, "daily_pct": 0.36, "weight_pct": 8.48},
+    {"ticker": "SPUS", "contract_id": 396046406, "shares": 298, "mark": 58.18, "market_value": 17337.64, "avg_cost": 58.86007, "unrealized_pnl": -202.66, "unrealized_pct": -1.16, "daily_pnl": -131.12, "daily_pct": -0.75, "weight_pct": 44.76, "benchmark": true},
+    {"ticker": "VRT", "contract_id": 402783527, "shares": 10, "mark": 254.97, "market_value": 2549.70, "avg_cost": 280.07, "unrealized_pnl": -251.00, "unrealized_pct": -8.96, "daily_pnl": -69.80, "daily_pct": -2.66, "weight_pct": 6.58}
+  ],
+  "threshold_status": {
+    "single_position_ceiling_10pct": "clear (max ex-SPUS: NOW 9.88%)",
+    "mandatory_review_12pct": "clear",
+    "cash_target_7_5_to_10pct": "in band (8.88%)",
+    "price_review_minus_15pct": "clear (worst: VRT -8.96%)",
+    "correlation_cap_30pct": "clear (AI datacenter capex driver AVGO+VRT = 15.85%)",
+    "shariah_zoya": "not verified this run - no Zoya data source available"
+  }
+}
