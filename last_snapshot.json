@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-08-24T17:18:00Z",
+  "source": "IBKR",
+  "account": {
+    "currency": "USD",
+    "net_liquidation": 38816.77,
+    "gross_position_value": 35377.30,
+    "total_cash_value": 3439.47,
+    "cash_weight_pct": 8.86
+  },
+  "positions": [
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "shares": 10,
+      "market_price": 361.2749939,
+      "market_value": 3612.75,
+      "average_cost": 384.56667,
+      "weight_pct": 9.31,
+      "pct_from_cost": -6.06,
+      "intraday_pct": -1.95
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "shares": 10,
+      "market_price": 376.6799927,
+      "market_value": 3766.80,
+      "average_cost": 392.881,
+      "weight_pct": 9.70,
+      "pct_from_cost": -4.12,
+      "intraday_pct": -0.56
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "shares": 100,
+      "market_price": 9.96,
+      "market_value": 996.00,
+      "average_cost": 10.140003,
+      "weight_pct": 2.57,
+      "pct_from_cost": -1.78,
+      "intraday_pct": -2.55
+    },
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "shares": 30,
+      "market_price": 128.32499695,
+      "market_value": 3849.75,
+      "average_cost": 118.59333667,
+      "weight_pct": 9.92,
+      "pct_from_cost": 8.21,
+      "intraday_pct": -0.12
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "shares": 70,
+      "market_price": 46.89009855,
+      "market_value": 3282.31,
+      "average_cost": 44.93428857,
+      "weight_pct": 8.46,
+      "pct_from_cost": 4.35,
+      "intraday_pct": 0.32
+    },
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "shares": 298,
+      "market_price": 58.2099991,
+      "market_value": 17346.58,
+      "average_cost": 58.86007013,
+      "weight_pct": 44.69,
+      "pct_from_cost": -1.10,
+      "intraday_pct": -0.70,
+      "concentration_check": "excluded"
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "shares": 10,
+      "market_price": 253.26800535,
+      "market_value": 2532.68,
+      "average_cost": 280.07,
+      "weight_pct": 6.53,
+      "pct_from_cost": -9.57,
+      "intraday_pct": -3.33
+    }
+  ]
+}
