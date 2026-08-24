@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-08-24T05:19:00Z",
+  "source": "IBKR",
+  "net_liquidation": 39142.75,
+  "total_cash_value": 3439.47,
+  "cash_weight_pct": 8.79,
+  "gross_position_value": 35703.28,
+  "positions": [
+    {"ticker": "AVGO", "contract_id": 313130367, "shares": 10, "market_price": 365.02, "market_value": 3650.20, "avg_cost": 384.57, "weight_pct": 9.32, "unrealized_pnl": -195.47, "cost_pnl_pct": -5.08, "daily_pnl": -34.30},
+    {"ticker": "ISRG", "contract_id": 9063285, "shares": 10, "market_price": 380.50, "market_value": 3805.00, "avg_cost": 392.88, "weight_pct": 9.72, "unrealized_pnl": -123.81, "cost_pnl_pct": -3.15, "daily_pnl": 16.90},
+    {"ticker": "NOK", "contract_id": 661513, "shares": 100, "market_price": 10.08, "market_value": 1008.00, "avg_cost": 10.14, "weight_pct": 2.58, "unrealized_pnl": -6.00, "cost_pnl_pct": -0.59, "daily_pnl": -13.00},
+    {"ticker": "NOW", "contract_id": 109911821, "shares": 30, "market_price": 128.00, "market_value": 3840.00, "avg_cost": 118.59, "weight_pct": 9.81, "unrealized_pnl": 282.20, "cost_pnl_pct": 7.93, "daily_pnl": -14.40},
+    {"ticker": "NVO", "contract_id": 10611, "shares": 70, "market_price": 46.79, "market_value": 3275.30, "avg_cost": 44.93, "weight_pct": 8.37, "unrealized_pnl": 129.90, "cost_pnl_pct": 4.13, "daily_pnl": 3.50},
+    {"ticker": "SPUS", "contract_id": 396046406, "shares": 298, "market_price": 58.70, "market_value": 17492.60, "avg_cost": 58.86, "weight_pct": 44.69, "unrealized_pnl": -47.70, "cost_pnl_pct": -0.27, "daily_pnl": 23.84, "concentration_excluded": true},
+    {"ticker": "VRT", "contract_id": 402783527, "shares": 10, "market_price": 259.00, "market_value": 2590.00, "avg_cost": 280.07, "weight_pct": 6.62, "unrealized_pnl": -210.70, "cost_pnl_pct": -7.52, "daily_pnl": -29.50}
+  ],
+  "ibkr_consecutive_failures": 0
+}
