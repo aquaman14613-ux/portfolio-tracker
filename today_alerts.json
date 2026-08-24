@@ -1,0 +1,57 @@
+{
+  "date": "2026-08-24",
+  "alerts": [],
+  "runs": [
+    {
+      "timestamp_utc": "2026-08-24T05:20:39Z",
+      "source_branch": "claude/brave-fermi-k0i5nd",
+      "ibkr_status": "ok",
+      "triggered": false,
+      "stage2_run": false,
+      "alert_sent": false
+    },
+    {
+      "timestamp_utc": "2026-08-24T13:29:00Z",
+      "source_branch": "claude/cool-lovelace-b6xoji",
+      "ibkr_status": "ok",
+      "triggered": false,
+      "stage2_run": false,
+      "alert_sent": false,
+      "note": "pre-market run"
+    },
+    {
+      "timestamp_utc": "2026-08-24T14:21:32Z",
+      "source_branch": "claude/brave-fermi-jh4yya",
+      "ibkr_status": "ok",
+      "triggered": false,
+      "stage2_run": false,
+      "alert_sent": false
+    },
+    {
+      "timestamp_utc": "2026-08-24T15:21:00Z",
+      "source_branch": "claude/brave-fermi-lbs0g1",
+      "ibkr_status": "ok",
+      "triggered": false,
+      "stage2_run": false,
+      "alert_sent": false
+    },
+    {
+      "timestamp_utc": "2026-08-24T16:22:00Z",
+      "source_branch": "claude/brave-fermi-n056m2",
+      "ibkr_status": "ok",
+      "triggered": false,
+      "stage2_run": false,
+      "alert_sent": false
+    }
+  ],
+  "ibkr_consecutive_failures": 0,
+  "outage_alert_sent": false,
+  "known_issue_dedup_ineffective": {
+    "summary": "Alert dedup cannot work as configured. Each scheduled run executes on its own fresh branch and commits last_snapshot.json / today_alerts.json only to that branch. main has never carried these files, so a run that reads only its own checkout starts with no prior alert log and no prior snapshot to diff against.",
+    "observed_impact": "On 2026-08-22, 8 near-identical SPUS concentration alert emails were delivered hourly (01:20, 03:20, 07:21, 08:21, 09:20, 11:20, 12:20, 15:20 UTC). Each run re-derived the same standing breach with an empty today_alerts.json.",
+    "current_mitigation": "The SPUS concentration-check exclusion added to st0ck_rules.md at 2026-08-22 15:23 UTC suppresses that specific alert at the source. All runs on 2026-08-24 have logged 0 alerts.",
+    "workaround_used_this_run": "Recovered prior state by scanning all remote claude/* branches and reading last_snapshot.json / today_alerts.json from the most recently committed one (claude/brave-fermi-lbs0g1, 15:24 UTC), then carried today's full run history forward into this file.",
+    "residual_risk": "Dedup remains structurally non-functional for any genuine future trigger (a real -15%/-20% cost breach, a >=5% intraday move, or a non-SPUS weight breach). Such an alert would re-send on every hourly run for the rest of the day unless the run happens to perform the cross-branch recovery above.",
+    "suggested_fix": "Persist last_snapshot.json and today_alerts.json to main (or one stable state branch) that every run reads and writes, instead of a per-run branch. Not actioned here: this session is restricted to pushing to claude/brave-fermi-n056m2 and has no permission to push to main."
+  }
+}

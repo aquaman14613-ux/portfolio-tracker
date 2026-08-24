@@ -1,0 +1,126 @@
+{
+  "timestamp_utc": "2026-08-24T16:22:00Z",
+  "source": "IBKR",
+  "account": {
+    "currency": "USD",
+    "net_liquidation": 38867.45,
+    "gross_position_value": 35432.19,
+    "total_cash_value": 3439.47,
+    "cash_pct_of_nlv": 8.85
+  },
+  "positions": [
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "shares": 10,
+      "market_price": 362.98,
+      "market_value": 3629.8,
+      "avg_cost": 384.56667,
+      "unrealized_pnl": -215.87,
+      "daily_pnl": -54.7,
+      "prior_close": 368.45,
+      "pct_from_cost": -5.61,
+      "intraday_pct": -1.48,
+      "weight_pct": 9.34
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "shares": 10,
+      "market_price": 376.53,
+      "market_value": 3765.3,
+      "avg_cost": 392.881,
+      "unrealized_pnl": -163.51,
+      "daily_pnl": -22.8,
+      "prior_close": 378.81,
+      "pct_from_cost": -4.16,
+      "intraday_pct": -0.6,
+      "weight_pct": 9.69
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "shares": 100,
+      "market_price": 9.985,
+      "market_value": 998.5,
+      "avg_cost": 10.140003,
+      "unrealized_pnl": -15.5,
+      "daily_pnl": -22.5,
+      "prior_close": 10.21,
+      "pct_from_cost": -1.53,
+      "intraday_pct": -2.2,
+      "weight_pct": 2.57
+    },
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "shares": 30,
+      "market_price": 128.36,
+      "market_value": 3850.8,
+      "avg_cost": 118.59334,
+      "unrealized_pnl": 293.0,
+      "daily_pnl": -3.6,
+      "prior_close": 128.48,
+      "pct_from_cost": 8.24,
+      "intraday_pct": -0.09,
+      "weight_pct": 9.91
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "shares": 70,
+      "market_price": 46.655,
+      "market_value": 3265.85,
+      "avg_cost": 44.93429,
+      "unrealized_pnl": 120.45,
+      "daily_pnl": -5.95,
+      "prior_close": 46.74,
+      "pct_from_cost": 3.83,
+      "intraday_pct": -0.18,
+      "weight_pct": 8.4
+    },
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "shares": 298,
+      "market_price": 58.28,
+      "market_value": 17367.44,
+      "avg_cost": 58.86007,
+      "unrealized_pnl": -172.86,
+      "daily_pnl": -101.32,
+      "prior_close": 58.62,
+      "pct_from_cost": -0.99,
+      "intraday_pct": -0.58,
+      "weight_pct": 44.68,
+      "concentration_check": "excluded (diversified benchmark ETF)"
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "shares": 10,
+      "market_price": 255.45,
+      "market_value": 2554.5,
+      "avg_cost": 280.07,
+      "unrealized_pnl": -246.2,
+      "daily_pnl": -65.0,
+      "prior_close": 261.95,
+      "pct_from_cost": -8.79,
+      "intraday_pct": -2.48,
+      "weight_pct": 6.57
+    }
+  ],
+  "stage1_result": {
+    "intraday_move_5pct": "none (max: VRT -2.48%)",
+    "weight_breach_10_12pct": "none (max ex-SPUS: NOW 9.91%)",
+    "cost_breach_15_20pct": "none (max drawdown: VRT -8.79%)",
+    "triggered": false
+  },
+  "watch_items": [
+    "NOW at 9.91% of NLV — below the 10% ceiling but the closest position to it; would breach on roughly a 1% relative gain."
+  ],
+  "delta_vs_prior_snapshot": {
+    "prior_timestamp_utc": "2026-08-24T15:21:00Z",
+    "prior_source_branch": "claude/brave-fermi-lbs0g1",
+    "note": "Broad small recovery over the hour. VRT -9.87% -> -8.79% from cost, AVGO -6.02% -> -5.61%, SPUS -1.39% -> -0.99%. NLV 38781.54 -> 38867.45."
+  }
+}
