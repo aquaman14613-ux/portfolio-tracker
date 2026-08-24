@@ -1,0 +1,37 @@
+{
+  "confirmed_at_utc": "2026-08-24T13:29:26Z",
+  "source": "IBKR MCP (live)",
+  "account_summary": {
+    "currency": "USD",
+    "net_liquidation": 39052.61,
+    "total_cash_value": 3439.47,
+    "gross_position_value": 35613.14,
+    "available_funds": 3439.47,
+    "excess_liquidity": 3439.47,
+    "initial_margin": 0,
+    "maintenance_margin": 0,
+    "leverage": "0.91",
+    "cash_pct_of_nlv": 8.81
+  },
+  "positions": [
+    {"ticker": "SPUS", "contract_id": 396046406, "qty": 298, "avg_cost": 58.86007013, "market_price": 58.4900017, "market_value": 17430.02, "pct_nlv": 44.63, "unrealized_pnl": -110.28, "daily_pnl": -38.74},
+    {"ticker": "NOW", "contract_id": 109911821, "qty": 30, "avg_cost": 118.59333667, "market_price": 128.4642029, "market_value": 3853.93, "pct_nlv": 9.87, "unrealized_pnl": 296.13, "daily_pnl": -0.47},
+    {"ticker": "ISRG", "contract_id": 9063285, "qty": 10, "avg_cost": 392.881, "market_price": 380.269989, "market_value": 3802.70, "pct_nlv": 9.74, "unrealized_pnl": -126.11, "daily_pnl": 14.60},
+    {"ticker": "AVGO", "contract_id": 313130367, "qty": 10, "avg_cost": 384.56667, "market_price": 364.76000975, "market_value": 3647.60, "pct_nlv": 9.34, "unrealized_pnl": -198.07, "daily_pnl": -36.90},
+    {"ticker": "NVO", "contract_id": 10611, "qty": 70, "avg_cost": 44.93428857, "market_price": 47.2200012, "market_value": 3305.40, "pct_nlv": 8.46, "unrealized_pnl": 160.00, "daily_pnl": 33.60},
+    {"ticker": "VRT", "contract_id": 402783527, "qty": 10, "avg_cost": 280.07, "market_price": 257.1799927, "market_value": 2571.80, "pct_nlv": 6.59, "unrealized_pnl": -228.90, "daily_pnl": -47.70},
+    {"ticker": "NOK", "contract_id": 661513, "qty": 100, "avg_cost": 10.140003, "market_price": 10.0, "market_value": 1000.00, "pct_nlv": 2.56, "unrealized_pnl": -14.00, "daily_pnl": -21.00}
+  ],
+  "totals": {
+    "unrealized_pnl": -221.23,
+    "daily_pnl": -96.61
+  },
+  "threshold_status": {
+    "single_position_ceiling_10pct": "no breach (max ex-SPUS: NOW 9.87%)",
+    "mandatory_review_12pct": "no breach",
+    "theme_correlation_cap_30pct": "no breach (AI data-center capex cluster AVGO+VRT+NOK = 18.49%; broad AI complex incl. NOW = 28.36%)",
+    "cash_target_7_5_to_10pct": "in range (8.81%)",
+    "price_review_minus_15pct": "no breach (worst: VRT -8.17% vs cost)",
+    "price_documented_decision_minus_20pct": "no breach"
+  }
+}
