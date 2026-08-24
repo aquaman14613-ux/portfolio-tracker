@@ -11,5 +11,12 @@
     }
   ],
   "ibkr_consecutive_failures": 0,
-  "outage_alert_sent": false
+  "outage_alert_sent": false,
+  "known_issue_dedup_ineffective": {
+    "summary": "Alert dedup cannot work as configured. Each scheduled run executes on its own fresh branch (22 claude/* branches exist) and commits last_snapshot.json / today_alerts.json only to that branch. main has not been updated since 2026-08-22, so every run starts with no prior alert log and no prior snapshot to diff against.",
+    "observed_impact": "On 2026-08-22, 8 near-identical SPUS concentration alert emails were delivered hourly (01:20, 03:20, 07:21, 08:21, 09:20, 11:20, 12:20, 15:20 UTC). Each run re-derived the same standing breach with an empty today_alerts.json.",
+    "current_mitigation": "The SPUS concentration-check exclusion added to st0ck_rules.md at 2026-08-22 15:23 UTC suppresses that specific alert at the source. Runs on 2026-08-24 have logged 0 alerts.",
+    "residual_risk": "Dedup remains non-functional for any genuine future trigger (real -15%/-20% cost breach, >=5% intraday move, non-SPUS weight breach). Such an alert would re-send on every hourly run for the rest of the day.",
+    "suggested_fix": "Persist last_snapshot.json and today_alerts.json to main (or one stable state branch) that every run reads and writes, instead of a per-run branch. Not actioned here: this session is restricted to pushing to claude/brave-fermi-lbs0g1."
+  }
 }
