@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-24",
+  "alerts": [],
+  "runs": [
+    {
+      "timestamp_utc": "2026-08-24T15:21:00Z",
+      "ibkr_status": "ok",
+      "triggered": false,
+      "stage2_run": false,
+      "alert_sent": false
+    }
+  ],
+  "ibkr_consecutive_failures": 0,
+  "outage_alert_sent": false
+}

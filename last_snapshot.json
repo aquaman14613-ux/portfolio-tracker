@@ -1,0 +1,104 @@
+{
+  "timestamp_utc": "2026-08-24T15:21:00Z",
+  "source": "IBKR",
+  "account": {
+    "currency": "USD",
+    "net_liquidation": 38781.54,
+    "gross_position_value": 35342.07,
+    "total_cash_value": 3439.47,
+    "cash_pct_of_nlv": 8.87
+  },
+  "positions": [
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "shares": 10,
+      "market_price": 361.42,
+      "market_value": 3614.2,
+      "avg_cost": 384.56667,
+      "unrealized_pnl": -231.47,
+      "pct_from_cost": -6.02,
+      "intraday_pct": -1.98,
+      "weight_pct": 9.32
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "shares": 10,
+      "market_price": 377.64,
+      "market_value": 3776.44,
+      "avg_cost": 392.881,
+      "unrealized_pnl": -152.37,
+      "pct_from_cost": -3.88,
+      "intraday_pct": -0.26,
+      "weight_pct": 9.74
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "shares": 100,
+      "market_price": 9.925,
+      "market_value": 992.5,
+      "avg_cost": 10.140003,
+      "unrealized_pnl": -21.5,
+      "pct_from_cost": -2.12,
+      "intraday_pct": -2.64,
+      "weight_pct": 2.56
+    },
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "shares": 30,
+      "market_price": 128.72,
+      "market_value": 3861.6,
+      "avg_cost": 118.59334,
+      "unrealized_pnl": 303.8,
+      "pct_from_cost": 8.54,
+      "intraday_pct": 0.23,
+      "weight_pct": 9.96
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "shares": 70,
+      "market_price": 46.695,
+      "market_value": 3268.65,
+      "avg_cost": 44.93429,
+      "unrealized_pnl": 123.25,
+      "pct_from_cost": 3.92,
+      "intraday_pct": -0.11,
+      "weight_pct": 8.43
+    },
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "shares": 298,
+      "market_price": 58.04,
+      "market_value": 17295.92,
+      "avg_cost": 58.86007,
+      "unrealized_pnl": -244.38,
+      "pct_from_cost": -1.39,
+      "intraday_pct": -0.99,
+      "weight_pct": 44.6,
+      "concentration_check": "excluded (diversified benchmark ETF)"
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "shares": 10,
+      "market_price": 252.44,
+      "market_value": 2524.4,
+      "avg_cost": 280.07,
+      "unrealized_pnl": -276.3,
+      "pct_from_cost": -9.87,
+      "intraday_pct": -3.73,
+      "weight_pct": 6.51
+    }
+  ],
+  "stage1_result": {
+    "intraday_move_5pct": "none (max: VRT -3.73%)",
+    "weight_breach_10_12pct": "none (max ex-SPUS: NOW 9.96%)",
+    "cost_breach_15_20pct": "none (max drawdown: VRT -9.87%)",
+    "triggered": false
+  }
+}
