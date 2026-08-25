@@ -1,0 +1,95 @@
+{
+  "timestamp_utc": "2026-08-25T17:19:00Z",
+  "source": "IBKR",
+  "net_liquidation_value": 38905.25,
+  "cash_balance": 3439.47,
+  "cash_pct": 8.84,
+  "stock_market_value": 35465.78,
+  "unrealized_pnl": -366.9,
+  "positions": [
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "quantity": 10,
+      "market_price": 358.41,
+      "market_value": 3584.1,
+      "avg_cost": 384.5667,
+      "unrealized_pnl": -261.57,
+      "weight_pct": 9.21,
+      "pct_vs_cost": -6.8,
+      "intraday_pct": -0.1
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "quantity": 10,
+      "market_price": 371.12,
+      "market_value": 3711.2,
+      "avg_cost": 392.881,
+      "unrealized_pnl": -217.61,
+      "weight_pct": 9.54,
+      "pct_vs_cost": -5.54,
+      "intraday_pct": -0.66
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "quantity": 100,
+      "market_price": 10.315,
+      "market_value": 1031.5,
+      "avg_cost": 10.14,
+      "unrealized_pnl": 17.5,
+      "weight_pct": 2.65,
+      "pct_vs_cost": 1.73,
+      "intraday_pct": 3.56
+    },
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "quantity": 30,
+      "market_price": 127.1912,
+      "market_value": 3815.74,
+      "avg_cost": 118.5933,
+      "unrealized_pnl": 257.94,
+      "weight_pct": 9.81,
+      "pct_vs_cost": 7.25,
+      "intraday_pct": -0.67
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "quantity": 70,
+      "market_price": 48.18,
+      "market_value": 3372.6,
+      "avg_cost": 44.9343,
+      "unrealized_pnl": 227.2,
+      "weight_pct": 8.67,
+      "pct_vs_cost": 7.22,
+      "intraday_pct": 2.69
+    },
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "quantity": 298,
+      "market_price": 58.3,
+      "market_value": 17373.4,
+      "avg_cost": 58.8601,
+      "unrealized_pnl": -166.9,
+      "weight_pct": 44.66,
+      "pct_vs_cost": -0.95,
+      "intraday_pct": 0.38
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "quantity": 10,
+      "market_price": 257.5,
+      "market_value": 2575,
+      "avg_cost": 280.07,
+      "unrealized_pnl": -225.7,
+      "weight_pct": 6.62,
+      "pct_vs_cost": -8.06,
+      "intraday_pct": 0.99
+    }
+  ]
+}
