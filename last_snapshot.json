@@ -1,0 +1,112 @@
+{
+  "timestamp_utc": "2026-08-25T19:19:00Z",
+  "source": "IBKR",
+  "account": {
+    "net_liquidation": 38818.91,
+    "total_cash_value": 3439.47,
+    "cash_pct_of_nlv": 8.86,
+    "stock_market_value": 35379.44,
+    "unrealized_pnl": -453.24
+  },
+  "positions": [
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "shares": 298,
+      "market_price": 58.2550,
+      "market_value": 17359.99,
+      "average_cost": 58.8601,
+      "unrealized_pnl": -180.31,
+      "pct_from_cost": -1.03,
+      "daily_pnl": 52.15,
+      "intraday_pct": 0.30,
+      "weight_pct_nlv": 44.72,
+      "concentration_check": "excluded (diversified benchmark ETF)"
+    },
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "shares": 30,
+      "market_price": 126.7300,
+      "market_value": 3801.90,
+      "average_cost": 118.5933,
+      "unrealized_pnl": 244.10,
+      "pct_from_cost": 6.86,
+      "daily_pnl": -39.60,
+      "intraday_pct": -1.03,
+      "weight_pct_nlv": 9.79
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "shares": 10,
+      "market_price": 370.5850,
+      "market_value": 3705.85,
+      "average_cost": 392.8810,
+      "unrealized_pnl": -222.96,
+      "pct_from_cost": -5.67,
+      "daily_pnl": -29.85,
+      "intraday_pct": -0.80,
+      "weight_pct_nlv": 9.55
+    },
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "shares": 10,
+      "market_price": 355.8400,
+      "market_value": 3558.40,
+      "average_cost": 384.5667,
+      "unrealized_pnl": -287.27,
+      "pct_from_cost": -7.47,
+      "daily_pnl": -29.20,
+      "intraday_pct": -0.81,
+      "weight_pct_nlv": 9.17
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "shares": 70,
+      "market_price": 48.2300,
+      "market_value": 3376.10,
+      "average_cost": 44.9343,
+      "unrealized_pnl": 230.70,
+      "pct_from_cost": 7.33,
+      "daily_pnl": 91.70,
+      "intraday_pct": 2.75,
+      "weight_pct_nlv": 8.70
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "shares": 10,
+      "market_price": 255.3550,
+      "market_value": 2553.55,
+      "average_cost": 280.0700,
+      "unrealized_pnl": -247.15,
+      "pct_from_cost": -8.82,
+      "daily_pnl": 3.85,
+      "intraday_pct": 0.17,
+      "weight_pct_nlv": 6.58
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "shares": 100,
+      "market_price": 10.3000,
+      "market_value": 1030.00,
+      "average_cost": 10.1400,
+      "unrealized_pnl": 16.00,
+      "pct_from_cost": 1.58,
+      "daily_pnl": 34.00,
+      "intraday_pct": 3.31,
+      "weight_pct_nlv": 2.65
+    }
+  ],
+  "stage1_result": {
+    "intraday_move_ge_5pct": [],
+    "weight_breach_ge_10pct": [],
+    "cost_breach_le_neg15pct": [],
+    "flagged": false,
+    "ibkr_reachable": true
+  }
+}
