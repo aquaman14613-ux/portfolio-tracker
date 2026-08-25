@@ -1,0 +1,53 @@
+{
+  "snapshot_utc": "2026-08-25T20:16:00Z",
+  "session": "2026-08-25 post-close",
+  "source": "IBKR (live)",
+  "account": {
+    "currency": "USD",
+    "net_liquidation": 38869.14,
+    "gross_position_value": 35429.67,
+    "total_cash_value": 3439.47,
+    "settled_cash": 3439.47,
+    "available_funds": 3439.47,
+    "excess_liquidity": 3439.47,
+    "initial_margin": 0,
+    "maintenance_margin": 0,
+    "leverage": "0.91",
+    "unrealized_pnl": -403.01,
+    "realized_pnl": 0,
+    "cash_pct_of_nlv": 8.85
+  },
+  "day": {
+    "portfolio_pnl_usd": 136.25,
+    "portfolio_pct": 0.35,
+    "benchmark_spus_pct": 0.48,
+    "excess_vs_spus_bps": -13,
+    "active_sleeve_ex_spus_pct": 0.31,
+    "active_sleeve_excess_vs_spus_bps": -17
+  },
+  "positions": [
+    {"ticker": "SPUS", "contract_id": 396046406, "shares": 298, "market_price": 58.35, "market_value": 17388.30, "avg_cost": 58.86007, "cost_basis": 17540.30, "unrealized_pnl": -152.00, "unrealized_pct": -0.87, "daily_pnl": 80.46, "daily_pct": 0.48, "weight_pct": 44.74},
+    {"ticker": "NOW", "contract_id": 109911821, "shares": 30, "market_price": 125.10, "market_value": 3753.00, "avg_cost": 118.59334, "cost_basis": 3557.80, "unrealized_pnl": 195.20, "unrealized_pct": 5.49, "daily_pnl": -88.50, "daily_pct": -2.38, "weight_pct": 9.66},
+    {"ticker": "ISRG", "contract_id": 9063285, "shares": 10, "market_price": 372.72, "market_value": 3727.20, "avg_cost": 392.881, "cost_basis": 3928.81, "unrealized_pnl": -201.61, "unrealized_pct": -5.13, "daily_pnl": -8.50, "daily_pct": -0.48, "weight_pct": 9.59},
+    {"ticker": "AVGO", "contract_id": 313130367, "shares": 10, "market_price": 357.40, "market_value": 3574.00, "avg_cost": 384.56667, "cost_basis": 3845.67, "unrealized_pnl": -271.67, "unrealized_pct": -7.06, "daily_pnl": -13.60, "daily_pct": -0.38, "weight_pct": 9.19},
+    {"ticker": "NVO", "contract_id": 10611, "shares": 70, "market_price": 48.56, "market_value": 3399.20, "avg_cost": 44.93429, "cost_basis": 3145.40, "unrealized_pnl": 253.80, "unrealized_pct": 8.07, "daily_pnl": 114.80, "daily_pct": 3.37, "weight_pct": 8.75},
+    {"ticker": "VRT", "contract_id": 402783527, "shares": 10, "market_price": 256.33, "market_value": 2563.30, "avg_cost": 280.07, "cost_basis": 2800.70, "unrealized_pnl": -237.40, "unrealized_pct": -8.48, "daily_pnl": 13.60, "daily_pct": 0.40, "weight_pct": 6.60},
+    {"ticker": "NOK", "contract_id": 661513, "shares": 100, "market_price": 10.3399, "market_value": 1033.99, "avg_cost": 10.140003, "cost_basis": 1014.00, "unrealized_pnl": 19.99, "unrealized_pct": 1.97, "daily_pnl": 37.99, "daily_pct": 3.82, "weight_pct": 2.66}
+  ],
+  "benchmark_spus": {
+    "last": 58.36,
+    "day_pct": 0.48,
+    "week_pct": 0.21,
+    "month_pct": -2.02,
+    "ytd_pct": 10.73
+  },
+  "threshold_status": {
+    "single_position_ceiling_10pct": "clear (SPUS excluded per rules); NOW 9.66%, ISRG 9.59%, AVGO 9.19% approaching",
+    "mandatory_review_12pct": "clear",
+    "theme_correlation_cap_30pct": "clear; AI infra (AVGO+VRT) 15.79%, healthcare (ISRG+NVO) 18.34%",
+    "cash_target_7_5_to_10pct": "in band at 8.85%",
+    "price_review_minus_15pct": "clear; worst is VRT -8.48% vs cost",
+    "documented_decision_minus_20pct": "clear",
+    "shariah_zoya_gate": "not re-verified this run (no Zoya data source available)"
+  }
+}

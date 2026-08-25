@@ -1,0 +1,13 @@
+{
+  "date": "2026-08-25",
+  "last_run_utc": "2026-08-25T20:16:00Z",
+  "alerts": [],
+  "evaluated": {
+    "concentration_10pct": "no breach",
+    "concentration_12pct": "no breach",
+    "theme_correlation_30pct": "no breach",
+    "price_minus_15pct": "no breach",
+    "price_minus_20pct": "no breach",
+    "cash_band_7_5_to_10pct": "in band"
+  }
+}
