@@ -1,0 +1,108 @@
+{
+  "as_of": "2026-08-25T16:18:53Z",
+  "as_of_local": "2026-08-25 12:18 EDT",
+  "source": "IBKR live (get_account_positions + get_account_balances)",
+  "account": {
+    "net_liquidation_value": 38941.69,
+    "stock_market_value": 35502.22,
+    "cash_balance": 3439.47,
+    "cash_pct": 8.83,
+    "unrealized_pnl": -330.46,
+    "currency": "USD"
+  },
+  "positions": [
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "quantity": 30,
+      "market_price": 127.05,
+      "market_value": 3811.5,
+      "average_price": 118.59334,
+      "unrealized_pnl": 253.7,
+      "pct_from_cost": 7.13,
+      "daily_pnl": -30.0,
+      "intraday_pct": -0.78,
+      "weight_pct": 9.79
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "quantity": 10,
+      "market_price": 372.47,
+      "market_value": 3724.7,
+      "average_price": 392.881,
+      "unrealized_pnl": -204.11,
+      "pct_from_cost": -5.2,
+      "daily_pnl": -11.0,
+      "intraday_pct": -0.29,
+      "weight_pct": 9.56
+    },
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "quantity": 10,
+      "market_price": 359.935,
+      "market_value": 3599.35,
+      "average_price": 384.56667,
+      "unrealized_pnl": -246.32,
+      "pct_from_cost": -6.41,
+      "daily_pnl": 11.75,
+      "intraday_pct": 0.33,
+      "weight_pct": 9.24
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "quantity": 70,
+      "market_price": 48.05,
+      "market_value": 3363.49,
+      "average_price": 44.93429,
+      "unrealized_pnl": 218.09,
+      "pct_from_cost": 6.93,
+      "daily_pnl": 79.09,
+      "intraday_pct": 2.37,
+      "weight_pct": 8.64
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "quantity": 10,
+      "market_price": 259.69,
+      "market_value": 2596.9,
+      "average_price": 280.07,
+      "unrealized_pnl": -203.8,
+      "pct_from_cost": -7.28,
+      "daily_pnl": 47.2,
+      "intraday_pct": 1.85,
+      "weight_pct": 6.67
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "quantity": 100,
+      "market_price": 10.305,
+      "market_value": 1030.5,
+      "average_price": 10.14,
+      "unrealized_pnl": 16.5,
+      "pct_from_cost": 1.63,
+      "daily_pnl": 34.5,
+      "intraday_pct": 3.41,
+      "weight_pct": 2.65
+    },
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "quantity": 298,
+      "market_price": 58.35,
+      "market_value": 17388.3,
+      "average_price": 58.86007,
+      "unrealized_pnl": -152.0,
+      "pct_from_cost": -0.87,
+      "daily_pnl": 80.46,
+      "intraday_pct": 0.47,
+      "weight_pct": 44.65,
+      "concentration_check": "excluded"
+    }
+  ],
+  "notes": "Weights computed against net liquidation value (includes cash). SPUS excluded from the 10%/12% single-position ceiling check per st0ck_rules.md."
+}
