@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-25",
+  "alerts": [],
+  "ibkr_consecutive_failures": 0,
+  "outage_alert_sent": false,
+  "runs": [
+    {
+      "timestamp": "2026-08-25T13:20:00Z",
+      "ibkr_status": "ok",
+      "stage": 1,
+      "flagged": [],
+      "action": "none"
+    },
+    {
+      "timestamp": "2026-08-25T13:29:00Z",
+      "ibkr_status": "ok",
+      "stage": 1,
+      "flagged": [],
+      "action": "none"
+    },
+    {
+      "timestamp": "2026-08-25T14:20:00Z",
+      "ibkr_status": "ok",
+      "stage": 1,
+      "flagged": [],
+      "action": "none"
+    },
+    {
+      "timestamp": "2026-08-25T15:20:00Z",
+      "ibkr_status": "ok",
+      "stage": 1,
+      "flagged": [],
+      "action": "none"
+    }
+  ]
+}
