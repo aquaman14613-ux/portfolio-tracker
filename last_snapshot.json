@@ -1,0 +1,39 @@
+{
+  "as_of_utc": "2026-08-25T13:29:00Z",
+  "as_of_et": "2026-08-25T09:29:00-04:00",
+  "source": "IBKR MCP (live)",
+  "context": "pre-market",
+  "account_summary": {
+    "currency": "USD",
+    "net_liquidation": 39021.95,
+    "gross_position_value": 35582.48,
+    "total_cash_value": 3439.47,
+    "available_funds": 3439.47,
+    "excess_liquidity": 3439.47,
+    "buying_power": 3439.47,
+    "initial_margin": 0,
+    "maintenance_margin": 0,
+    "dividends": 0,
+    "leverage": "0.91",
+    "cash_pct_of_nlv": 8.81
+  },
+  "positions": [
+    {"ticker": "SPUS", "contract_id": 396046406, "shares": 298, "avg_cost": 58.86007013, "market_price": 58.37, "market_value": 17394.26, "unrealized_pnl": -146.04, "unrealized_pct": -0.83, "weight_pct": 44.58, "premkt_change_pct": 0.50},
+    {"ticker": "NOW",  "contract_id": 109911821, "shares": 30, "avg_cost": 118.59333667, "market_price": 125.67, "market_value": 3770.10, "unrealized_pnl": 212.20, "unrealized_pct": 5.97, "weight_pct": 9.66, "premkt_change_pct": -1.86},
+    {"ticker": "ISRG", "contract_id": 9063285, "shares": 10, "avg_cost": 392.881, "market_price": 376.12, "market_value": 3761.20, "unrealized_pnl": -167.61, "unrealized_pct": -4.27, "weight_pct": 9.64, "premkt_change_pct": 0.68},
+    {"ticker": "AVGO", "contract_id": 313130367, "shares": 10, "avg_cost": 384.56667, "market_price": 360.77, "market_value": 3607.70, "unrealized_pnl": -237.97, "unrealized_pct": -6.19, "weight_pct": 9.25, "premkt_change_pct": 0.56},
+    {"ticker": "NVO",  "contract_id": 10611, "shares": 70, "avg_cost": 44.93428857, "market_price": 47.93, "market_value": 3355.10, "unrealized_pnl": 209.70, "unrealized_pct": 6.67, "weight_pct": 8.60, "premkt_change_pct": 2.15},
+    {"ticker": "VRT",  "contract_id": 402783527, "shares": 10, "avg_cost": 280.07, "market_price": 264.96, "market_value": 2649.60, "unrealized_pnl": -151.10, "unrealized_pct": -5.39, "weight_pct": 6.79, "premkt_change_pct": 3.92},
+    {"ticker": "NOK",  "contract_id": 661513, "shares": 100, "avg_cost": 10.140003, "market_price": 10.30, "market_value": 1030.00, "unrealized_pnl": 16.00, "unrealized_pct": 1.58, "weight_pct": 2.64, "premkt_change_pct": 3.41}
+  ],
+  "threshold_check": {
+    "single_position_ceiling_10pct": "pass (max ex-SPUS: NOW 9.66%)",
+    "mandatory_review_12pct": "pass",
+    "spus_excluded_from_concentration": true,
+    "sector_correlation_cap_30pct": "pass (AI-capex cluster AVGO+VRT = 16.04% direct)",
+    "cash_target_7_5_to_10pct": "pass (8.81%)",
+    "price_review_minus_15pct": "pass (worst: AVGO -6.19%)",
+    "price_decision_minus_20pct": "pass",
+    "zero_share_positions_excluded": "none present"
+  }
+}
