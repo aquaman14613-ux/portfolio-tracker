@@ -1,0 +1,115 @@
+{
+  "timestamp_utc": "2026-08-26T19:18:00Z",
+  "source": "IBKR",
+  "base_currency": "USD",
+  "fx": {
+    "EURUSD": 1.164203
+  },
+  "account": {
+    "net_liquidation": 58609.41,
+    "gross_position_value": 39552.81,
+    "total_cash_value": 19051.19,
+    "cash_weight_pct": 32.51
+  },
+  "positions": [
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "shares": 298,
+      "currency": "USD",
+      "market_price": 58.38,
+      "market_value_usd": 17397.24,
+      "average_cost": 58.86007,
+      "weight_pct": 29.68,
+      "intraday_pct": 0.1,
+      "vs_cost_pct": -0.82,
+      "concentration_check": "excluded (diversified benchmark ETF)"
+    },
+    {
+      "ticker": "HIES",
+      "contract_id": 872765740,
+      "shares": 140,
+      "currency": "EUR",
+      "market_price": 25.365,
+      "market_value_eur": 3551.1,
+      "market_value_usd": 4134.2,
+      "average_cost": 25.33679,
+      "weight_pct": 7.05,
+      "intraday_pct": 0.11,
+      "vs_cost_pct": 0.11
+    },
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "shares": 30,
+      "currency": "USD",
+      "market_price": 126.355,
+      "market_value_usd": 3790.65,
+      "average_cost": 118.59334,
+      "weight_pct": 6.47,
+      "intraday_pct": -0.51,
+      "vs_cost_pct": 6.54
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "shares": 10,
+      "currency": "USD",
+      "market_price": 370.74,
+      "market_value_usd": 3707.4,
+      "average_cost": 392.881,
+      "weight_pct": 6.33,
+      "intraday_pct": -0.3,
+      "vs_cost_pct": -5.63
+    },
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "shares": 10,
+      "currency": "USD",
+      "market_price": 354.3265,
+      "market_value_usd": 3543.27,
+      "average_cost": 384.56667,
+      "weight_pct": 6.05,
+      "intraday_pct": -0.68,
+      "vs_cost_pct": -7.86
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "shares": 70,
+      "currency": "USD",
+      "market_price": 47.12,
+      "market_value_usd": 3298.4,
+      "average_cost": 44.93429,
+      "weight_pct": 5.63,
+      "intraday_pct": -3.17,
+      "vs_cost_pct": 4.86
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "shares": 10,
+      "currency": "USD",
+      "market_price": 264.215,
+      "market_value_usd": 2642.15,
+      "average_cost": 280.07,
+      "weight_pct": 4.51,
+      "intraday_pct": 3.31,
+      "vs_cost_pct": -5.66
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "shares": 100,
+      "currency": "USD",
+      "market_price": 10.395,
+      "market_value_usd": 1039.5,
+      "average_cost": 10.140003,
+      "weight_pct": 1.77,
+      "intraday_pct": 0.43,
+      "vs_cost_pct": 2.51
+    }
+  ],
+  "ibkr_consecutive_failures": 0
+}
