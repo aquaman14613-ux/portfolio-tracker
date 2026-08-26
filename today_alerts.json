@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-26",
+  "alerts": [
+    {
+      "id": "2026-08-26_conc_SPWO_10pct",
+      "type": "concentration",
+      "ticker": "SPWO",
+      "threshold": "single-position ceiling 10%",
+      "value_pct": 11.47,
+      "severity": "review",
+      "note": "Above 10% ceiling, below 12% mandatory-review line. SPWO is a diversified Shariah ETF (SP Funds S&P World ex-US); the rules' concentration exclusion names SPUS only, so flagged literally.",
+      "sent_utc": null,
+      "delivery_status": "BLOCKED",
+      "channel": "email:kbialmannai@gmail.com",
+      "delivery_note": "Inkbox refused the send (403 inkbox_unanswered_limit): 20 messages sent to this address without a reply. Escalated via push notification instead. Re-send by email once the recipient replies to claudereports@inkboxmail.com."
+    },
+    {
+      "id": "2026-08-26_cash_above_target",
+      "type": "cash_allocation",
+      "threshold": "cash target 7.5-10%",
+      "value_pct": 16.82,
+      "severity": "review",
+      "note": "Cash $9,884.79 on NLV $58,767.02. ~$4,008 above the 10% ceiling. Driven by an estimated ~$19.8k deposit today not yet fully deployed.",
+      "sent_utc": null,
+      "delivery_status": "BLOCKED",
+      "channel": "email:kbialmannai@gmail.com",
+      "delivery_note": "Inkbox refused the send (403 inkbox_unanswered_limit): 20 messages sent to this address without a reply. Escalated via push notification instead. Re-send by email once the recipient replies to claudereports@inkboxmail.com."
+    }
+  ],
+  "delivery": {
+    "email_channel": "inkbox",
+    "from": "claudereports@inkboxmail.com",
+    "to": "kbialmannai@gmail.com",
+    "status": "FAILED",
+    "upstream_status": 403,
+    "reason": "inkbox_unanswered_limit",
+    "detail": "20 messages sent without a reply (limit 20). Clears when Inkbox sees an authenticated reply from the recipient, when the recipient domain is verified on a paid org plan, or when support raises the limit.",
+    "attempted_utc": "2026-08-26T20:27:00Z"
+  },
+  "checked_no_breach": {
+    "price_review_minus15pct": "none - deepest drawdown AVGO -7.66% from cost",
+    "price_review_minus20pct": "none",
+    "correlation_cap_30pct": "max thematic bucket (AI infrastructure: AVGO+MRVL+VRT+NOK+NOW) = 23.19%",
+    "single_position_12pct": "none"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "snapshot_timestamp_utc": "2026-08-26T20:17:00Z",
+  "session": "post-close 2026-08-26",
+  "source": "IBKR MCP (live, reachable)",
+  "base_currency": "USD",
+  "account": {
+    "net_liquidation": 58767.02,
+    "gross_position_value": 48876.80,
+    "total_cash_value": 9884.79,
+    "available_funds": 9884.79,
+    "excess_liquidity": 9884.79,
+    "initial_margin": 0,
+    "maintenance_margin": 0,
+    "leverage": "0.83",
+    "dividends_accrued": 5.42,
+    "unrealized_pnl_base": -255.41,
+    "realized_pnl_base": 0.0,
+    "cash_pct_of_nlv": 16.82
+  },
+  "fx": {
+    "EURUSD": 1.165264
+  },
+  "positions": [
+    {"ticker": "SPUS", "contract_id": 396046406, "qty": 298, "currency": "USD", "avg_price": 58.86007, "market_price": 58.20000, "market_value_usd": 17343.60, "weight_pct": 29.51, "unrealized_pnl": -196.70, "pct_from_cost": -1.12, "daily_pnl": -36.95},
+    {"ticker": "SPWO", "contract_id": 673665039, "qty": 200, "currency": "USD", "avg_price": 33.63500, "market_price": 33.69000, "market_value_usd": 6738.00, "weight_pct": 11.47, "unrealized_pnl": 11.00, "pct_from_cost": 0.16, "daily_pnl": 11.00},
+    {"ticker": "HIES", "contract_id": 872765740, "qty": 140, "currency": "EUR", "avg_price": 25.33679, "market_price": 25.36500, "market_value_usd": 4137.96, "weight_pct": 7.04, "unrealized_pnl": 3.95, "pct_from_cost": 0.11, "daily_pnl": 3.95, "exchange": "SBF"},
+    {"ticker": "NOW", "contract_id": 109911821, "qty": 30, "currency": "USD", "avg_price": 118.59334, "market_price": 131.00000, "market_value_usd": 3930.00, "weight_pct": 6.69, "unrealized_pnl": 372.20, "pct_from_cost": 10.46, "daily_pnl": 120.00},
+    {"ticker": "ISRG", "contract_id": 9063285, "qty": 10, "currency": "USD", "avg_price": 392.88100, "market_price": 370.42001, "market_value_usd": 3704.20, "weight_pct": 6.30, "unrealized_pnl": -224.61, "pct_from_cost": -5.72, "daily_pnl": -14.20},
+    {"ticker": "AVGO", "contract_id": 313130367, "qty": 10, "currency": "USD", "avg_price": 384.56667, "market_price": 355.13000, "market_value_usd": 3551.30, "weight_pct": 6.04, "unrealized_pnl": -294.37, "pct_from_cost": -7.66, "daily_pnl": -16.10},
+    {"ticker": "NVO", "contract_id": 10611, "qty": 70, "currency": "USD", "avg_price": 44.93429, "market_price": 47.24000, "market_value_usd": 3306.80, "weight_pct": 5.63, "unrealized_pnl": 161.40, "pct_from_cost": 5.13, "daily_pnl": -99.40},
+    {"ticker": "VRT", "contract_id": 402783527, "qty": 10, "currency": "USD", "avg_price": 280.07000, "market_price": 264.50000, "market_value_usd": 2645.00, "weight_pct": 4.50, "unrealized_pnl": -155.70, "pct_from_cost": -5.56, "daily_pnl": 87.50},
+    {"ticker": "MRVL", "contract_id": 483492393, "qty": 10, "currency": "USD", "avg_price": 243.93950, "market_price": 246.24001, "market_value_usd": 2462.40, "weight_pct": 4.19, "unrealized_pnl": 23.01, "pct_from_cost": 0.94, "daily_pnl": 23.01},
+    {"ticker": "NOK", "contract_id": 661513, "qty": 100, "currency": "USD", "avg_price": 10.14000, "market_price": 10.41000, "market_value_usd": 1041.00, "weight_pct": 1.77, "unrealized_pnl": 27.00, "pct_from_cost": 2.66, "daily_pnl": 6.00}
+  ],
+  "performance": {
+    "measure": "TWR",
+    "inception_date": "2026-08-17",
+    "day_twr_pct": 0.187,
+    "period_7d_twr_pct": -0.708,
+    "since_inception_twr_pct": -1.505,
+    "benchmark": {
+      "ticker": "SPUS",
+      "close_today": 58.27,
+      "close_prior": 58.35,
+      "close_7d_ago_2026_08_19": 58.76,
+      "close_inception_2026_08_17": 59.20,
+      "day_pct": -0.137,
+      "period_7d_pct": -0.834,
+      "since_inception_pct": -1.571
+    },
+    "relative_day_bps": 32,
+    "relative_7d_bps": 13,
+    "relative_since_inception_bps": 7
+  },
+  "trades_today": [
+    {"ticker": "SPWO", "side": "BUY", "qty": 200, "price": 33.63, "currency": "USD", "commission": 1.00, "time_utc": "2026-08-26T19:59:51Z"},
+    {"ticker": "MRVL", "side": "BUY", "qty": 10, "price": 243.8395, "currency": "USD", "commission": 1.00, "time_utc": "2026-08-26T19:26:47Z"},
+    {"ticker": "HIES", "side": "BUY", "qty": 140, "price": 25.31, "currency": "EUR", "commission": 3.75, "time_utc": "2026-08-26T12:52:41Z"},
+    {"ticker": "EUR", "side": "BUY", "qty": 3547.15, "price": 1.16665, "currency": "USD", "commission": 0, "time_utc": "2026-08-26T12:52:41Z", "note": "FX conversion to fund HIES purchase"}
+  ],
+  "external_flows": {
+    "estimated_net_deposit_today_usd": 19787,
+    "basis": "NAV 38922.27 (2026-08-25) -> 58782.17 (2026-08-26), less +0.187% TWR return"
+  },
+  "threshold_status": {
+    "single_position_ceiling_10pct": ["SPWO 11.47%"],
+    "single_position_mandatory_review_12pct": [],
+    "spus_excluded_from_concentration": true,
+    "correlation_cap_30pct_breaches": [],
+    "price_review_minus15pct": [],
+    "price_review_minus20pct": [],
+    "cash_target_7_5_to_10pct": "BREACH_HIGH 16.82%"
+  }
+}
