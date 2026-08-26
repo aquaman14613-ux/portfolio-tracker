@@ -1,0 +1,19 @@
+{
+  "date": "2026-08-26",
+  "alerts": [
+    {
+      "id": "cash-allocation-2026-08-26",
+      "type": "allocation",
+      "severity": "review",
+      "sent_utc": "2026-08-26T13:40:00Z",
+      "detail": "Cash 32.60% of NLV ($19,051.19 of $58,433.82) vs 7.5-10% target. Deviation of ~23pp / ~$13.6k above the top of the target band.",
+      "channel": "email (Pre-Market Portfolio Report)"
+    }
+  ],
+  "checked_no_breach": {
+    "single_position_ceiling": "largest ex-SPUS position HIES at 7.09% - no breach",
+    "theme_correlation_cap": "AI-infrastructure direct names 12.29% - no breach",
+    "price_triggers": "worst position VRT -7.84% from cost - no -15% or -20% trigger",
+    "shariah_gate": "no compliance change identified this run"
+  }
+}
