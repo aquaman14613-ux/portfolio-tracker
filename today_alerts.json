@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-26",
+  "alerts": [],
+  "runs": [
+    {
+      "at": "2026-08-26T14:22:00Z",
+      "stage": 1,
+      "ibkr_status": "ok",
+      "result": "no_trigger",
+      "checks": {
+        "intraday_move_5pct": "clear (max |move| 2.42% NOK)",
+        "weight_10_12pct": "clear (max non-SPUS weight 7.05% HIES)",
+        "cost_15_20pct": "clear (max drawdown -8.60% AVGO)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "confirmed_at": "2026-08-26T14:22:00Z",
+  "source": "IBKR",
+  "base_currency": "USD",
+  "fx_rates": {
+    "EUR": 1.16471565
+  },
+  "account": {
+    "net_liquidation": 58506.27,
+    "gross_position_value": 39449.66,
+    "cash": 19051.19,
+    "cash_pct": 32.56,
+    "unrealized_pnl": -514.43
+  },
+  "positions": [
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "shares": 10,
+      "currency": "USD",
+      "market_price": 351.4950,
+      "avg_cost": 384.56667,
+      "market_value_usd": 3514.95,
+      "weight_pct": 6.01,
+      "pct_from_cost": -8.60,
+      "intraday_pct": -1.58
+    },
+    {
+      "ticker": "HIES",
+      "contract_id": 872765740,
+      "exchange": "SBF",
+      "shares": 140,
+      "currency": "EUR",
+      "market_price": 25.3000,
+      "avg_cost": 25.33679,
+      "market_value_usd": 4125.42,
+      "weight_pct": 7.05,
+      "pct_from_cost": -0.15,
+      "intraday_pct": -0.33
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "shares": 10,
+      "currency": "USD",
+      "market_price": 369.0677,
+      "avg_cost": 392.881,
+      "market_value_usd": 3690.68,
+      "weight_pct": 6.31,
+      "pct_from_cost": -6.06,
+      "intraday_pct": -0.78
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "shares": 100,
+      "currency": "USD",
+      "market_price": 10.1350,
+      "avg_cost": 10.14000,
+      "market_value_usd": 1013.50,
+      "weight_pct": 1.73,
+      "pct_from_cost": -0.05,
+      "intraday_pct": -2.42
+    },
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "shares": 30,
+      "currency": "USD",
+      "market_price": 124.9200,
+      "avg_cost": 118.59334,
+      "market_value_usd": 3747.60,
+      "weight_pct": 6.41,
+      "pct_from_cost": 5.33,
+      "intraday_pct": -1.71
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "shares": 70,
+      "currency": "USD",
+      "market_price": 47.9450,
+      "avg_cost": 44.93429,
+      "market_value_usd": 3356.15,
+      "weight_pct": 5.74,
+      "pct_from_cost": 6.70,
+      "intraday_pct": -1.48
+    },
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "shares": 298,
+      "currency": "USD",
+      "market_price": 58.2800,
+      "avg_cost": 58.86007,
+      "market_value_usd": 17367.44,
+      "weight_pct": 29.68,
+      "pct_from_cost": -0.99,
+      "intraday_pct": -0.12,
+      "concentration_check": "excluded (diversified benchmark ETF)"
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "shares": 10,
+      "currency": "USD",
+      "market_price": 261.3650,
+      "avg_cost": 280.07,
+      "market_value_usd": 2613.65,
+      "weight_pct": 4.47,
+      "pct_from_cost": -6.68,
+      "intraday_pct": 2.27
+    }
+  ]
+}
