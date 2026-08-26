@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-08-26T16:19:29Z",
+  "source": "IBKR",
+  "account": {
+    "currency": "USD",
+    "net_liquidation": 58399.34,
+    "gross_position_value": 39342.73,
+    "total_cash_value": 19051.19,
+    "cash_pct": 32.62
+  },
+  "fx": {
+    "EURUSD_implied": 1.1653
+  },
+  "positions": [
+    {"ticker": "AVGO", "shares": 10, "currency": "USD", "market_price": 350.345, "avg_cost": 384.56667, "market_value_usd": 3503.45, "weight_pct": 6.00, "intraday_pct": -1.79, "vs_cost_pct": -8.90},
+    {"ticker": "HIES", "shares": 140, "currency": "EUR", "market_price": 25.38, "avg_cost": 25.33679, "market_value_usd": 4140.39, "weight_pct": 7.09, "intraday_pct": 0.17, "vs_cost_pct": 0.17},
+    {"ticker": "ISRG", "shares": 10, "currency": "USD", "market_price": 368.10, "avg_cost": 392.881, "market_value_usd": 3681.00, "weight_pct": 6.30, "intraday_pct": -1.01, "vs_cost_pct": -6.31},
+    {"ticker": "NOK", "shares": 100, "currency": "USD", "market_price": 10.245, "avg_cost": 10.140, "market_value_usd": 1024.50, "weight_pct": 1.75, "intraday_pct": -1.01, "vs_cost_pct": 1.04},
+    {"ticker": "NOW", "shares": 30, "currency": "USD", "market_price": 125.10, "avg_cost": 118.59334, "market_value_usd": 3753.00, "weight_pct": 6.43, "intraday_pct": -1.50, "vs_cost_pct": 5.49},
+    {"ticker": "NVO", "shares": 70, "currency": "USD", "market_price": 47.045, "avg_cost": 44.93429, "market_value_usd": 3293.15, "weight_pct": 5.64, "intraday_pct": -3.32, "vs_cost_pct": 4.70},
+    {"ticker": "SPUS", "shares": 298, "currency": "USD", "market_price": 58.18, "avg_cost": 58.86007, "market_value_usd": 17337.64, "weight_pct": 29.69, "intraday_pct": -0.25, "vs_cost_pct": -1.16, "excluded_from_concentration_check": true},
+    {"ticker": "VRT", "shares": 10, "currency": "USD", "market_price": 260.96, "avg_cost": 280.07, "market_value_usd": 2609.60, "weight_pct": 4.47, "intraday_pct": 2.04, "vs_cost_pct": -6.82}
+  ],
+  "stage1_result": "clear",
+  "ibkr_consecutive_failures": 0
+}
