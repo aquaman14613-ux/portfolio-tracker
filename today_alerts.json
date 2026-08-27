@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-27",
+  "alerts": [
+    {
+      "ticker": "NOW",
+      "trigger": "intraday_move",
+      "threshold": ">=5%",
+      "value_pct": 10.56,
+      "detail": "ServiceNow +$13.28 to $139.08 from $125.80 prior close; opened $130.48 after a +3.37% after-hours move Wed; high $139.20, low $130.25, volume 9.19M. Confirmed catalyst: expanded multi-year Tech Mahindra partnership. No trades on this position today - move is entirely price.",
+      "position": {
+        "shares": 30,
+        "avg_cost": 118.59333667,
+        "market_price": 138.55999755,
+        "market_value": 4156.8,
+        "unrealized_pnl": 598.9998265,
+        "daily_pnl": 382.7999265,
+        "weight_pct": 6.98
+      },
+      "detected_at": "2026-08-27T14:22:00Z",
+      "notified": true,
+      "notification_channel": "push",
+      "email_status": "blocked",
+      "email_block_reason": "inkbox_unanswered_limit (20 unanswered messages to kbialmannai@gmail.com)"
+    },
+    {
+      "ticker": "SPWO",
+      "trigger": "weight_breach",
+      "threshold": "10% single-position ceiling",
+      "value_pct": 11.31,
+      "detail": "SP Funds diversified index ETF (~$200M net assets) at $6,738.00 of $59,561.75 NAV. Flat on the day (0.00%) - drift, not a move. Below the 12% mandatory-review line. NOTE: rules exclude SPUS from the concentration check by name only; SPWO has the same diversified-ETF profile and trips the check as written. Pending user decision on whether to extend the exclusion.",
+      "detected_at": "2026-08-27T14:22:00Z",
+      "notified": true,
+      "notification_channel": "push",
+      "email_status": "blocked",
+      "email_block_reason": "inkbox_unanswered_limit (20 unanswered messages to kbialmannai@gmail.com)"
+    }
+  ],
+  "checks_clear": {
+    "intraday_5pct": "only NOW",
+    "weight_10pct": "only SPWO (SPUS excluded per rules at 29.50%)",
+    "cost_15pct": "none - worst is ISRG at -6.37% from cost",
+    "ibkr_status": "reachable"
+  }
+}
