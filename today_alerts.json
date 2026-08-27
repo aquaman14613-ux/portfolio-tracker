@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-27",
+  "alerts": [
+    {
+      "id": "2026-08-27-NOW-intraday",
+      "ticker": "NOW",
+      "trigger": "intraday_move_ge_5pct",
+      "value_pct": 9.3,
+      "detail": "Last 137.50 vs prior close 125.80; open 130.48, range 130.25-139.32, volume 17.5M.",
+      "news_confirmation": "AI product ACV crossed $1B with agentic deployments up 9x in nine months, following expanded Tech Mahindra partnership; BofA raised price target to $150 from $130. Momentum/news-driven, no adverse event.",
+      "raised_at_utc": "2026-08-27T17:20:00Z",
+      "notified": true,
+      "notification_channel": "push_notification",
+      "email_status": "blocked",
+      "email_block_reason": "Inkbox inkbox_unanswered_limit: 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)"
+    },
+    {
+      "id": "2026-08-27-SPWO-weight",
+      "ticker": "SPWO",
+      "trigger": "weight_above_10pct",
+      "value_pct": 11.34,
+      "detail": "200 sh @ 33.90 = $6,779.98 of $59,764.85 NLV. Above 10% ceiling, below 12% mandatory-review line. Flat on the day (-0.03%), so drift from appreciation elsewhere rather than a move in SPWO.",
+      "raised_at_utc": "2026-08-27T17:20:00Z",
+      "notified": true,
+      "notification_channel": "push_notification",
+      "email_status": "blocked",
+      "email_block_reason": "Inkbox inkbox_unanswered_limit: 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)"
+    }
+  ],
+  "checks_clear": [
+    "cost_basis_-15pct",
+    "cost_basis_-20pct",
+    "weight_above_12pct"
+  ],
+  "notes": "First run to persist state; no prior last_snapshot.json or today_alerts.json existed in the repo."
+}
