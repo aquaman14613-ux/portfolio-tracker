@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-27",
+  "alerts": [
+    {
+      "id": "2026-08-27-concentration-SPWO",
+      "type": "concentration",
+      "ticker": "SPWO",
+      "weight_pct": 11.43,
+      "threshold_pct": 10.0,
+      "severity": "review",
+      "sent_utc": "2026-08-27T13:45:00Z",
+      "channel": "push_notification (email fallback)",
+      "email_delivery": "FAILED - Inkbox 403 inkbox_unanswered_limit (20 messages sent to kbialmannai@gmail.com without a reply). Clears on an authenticated reply to claudereports@inkboxmail.com, recipient-domain verification, or a support limit raise.",
+      "note": "SPWO (SP Funds S&P World ex-US ETF) above the 10% single-position ceiling on a literal read. Diversified Shariah benchmark ETF analogous to SPUS, but st0ck_rules.md names only SPUS in the concentration-check exclusion. Raised as a rules-classification decision, not a single-stock concentration breach. Below the 12% mandatory-review level."
+    }
+  ],
+  "checked_no_alert": {
+    "single_position_ceiling": "largest single stock NOK 7.18% - clear",
+    "price_review_triggers": "no position at -15% from cost; worst ISRG -6.46%, AVGO -6.14% - clear",
+    "theme_correlation_cap": "no strict GICS sub-industry cluster above 30% - clear (AI look-through ~38% noted as soft flag only)",
+    "cash_band": "10.20% vs 7.5-10% target - 0.2pp above band, not alert-worthy"
+  }
+}

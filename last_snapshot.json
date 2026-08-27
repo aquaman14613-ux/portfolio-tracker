@@ -1,0 +1,52 @@
+{
+  "snapshot_utc": "2026-08-27T13:26:00Z",
+  "snapshot_et": "2026-08-27T09:26:00-04:00",
+  "session_state": "pre-market",
+  "source": "IBKR MCP (get_account_positions + get_account_summary + get_price_snapshot)",
+  "base_currency": "USD",
+  "eurusd_implied": 1.14237,
+  "account_summary": {
+    "net_liquidation": 59302.47,
+    "gross_position_value": 53256.14,
+    "total_cash_value": 6046.34,
+    "cash_pct_of_nlv": 10.2,
+    "equity_with_loan_value": 3485.54,
+    "buying_power": 3485.54,
+    "available_funds": 3485.54,
+    "excess_liquidity": 6046.34,
+    "initial_margin": 0,
+    "maintenance_margin": 0,
+    "leverage": "0.9"
+  },
+  "positions": [
+    {"ticker": "APP",  "contract_id": 481863646, "name": "AppLovin Corp",                    "shares": 11,  "currency": "USD", "avg_cost": 309.78091, "last": 311.49, "market_value_usd": 3426.50,  "unrealized_pnl_usd": 18.91,   "unrealized_pct": 0.55,  "premkt_chg_pct": 1.10,  "pct_of_nlv": 5.78},
+    {"ticker": "AVGO", "contract_id": 313130367, "name": "Broadcom Inc",                     "shares": 10,  "currency": "USD", "avg_cost": 384.56667, "last": 360.99, "market_value_usd": 3609.60,  "unrealized_pnl_usd": -236.07, "unrealized_pct": -6.14, "premkt_chg_pct": 1.52,  "pct_of_nlv": 6.09},
+    {"ticker": "HIES", "contract_id": 872765740, "name": "HSBC MSCI EM Islamic ESG UCITS ETF","shares": 140, "currency": "EUR", "avg_cost": 25.33679,  "last": 25.66,  "market_value_usd": 4103.90,  "unrealized_pnl_usd": 51.69,   "unrealized_pct": 1.28,  "premkt_chg_pct": null,  "pct_of_nlv": 6.92, "exchange": "SBF", "note": "EUR 3592.40; live quote unavailable via SMART, IBKR position mark used"},
+    {"ticker": "ISRG", "contract_id": 9063285,   "name": "Intuitive Surgical Inc",           "shares": 10,  "currency": "USD", "avg_cost": 392.881,   "last": 367.52, "market_value_usd": 3675.20,  "unrealized_pnl_usd": -253.61, "unrealized_pct": -6.46, "premkt_chg_pct": -0.78, "pct_of_nlv": 6.20},
+    {"ticker": "NOK",  "contract_id": 661513,    "name": "Nokia Oyj ADR",                    "shares": 400, "currency": "USD", "avg_cost": 10.331253, "last": 10.64,  "market_value_usd": 4256.00,  "unrealized_pnl_usd": 123.50,  "unrealized_pct": 2.99,  "premkt_chg_pct": 2.21,  "pct_of_nlv": 7.18},
+    {"ticker": "NOW",  "contract_id": 109911821, "name": "ServiceNow Inc",                   "shares": 30,  "currency": "USD", "avg_cost": 118.59334, "last": 130.08, "market_value_usd": 3902.40,  "unrealized_pnl_usd": 344.60,  "unrealized_pct": 9.69,  "premkt_chg_pct": 3.09,  "pct_of_nlv": 6.58},
+    {"ticker": "NVO",  "contract_id": 10611,     "name": "Novo Nordisk A/S ADR",             "shares": 70,  "currency": "USD", "avg_cost": 44.934289, "last": 45.90,  "market_value_usd": 3213.70,  "unrealized_pnl_usd": 68.30,   "unrealized_pct": 2.17,  "premkt_chg_pct": -2.73, "pct_of_nlv": 5.42},
+    {"ticker": "SPUS", "contract_id": 396046406, "name": "SP Funds S&P 500 Sharia ETF",      "shares": 298, "currency": "USD", "avg_cost": 58.86007,  "last": 58.83,  "market_value_usd": 17531.34, "unrealized_pnl_usd": -8.96,   "unrealized_pct": -0.05, "premkt_chg_pct": 0.93,  "pct_of_nlv": 29.56, "concentration_check_excluded": true},
+    {"ticker": "SPWO", "contract_id": 673665039, "name": "SP Funds S&P World (ex-US) ETF",   "shares": 200, "currency": "USD", "avg_cost": 33.635003, "last": 33.90,  "market_value_usd": 6780.00,  "unrealized_pnl_usd": 53.00,   "unrealized_pct": 0.79,  "premkt_chg_pct": null,  "pct_of_nlv": 11.43, "note": "no pre-market print; prior close 33.69, bid 33.76"},
+    {"ticker": "VRT",  "contract_id": 402783527, "name": "Vertiv Holdings Co",               "shares": 10,  "currency": "USD", "avg_cost": 280.07,    "last": 275.51, "market_value_usd": 2757.50,  "unrealized_pnl_usd": -43.20,  "unrealized_pct": -1.54, "premkt_chg_pct": 4.44,  "pct_of_nlv": 4.65}
+  ],
+  "excluded_zero_share_entries": ["MRVL"],
+  "threshold_status": {
+    "single_position_ceiling_10pct": "no single-stock breach; largest single stock NOK 7.18%",
+    "spwo_11_43pct": "diversified ex-US Shariah ETF above 10% on a literal read; SPUS-style exclusion not yet extended to SPWO in st0ck_rules.md",
+    "theme_correlation_cap_30pct": "no strict GICS sub-industry breach; AI-complex look-through ~38% of NLV (soft flag)",
+    "cash_target_7_5_to_10pct": "10.20% - marginally above top of band",
+    "price_review_minus_15pct": "none; worst is ISRG -6.46%, AVGO -6.14%",
+    "avgo_lookthrough_total": 7.61,
+    "nvda_lookthrough_via_spus": 4.05
+  },
+  "macro": {
+    "nvda_q2_fy27": "rev $96.2B +106% y/y, EPS $2.22 +111% y/y, GM 75.0%; NVDA +6% pre-market",
+    "futures": "Dow +0.2%, S&P 500 +0.5%, Nasdaq-100 +1.0%",
+    "ust_10y": 4.64,
+    "core_pce": 3.3,
+    "headline_pce": 3.7,
+    "sept_hike_odds_pct": "30-40",
+    "next_catalyst": "Fed Chair Kevin Warsh Jackson Hole keynote, Fri 2026-08-28"
+  }
+}
