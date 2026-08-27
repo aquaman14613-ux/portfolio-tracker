@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-27",
+  "alerts": [
+    {
+      "ticker": "NOW",
+      "trigger": "intraday_move",
+      "detail": "+10.01% intraday (125.80 -> 138.39), threshold >=5%",
+      "detected_at": "2026-08-27T19:19:00Z",
+      "news_confirmed": true,
+      "news_summary": "Salesforce Q2 beat + guidance repriced enterprise-software sector; ServiceNow expanded Tech Mahindra agentic-AI partnership. Sector rotation, not NOW-specific fundamentals.",
+      "delivery": "failed",
+      "delivery_error": "inkbox_unanswered_limit (20 messages sent to kbialmannai@gmail.com without a reply)",
+      "retry_delivery": true
+    },
+    {
+      "ticker": "SPWO",
+      "trigger": "weight_breach",
+      "detail": "11.30% of net liq, above 10% ceiling, below 12% mandatory-review level",
+      "detected_at": "2026-08-27T19:19:00Z",
+      "note": "SPWO is a diversified Shariah ETF (~$200M AUM), structurally like SPUS. Rules exclude SPUS by name only, so this fires mechanically. Pending user decision on extending the exclusion.",
+      "delivery": "failed",
+      "delivery_error": "inkbox_unanswered_limit",
+      "retry_delivery": true
+    }
+  ],
+  "checks_run": {
+    "intraday_move_5pct": "flagged: NOW",
+    "weight_breach_10_12pct": "flagged: SPWO (SPUS excluded per rules)",
+    "cost_breach_15_20pct": "none",
+    "ibkr_status": "ok"
+  }
+}
