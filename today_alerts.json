@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-27",
+  "ibkr_consecutive_failures": 0,
+  "last_run": "2026-08-27T16:19:00Z",
+  "alerts": [
+    {
+      "ticker": "NOW",
+      "type": "intraday_move",
+      "reason": "+8.26% intraday (136.19 vs prior close 125.80)",
+      "detected_at": "2026-08-27T16:19:00Z",
+      "confirmed_trigger": "Expanded multi-year Tech Mahindra partnership pairing ServiceNow AI Platform with Tech Mahindra implementation delivery; builds on 22 Jul results ($3.99B rev, $0.90 adj EPS). Move began after hours Wednesday (+3.4%).",
+      "delivered": false,
+      "delivery_channel": "push_notification",
+      "delivery_note": "Inkbox email to kbialmannai@gmail.com REJECTED: inkbox_unanswered_limit (20 messages sent without a reply, limit 20). Blocks all future sends to this address until the recipient replies to claudereports@inkboxmail.com, the domain is verified on a paid org plan, or support raises the cap. Alert content delivered via push notification instead. Do not re-detect this trigger today; retry email delivery only if the block clears."
+    }
+  ],
+  "suppressed": [
+    {
+      "ticker": "SPWO",
+      "type": "weight_breach",
+      "reason": "11.34% of net liq, over the 10% single-position ceiling (under the 12% mandatory-review line)",
+      "detected_at": "2026-08-27T16:19:00Z",
+      "suppressed_because": "SPWO is a diversified Shariah-compliant ETF ($200M AUM, same fund family and structure as SPUS), not single-stock concentration risk. st0ck_rules.md names only SPUS in the concentration-check exclusion, so this is a breach read literally but not by the rule's stated intent. Raised to the user for a rules decision rather than alerted. If st0ck_rules.md is amended to cover SPWO, drop this entry."
+    }
+  ]
+}
