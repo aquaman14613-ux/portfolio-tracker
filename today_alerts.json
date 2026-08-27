@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-27",
+  "alerts": [
+    {
+      "ticker": "NOW",
+      "trigger": "intraday_move",
+      "threshold": ">=5% intraday",
+      "value_pct": 9.66,
+      "detail": "Closed $137.95, +9.66% (open $130.48, low $130.25, high $139.32, vol 27.4M). Confirmed cause: Salesforce Q2 double beat + upbeat guidance repriced enterprise software; NOW rallied on read-through alongside own Q2 (EPS $0.90, rev $3.99B) and broad tech bid (sector +2.6%).",
+      "verdict": "genuine trigger, no action implied - 6.9% weight, +16.0% vs cost",
+      "logged_at": "2026-08-27T20:18:00Z",
+      "notified": true,
+      "notify_channel": "push_notification",
+      "email_status": "blocked - Inkbox inkbox_unanswered_limit (20 messages sent to kbialmannai@gmail.com without a reply)"
+    },
+    {
+      "ticker": "SPWO",
+      "trigger": "weight_breach",
+      "threshold": "10% single-position ceiling",
+      "value_pct": 11.309,
+      "detail": "$6,752 of $59,708 net liq. Over the 10% ceiling, under the 12% mandatory-review line.",
+      "verdict": "flagged pending user decision - SPWO is a diversified Shariah index ETF from the same family as SPUS; the SPUS carve-out in st0ck_rules.md names only SPUS, so this was treated as a real breach. Awaiting confirmation whether to extend the exclusion.",
+      "logged_at": "2026-08-27T20:18:00Z",
+      "notified": true,
+      "notify_channel": "push_notification"
+    }
+  ],
+  "checks_clear": {
+    "intraday_5pct": "only NOW; next largest AVGO +3.95%",
+    "weight_10pct": "only SPWO; next largest non-SPUS is NVO 9.29%",
+    "cost_15pct": "none; worst is ISRG -6.64%"
+  },
+  "ibkr_status": "ok",
+  "consecutive_ibkr_failures": 0
+}
