@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-27",
+  "alerts": [
+    {
+      "id": "2026-08-27-SPWO-weight10",
+      "ticker": "SPWO",
+      "type": "weight_breach_10",
+      "detected_at_utc": "2026-08-27T13:18:45Z",
+      "detail": "SPWO 11.43% of NLV ($6,780.00 / $59,303.94), over the 10% single-position ceiling, under the 12% mandatory-review line.",
+      "note": "SPWO is a diversified ETF in the same fund family as SPUS. st0ck_rules.md excludes SPUS from the concentration check by name only, so SPWO is being checked as a single position. Pending user decision on whether to add SPWO to the exclusion list.",
+      "delivered": false,
+      "delivery_channel": "inkbox_email",
+      "delivery_error": "403 conversation_unhealthy / inkbox_unanswered_limit - 20 messages sent to kbialmannai@gmail.com without a reply (limit 20). Channel blocked until an authenticated reply is received, the recipient domain is verified, or support raises the limit.",
+      "delivery_note": "Alert surfaced via PushNotification instead. Retry email on a later run once the channel is unblocked; do not treat as delivered until delivered=true."
+    }
+  ],
+  "checks_run": {
+    "intraday_move_5pct": "no breach",
+    "weight_10_12pct": "SPWO 11.43% flagged; SPUS 29.57% excluded per rules",
+    "cost_15_20pct": "no breach (worst: ISRG -6.46%)"
+  },
+  "ibkr_status": "reachable",
+  "ibkr_consecutive_failures": 0,
+  "stage2_news_search": "skipped - weight breach is arithmetic and needs no news confirmation; no price-driven trigger fired"
+}
