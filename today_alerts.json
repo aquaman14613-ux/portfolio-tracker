@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-27",
+  "alerts": [
+    {
+      "ticker": "NOW",
+      "type": "intraday_move",
+      "threshold": ">=5% intraday",
+      "value_pct": 9.17,
+      "reason": "+9.17% intraday on expanded multi-year Tech Mahindra AI Platform partnership, plus post-Q2 momentum (Jul 22: $3.99B rev, $0.90 adj EPS)",
+      "triggered_at": "2026-08-27T15:22:15Z",
+      "notified": true,
+      "delivery": {
+        "email": "failed",
+        "email_error": "inkbox_unanswered_limit - 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)",
+        "push_notification": "sent"
+      }
+    },
+    {
+      "ticker": "SPWO",
+      "type": "weight_breach",
+      "threshold": "10% single-position ceiling",
+      "value_pct": 11.32,
+      "reason": "11.32% of net liquidation ($6,743.80), above the 10% ceiling and below the 12% mandatory-review line; intraday flat (-0.03%), so drift rather than a move. Rules exclude SPUS from this check but do not name SPWO, so it was checked as written.",
+      "triggered_at": "2026-08-27T15:22:15Z",
+      "notified": true,
+      "delivery": {
+        "email": "failed",
+        "email_error": "inkbox_unanswered_limit - 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)",
+        "push_notification": "sent"
+      }
+    }
+  ],
+  "ibkr_consecutive_failures": 0,
+  "outage_alert_sent": false
+}
