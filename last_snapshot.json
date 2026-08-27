@@ -1,0 +1,52 @@
+{
+  "snapshot_timestamp": "2026-08-27T20:17:00Z",
+  "snapshot_local": "2026-08-27 16:17 ET (post-close)",
+  "source": "IBKR live (get_account_positions / get_account_summary / get_account_balances)",
+  "base_currency": "USD",
+  "fx": {
+    "EURUSD": 1.165112
+  },
+  "account": {
+    "net_liquidation": 59705.64,
+    "gross_position_value": 50632.99,
+    "total_cash_value": 9072.65,
+    "settled_cash": 9072.65,
+    "available_funds": 1191.91,
+    "buying_power": 1191.91,
+    "excess_liquidity": 9072.65,
+    "initial_margin": 0,
+    "maintenance_margin": 0,
+    "leverage": "0.85",
+    "unrealized_pnl": 419.23,
+    "realized_pnl": 141.76
+  },
+  "positions": [
+    {"ticker": "SPUS", "name": "SP Funds S&P 500 Sharia Industry Exclusions ETF", "qty": 208, "currency": "USD", "last": 59.2200012, "avg_cost": 58.86007008, "market_value_usd": 12317.76, "weight_pct": 20.63, "unrealized_pnl": 74.87, "unrealized_pct": 0.61, "daily_pnl": 272.12, "day_change_pct": 1.70},
+    {"ticker": "SPWO", "name": "SP Funds S&P World (ex-US) ETF", "qty": 200, "currency": "USD", "last": 33.7599983, "avg_cost": 33.635003, "market_value_usd": 6752.00, "weight_pct": 11.31, "unrealized_pnl": 25.00, "unrealized_pct": 0.37, "daily_pnl": 14.00, "day_change_pct": 0.03},
+    {"ticker": "NVO", "name": "Novo Nordisk A/S ADR", "qty": 120, "currency": "USD", "last": 46.22499845, "avg_cost": 45.31583667, "market_value_usd": 5547.00, "weight_pct": 9.29, "unrealized_pnl": 109.10, "unrealized_pct": 2.01, "daily_pnl": -48.80, "day_change_pct": -2.03},
+    {"ticker": "NOK", "name": "Nokia Corp ADR", "qty": 400, "currency": "USD", "last": 10.57009985, "avg_cost": 10.331253, "market_value_usd": 4228.04, "weight_pct": 7.08, "unrealized_pnl": 95.54, "unrealized_pct": 2.31, "daily_pnl": 64.04, "day_change_pct": 1.73},
+    {"ticker": "HIES", "name": "HSBC MSCI EM Islamic SCD ETF (SBF, EUR)", "qty": 140, "currency": "EUR", "last": 25.52000045, "avg_cost": 25.33678571, "market_value_eur": 3572.80, "market_value_usd": 4176.65, "weight_pct": 6.99, "unrealized_pnl_eur": 25.65, "unrealized_pct": 0.72, "daily_pnl_eur": 19.60, "daily_pnl_usd": 22.84},
+    {"ticker": "NOW", "name": "ServiceNow Inc", "qty": 30, "currency": "USD", "last": 137.6000061, "avg_cost": 118.59333667, "market_value_usd": 4128.00, "weight_pct": 6.91, "unrealized_pnl": 570.20, "unrealized_pct": 16.03, "daily_pnl": 354.00, "day_change_pct": 9.66},
+    {"ticker": "AVGO", "name": "Broadcom Inc", "qty": 10, "currency": "USD", "last": 369.94000245, "avg_cost": 384.56667, "market_value_usd": 3699.40, "weight_pct": 6.20, "unrealized_pnl": -146.27, "unrealized_pct": -3.80, "daily_pnl": 143.50, "day_change_pct": 3.93},
+    {"ticker": "ISRG", "name": "Intuitive Surgical Inc", "qty": 10, "currency": "USD", "last": 367.730011, "avg_cost": 392.881, "market_value_usd": 3677.30, "weight_pct": 6.16, "unrealized_pnl": -251.51, "unrealized_pct": -6.40, "daily_pnl": -26.90, "day_change_pct": -0.93},
+    {"ticker": "APP", "name": "AppLovin Corp", "qty": 11, "currency": "USD", "last": 312.55999755, "avg_cost": 309.78090909, "market_value_usd": 3438.16, "weight_pct": 5.76, "unrealized_pnl": 30.57, "unrealized_pct": 0.90, "daily_pnl": 30.57, "day_change_pct": 1.45},
+    {"ticker": "VRT", "name": "Vertiv Holdings Co", "qty": 10, "currency": "USD", "last": 269.01000975, "avg_cost": 280.07, "market_value_usd": 2690.10, "weight_pct": 4.51, "unrealized_pnl": -110.60, "unrealized_pct": -3.95, "daily_pnl": 52.00, "day_change_pct": 2.05}
+  ],
+  "closed_today": [
+    {"ticker": "MRVL", "note": "Position fully closed (0 shares). Booked +108.65 realized on the day. Excluded from position table per data-hygiene rule."}
+  ],
+  "cash": {
+    "amount": 9072.65,
+    "weight_pct": 15.20,
+    "target_band_pct": [7.5, 10.0],
+    "status": "above_band"
+  },
+  "day_performance": {
+    "held_positions_pnl_usd": 877.37,
+    "equity_sleeve_return_pct": 1.76,
+    "account_return_incl_realized_pct": 1.68,
+    "spus_benchmark_pct": 1.70,
+    "sp500_pct": 0.42,
+    "nasdaq_pct": 1.07
+  }
+}

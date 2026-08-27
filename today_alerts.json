@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-27",
+  "alerts": [
+    {
+      "id": "2026-08-27-concentration-SPWO",
+      "type": "concentration",
+      "ticker": "SPWO",
+      "weight_pct": 11.31,
+      "threshold_pct": 10.0,
+      "severity": "ceiling_breach_below_mandatory_review",
+      "note": "SPWO 11.31% exceeds the 10% single-position ceiling, below the 12% mandatory-review line. SPWO is a diversified Shariah ETF (SP Funds S&P World ex-US); the concentration-exclusion rule names SPUS only, so SPWO is reported as a breach pending a user decision on whether the exclusion rationale extends to it.",
+      "sent": false,
+      "delivery_status": "email_blocked",
+      "delivery_note": "Inkbox refused the send: inkbox_unanswered_limit (20 messages to kbialmannai@gmail.com without a reply). Delivered via push notification instead. Re-send by email once the limit clears.",
+      "attempted_at": "2026-08-27T20:17:00Z"
+    },
+    {
+      "id": "2026-08-27-cash-above-band",
+      "type": "cash_allocation",
+      "weight_pct": 15.20,
+      "target_band_pct": [7.5, 10.0],
+      "excess_over_band_top_usd": 3102.09,
+      "severity": "above_target_band",
+      "note": "Cash 15.20% of NLV vs 7.5-10% target. Only $1,191.91 is currently available funds/buying power; the remainder appears to be unsettled proceeds (MRVL closed today), so redeployment is constrained until settlement.",
+      "sent": false,
+      "delivery_status": "email_blocked",
+      "delivery_note": "Inkbox refused the send: inkbox_unanswered_limit (20 messages to kbialmannai@gmail.com without a reply). Delivered via push notification instead. Re-send by email once the limit clears.",
+      "attempted_at": "2026-08-27T20:17:00Z"
+    }
+  ],
+  "delivery": {
+    "channel_requested": "inkbox_email",
+    "recipient": "kbialmannai@gmail.com",
+    "sender": "claudereports@inkboxmail.com",
+    "status": "blocked",
+    "reason": "inkbox_unanswered_limit",
+    "detail": "20 messages sent without an authenticated reply (limit 20). Clears when the recipient replies to claudereports@inkboxmail.com, when the recipient domain is verified on a paid org plan, or when Inkbox support raises the limit. Not a time-based reset.",
+    "fallback_used": "push_notification",
+    "report_html": "reports/2026-08-27-post-close.html"
+  },
+  "not_triggered": {
+    "price_review_minus_15pct": "None. Worst unrealized position is ISRG at -6.40%.",
+    "price_review_minus_20pct": "None.",
+    "correlation_cap_30pct": "Largest genuine theme cluster is AI/datacenter (AVGO+VRT+NOW+APP) at 23.38%, under the 30% cap."
+  }
+}
