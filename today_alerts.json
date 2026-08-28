@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-28",
+  "timezone": "America/New_York",
+  "runs": [
+    {
+      "run_at_et": "2026-08-28 11:22 EDT",
+      "ibkr_status": "ok",
+      "stage1": {
+        "intraday_move_ge_5pct": [],
+        "weight_breach_10_12pct": ["SPWO"],
+        "cost_breach_15_20pct": []
+      },
+      "stage2_news_search": "not run - the only flag is a mechanical weight calculation; news cannot confirm or refute a concentration breach"
+    }
+  ],
+  "alerts_sent": [],
+  "alerts_held": [
+    {
+      "ticker": "SPWO",
+      "type": "concentration",
+      "detail": "11.24% of net liquidation ($6,751 of $60,068.80), over the 10% single-position ceiling and under the 12% mandatory-review level.",
+      "status": "held_pending_user_decision",
+      "reason": "SPWO is the SP Funds S&P World ex-US ETF - a diversified Shariah-compliant benchmark ETF, the same instrument class as SPUS. The concentration-exclusion rule in st0ck_rules.md states its rationale ('not a single-stock concentration risk') but names only SPUS, so it does not literally cover SPWO. Firing a single-position concentration alert on a broad index ETF looked like exactly the false positive that exclusion was written to suppress, so no email was sent. Awaiting a decision on whether to extend the exclusion to SPWO.",
+      "unblocks": "If the user says SPWO is NOT excluded, this becomes a live breach and should alert on the next run."
+    }
+  ],
+  "notes": [
+    "last_snapshot.json and today_alerts.json did not exist in the repo before this run; both were created here. No prior baseline was available for snapshot-to-snapshot comparison, so intraday moves were taken from IBKR daily P&L and change_pct rather than from a stored prior snapshot.",
+    "Weights are computed against net liquidation ($60,068.80, cash included). On a positions-only basis ($50,994.96) SPWO is 13.2% and NVO is 10.8% - i.e. the denominator choice changes which tickers breach. Net liquidation was used because the rules set a 7.5-10% cash target, implying cash is part of the allocation base.",
+    "Cash is 15.1% of net liquidation, above the 7.5-10% target. This deflates every position weight; at target cash, weights would be roughly 6-9% higher relative.",
+    "No 0-share/phantom positions were returned by IBKR this run."
+  ]
+}
