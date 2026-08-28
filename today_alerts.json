@@ -1,0 +1,29 @@
+{
+  "date": "2026-08-28",
+  "alerts": [
+    {
+      "id": "2026-08-28-SPWO-weight-10pct",
+      "ticker": "SPWO",
+      "type": "weight_breach",
+      "threshold": "10% single-position ceiling",
+      "value_pct": 11.24,
+      "detected_at": "2026-08-28T19:19:00Z",
+      "detail": "SPWO $6,690 / net liq $59,538 = 11.24%, above the 10% ceiling, below the 12% mandatory-review level. Not price-driven (SPWO -0.92% on the day); no fund-level news found.",
+      "delivery": {
+        "channel": "inkbox_email",
+        "to": "kbialmannai@gmail.com",
+        "delivered": false,
+        "failure_reason": "inkbox_unanswered_limit: 20 messages sent without a reply (limit 20). Send unblocks on an authenticated reply, recipient-domain verification, or a support limit raise.",
+        "fallback_used": "push_notification"
+      },
+      "open_question": "Rules exclude SPUS from the single-position ceiling as 'not a single-stock concentration risk' but name only SPUS. SPWO is also a diversified Shariah-compliant ETF (SP Funds S&P World ex-US). If the same rationale applies, add SPWO to the Concentration check exclusions section in st0ck_rules.md."
+    }
+  ],
+  "checks_clear": {
+    "intraday_move_5pct": "none (max: NOW +4.88%, VRT -4.16%)",
+    "cost_breach_15pct": "none (worst: VRT -7.84%, ISRG -5.09%)",
+    "weight_12pct": "none excluding SPUS"
+  },
+  "ibkr_status": "reachable",
+  "ibkr_consecutive_failures": 0
+}
