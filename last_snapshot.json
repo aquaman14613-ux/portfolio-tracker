@@ -1,0 +1,58 @@
+{
+  "snapshot_timestamp_utc": "2026-08-28T20:17:00Z",
+  "session": "post-close",
+  "source": "IBKR live (reachable)",
+  "base_currency": "USD",
+  "account": {
+    "net_liquidation": 59525.88,
+    "gross_position_value": 50452.04,
+    "total_cash_value": 9072.66,
+    "cash_pct_of_nav": 15.24,
+    "unrealized_pnl": 265.20,
+    "realized_pnl": 0,
+    "leverage": "0.85",
+    "maintenance_margin": 0
+  },
+  "performance_twr": {
+    "measure": "TWR",
+    "inception_date": "2026-08-17",
+    "1D": -0.0044495,
+    "7D": 0.00869366,
+    "since_inception": -0.00260294,
+    "note": "MTD/YTD/1Y all equal since-inception; account funded 2026-08-17 with an additional deposit on 2026-08-26."
+  },
+  "benchmark_spus": {
+    "close": 58.78,
+    "prior_close": 59.28,
+    "1D_pct": -0.84,
+    "7D_pct": 0.27,
+    "since_2026_08_17_pct": -0.71,
+    "ytd_pct": 15.49
+  },
+  "positions": [
+    {"ticker": "SPUS", "contract_id": 396046406, "type": "ETF", "shares": 208, "currency": "USD", "mark": 58.91999815, "avg_cost": 58.84279135, "market_value_usd": 12255.36, "unrealized_pnl": 16.06, "unrealized_pct": 0.13, "daily_pnl": -74.88, "daily_pct": -0.61, "weight_pct": 20.59},
+    {"ticker": "SPWO", "contract_id": 673665039, "type": "ETF", "shares": 200, "currency": "USD", "mark": 33.4599991, "avg_cost": 33.635003, "market_value_usd": 6692.00, "unrealized_pnl": -35.00, "unrealized_pct": -0.52, "daily_pnl": -60.00, "daily_pct": -0.89, "weight_pct": 11.24},
+    {"ticker": "NVO", "contract_id": 10611, "type": "STK", "shares": 120, "currency": "USD", "mark": 45.54999925, "avg_cost": 45.31583667, "market_value_usd": 5466.00, "unrealized_pnl": 28.10, "unrealized_pct": 0.52, "daily_pnl": -85.20, "daily_pct": -1.53, "weight_pct": 9.18},
+    {"ticker": "NOW", "contract_id": 109911821, "type": "STK", "shares": 30, "currency": "USD", "mark": 144.44000245, "avg_cost": 118.59333667, "market_value_usd": 4333.20, "unrealized_pnl": 775.40, "unrealized_pct": 21.79, "daily_pnl": 180.30, "daily_pct": 4.34, "weight_pct": 7.28},
+    {"ticker": "HIES", "contract_id": 872765740, "type": "ETF", "name": "HSBC MSCI EM Islamic Screened ETF", "exchange": "SBF", "shares": 140, "currency": "EUR", "mark": 25.73999975, "avg_cost": 25.33678571, "market_value_eur": 3603.60, "market_value_usd": 4177.40, "eur_usd": 1.16028, "unrealized_pnl_eur": 56.45, "unrealized_pct": 1.59, "daily_pnl_eur": 18.90, "daily_pct": 0.53, "weight_pct": 7.02},
+    {"ticker": "NOK", "contract_id": 661513, "type": "STK", "shares": 400, "currency": "USD", "mark": 10.20689965, "avg_cost": 10.331253, "market_value_usd": 4082.76, "unrealized_pnl": -49.74, "unrealized_pct": -1.20, "daily_pnl": -153.24, "daily_pct": -3.62, "weight_pct": 6.86},
+    {"ticker": "ISRG", "contract_id": 9063285, "type": "STK", "shares": 10, "currency": "USD", "mark": 372.6000061, "avg_cost": 392.881, "market_value_usd": 3726.00, "unrealized_pnl": -202.81, "unrealized_pct": -5.16, "daily_pnl": 55.30, "daily_pct": 1.51, "weight_pct": 6.26},
+    {"ticker": "AVGO", "contract_id": 313130367, "type": "STK", "shares": 10, "currency": "USD", "mark": 367.980011, "avg_cost": 384.56667, "market_value_usd": 3679.80, "unrealized_pnl": -165.87, "unrealized_pct": -4.31, "daily_pnl": -35.60, "daily_pct": -0.96, "weight_pct": 6.18},
+    {"ticker": "APP", "contract_id": 481863646, "type": "STK", "shares": 11, "currency": "USD", "mark": 318.2963867, "avg_cost": 309.78090909, "market_value_usd": 3501.26, "unrealized_pnl": 93.67, "unrealized_pct": 2.75, "daily_pnl": 62.33, "daily_pct": 1.81, "weight_pct": 5.88},
+    {"ticker": "VRT", "contract_id": 402783527, "type": "STK", "shares": 10, "currency": "USD", "mark": 257.58999635, "avg_cost": 280.07, "market_value_usd": 2575.90, "unrealized_pnl": -224.80, "unrealized_pct": -8.03, "daily_pnl": -116.90, "daily_pct": -4.34, "weight_pct": 4.33}
+  ],
+  "checks": {
+    "single_position_ceiling_10pct": {
+      "breaches": ["SPWO 11.24%"],
+      "excluded": ["SPUS (benchmark ETF, per rules)"],
+      "mandatory_review_12pct": [],
+      "approaching": ["NVO 9.18%"]
+    },
+    "price_review_triggers": {"minus_15pct": [], "minus_20pct": [], "worst": "VRT -8.03%"},
+    "cash": {"actual_pct": 15.24, "target_band": "7.5-10%", "status": "over", "excess_to_10pct_usd": 3120.07},
+    "theme_correlation_cap_30pct": {
+      "narrow_ai_infrastructure": {"members": ["AVGO", "VRT", "NOK"], "pct": 17.37, "status": "within"},
+      "broad_ai_beta": {"members": ["AVGO", "VRT", "NOK", "NOW", "APP"], "pct": 30.53, "status": "marginal breach, definitional"}
+    }
+  }
+}

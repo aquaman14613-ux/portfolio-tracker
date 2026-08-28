@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-28",
+  "alerts": [
+    {
+      "id": "2026-08-28-conc-SPWO",
+      "type": "concentration",
+      "ticker": "SPWO",
+      "detail": "Weight 11.24% exceeds the 10% single-position ceiling (below the 12% mandatory-review line).",
+      "note": "SPWO is a diversified Shariah-compliant ETF. The rules exempt SPUS by name only, so this is reported as written; recommend extending the exclusion to diversified ETFs (SPWO, HIES).",
+      "severity": "advisory",
+      "sent": true,
+      "sent_at_utc": "2026-08-28T20:30:00Z"
+    },
+    {
+      "id": "2026-08-28-cash-over",
+      "type": "cash_band",
+      "detail": "Cash 15.24% of NAV vs 7.5-10% target. $3,120 above the top of the band.",
+      "severity": "advisory",
+      "sent": true,
+      "sent_at_utc": "2026-08-28T20:30:00Z"
+    },
+    {
+      "id": "2026-08-28-corr-ai-beta",
+      "type": "theme_correlation",
+      "detail": "Broad AI-beta basket (AVGO, VRT, NOK, NOW, APP) = 30.53% vs 30% cap. Narrow shared-revenue-driver reading (AVGO, VRT, NOK) = 17.37% and is within cap.",
+      "severity": "marginal - requires a definitional decision on cluster membership",
+      "sent": true,
+      "sent_at_utc": "2026-08-28T20:30:00Z"
+    }
+  ],
+  "no_breach": {
+    "price_review_minus_15pct": "none (worst: VRT -8.03% from cost)",
+    "single_position_12pct_mandatory_review": "none",
+    "shariah_gate": "not re-verified this run - no Zoya data source available to this session"
+  }
+}
