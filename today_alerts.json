@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-28",
+  "timezone": "America/New_York",
+  "alerts": [],
+  "runs": [
+    {
+      "at_utc": "2026-08-28T13:21:45Z",
+      "stage1": "complete",
+      "ibkr": "ok",
+      "triggers_found": [],
+      "near_threshold": [
+        {
+          "ticker": "SPWO",
+          "metric": "weight_pct_net_liq",
+          "value": 11.28,
+          "note": "above 10% ceiling, below 12% mandatory-review line; diversified Shariah ETF, treated as non-single-stock concentration (same rationale as the SPUS exclusion). Not alerted."
+        }
+      ],
+      "email_sent": false
+    }
+  ]
+}
