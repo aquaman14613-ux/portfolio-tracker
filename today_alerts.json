@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-28",
+  "alerts": [
+    {
+      "ticker": "SPWO",
+      "type": "weight_breach_10pct",
+      "detected_at": "2026-08-28T18:19:00Z",
+      "detail": "11.24% of net liquidation (13.26% of invested assets), above the 10% single-position ceiling; below the 12% mandatory-review level on a net-liq basis.",
+      "value": 6698.0,
+      "weight_pct": 11.24,
+      "news_catalyst": "none found (1 search, SPWO) — drift, not an event",
+      "delivery": {
+        "email": "FAILED",
+        "email_error": "Inkbox 403 inkbox_unanswered_limit — 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)",
+        "push_notification": "sent"
+      },
+      "deduped": true
+    }
+  ],
+  "outage_tracking": {
+    "ibkr_consecutive_failures": 0,
+    "last_successful_pull": "2026-08-28T18:19:00Z",
+    "outage_alert_sent": false
+  }
+}
