@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-28",
+  "alerts": [
+    {
+      "id": "2026-08-28-SPWO-weight-10pct",
+      "timestamp": "2026-08-28T14:20:43Z",
+      "ticker": "SPWO",
+      "type": "concentration",
+      "threshold": "10% single-position ceiling",
+      "value_pct": 11.27,
+      "market_value_usd": 6742.0,
+      "net_liquidation_usd": 59816.91,
+      "reason": "SPWO at 11.27% of net liq, over the 10% ceiling (below the 12% mandatory-review level).",
+      "note": "SPWO is a 500-holding, 42-country diversified Shariah ETF, structurally like SPUS. The rules' concentration exclusion names SPUS only, so this was not suppressed. Pending user decision on whether to extend the exclusion to SPWO.",
+      "delivery": {
+        "email": "FAILED",
+        "email_error": "Inkbox 403 inkbox_unanswered_limit - 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)",
+        "fallback": "delivered via push notification",
+        "delivered": true
+      }
+    }
+  ],
+  "notes": [
+    "Files last_snapshot.json and today_alerts.json did not exist in the repo before this run; created here. This run had no prior snapshot to diff against, so checks were computed from IBKR data directly.",
+    "Cash at 15.17% is above the 7.5-10% target but is outside the three checks this routine runs; recorded in last_snapshot.json, not alerted."
+  ]
+}

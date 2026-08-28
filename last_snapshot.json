@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-08-28T14:20:43Z",
+  "timestamp_et": "2026-08-28 10:20 ET",
+  "source": "IBKR (get_account_positions, get_account_summary)",
+  "base_currency": "USD",
+  "account": {
+    "net_liquidation": 59816.91,
+    "gross_position_value": 50743.07,
+    "total_cash_value": 9072.66,
+    "cash_weight_pct": 15.17
+  },
+  "fx": {
+    "EURUSD_implied": 1.143
+  },
+  "positions": [
+    {"ticker": "APP",  "shares": 11,  "market_price": 324.76,   "market_value_usd": 3572.36,  "avg_cost": 309.78091, "unrealized_pnl": 164.77,  "pct_from_cost": 4.84,  "daily_pnl": 133.43,  "intraday_pct": 3.88,  "weight_pct": 5.97},
+    {"ticker": "AVGO", "shares": 10,  "market_price": 372.80,   "market_value_usd": 3728.00,  "avg_cost": 384.56667, "unrealized_pnl": -117.67, "pct_from_cost": -3.06, "daily_pnl": 12.60,   "intraday_pct": 0.34,  "weight_pct": 6.23},
+    {"ticker": "HIES", "shares": 140, "market_price": 25.60,    "market_value_eur": 3584.00, "market_value_usd": 4096.31, "currency": "EUR", "avg_cost": 25.33679, "unrealized_pnl": 36.85, "pct_from_cost": 1.04, "daily_pnl": -0.70, "intraday_pct": -0.02, "weight_pct": 6.85},
+    {"ticker": "ISRG", "shares": 10,  "market_price": 370.80499, "market_value_usd": 3708.05, "avg_cost": 392.881,   "unrealized_pnl": -220.76, "pct_from_cost": -5.62, "daily_pnl": 37.35,   "intraday_pct": 1.02,  "weight_pct": 6.20},
+    {"ticker": "NOK",  "shares": 400, "market_price": 10.455,   "market_value_usd": 4182.00,  "avg_cost": 10.331253, "unrealized_pnl": 49.50,   "pct_from_cost": 1.20,  "daily_pnl": -54.00,  "intraday_pct": -1.27, "weight_pct": 6.99},
+    {"ticker": "NOW",  "shares": 30,  "market_price": 142.645,  "market_value_usd": 4279.35,  "avg_cost": 118.59334, "unrealized_pnl": 721.55,  "pct_from_cost": 20.28, "daily_pnl": 126.45,  "intraday_pct": 3.05,  "weight_pct": 7.15},
+    {"ticker": "NVO",  "shares": 120, "market_price": 45.825,   "market_value_usd": 5499.00,  "avg_cost": 45.315837, "unrealized_pnl": 61.10,   "pct_from_cost": 1.12,  "daily_pnl": -52.20,  "intraday_pct": -0.94, "weight_pct": 9.19},
+    {"ticker": "SPUS", "shares": 208, "market_price": 59.10,    "market_value_usd": 12292.80, "avg_cost": 58.842791, "unrealized_pnl": 53.50,   "pct_from_cost": 0.44,  "daily_pnl": -37.44,  "intraday_pct": -0.30, "weight_pct": 20.55, "concentration_check": "excluded per rules (diversified Shariah benchmark ETF)"},
+    {"ticker": "SPWO", "shares": 200, "market_price": 33.71,    "market_value_usd": 6742.00,  "avg_cost": 33.635003, "unrealized_pnl": 15.00,   "pct_from_cost": 0.22,  "daily_pnl": -10.00,  "intraday_pct": -0.15, "weight_pct": 11.27, "concentration_check": "BREACH of 10% ceiling; exclusion in rules names SPUS only"},
+    {"ticker": "VRT",  "shares": 10,  "market_price": 264.32,   "market_value_usd": 2643.20,  "avg_cost": 280.07,    "unrealized_pnl": -157.50, "pct_from_cost": -5.62, "daily_pnl": -49.60,  "intraday_pct": -1.84, "weight_pct": 4.42}
+  ],
+  "stage1_results": {
+    "intraday_move_5pct": {"triggered": false, "largest": "APP +3.88%"},
+    "weight_10pct": {"triggered": true, "tickers": ["SPWO"]},
+    "weight_12pct": {"triggered": false},
+    "cost_minus_15pct": {"triggered": false, "worst": "ISRG -5.62%, VRT -5.62%"},
+    "cost_minus_20pct": {"triggered": false}
+  },
+  "out_of_scope_observations": {
+    "cash_weight_pct": 15.17,
+    "cash_target_pct": "7.5-10",
+    "note": "Above target; not one of the three checks this routine runs."
+  },
+  "ibkr_status": {"reachable": true, "consecutive_failures": 0}
+}
