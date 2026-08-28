@@ -1,0 +1,42 @@
+{
+  "snapshot_utc": "2026-08-28T13:30:00Z",
+  "source": "IBKR MCP (get_account_positions + get_account_summary)",
+  "base_currency": "USD",
+  "fx": {
+    "EURUSD_implied": 1.1661,
+    "note": "Derived from IBKR gross_position_value residual vs USD-denominated positions."
+  },
+  "account_summary": {
+    "net_liquidation": 59845.11,
+    "gross_position_value": 50771.27,
+    "total_cash_value": 9072.66,
+    "available_funds": 9072.66,
+    "excess_liquidity": 9072.66,
+    "initial_margin": 0,
+    "maintenance_margin": 0,
+    "leverage": "0.85",
+    "cash_pct_of_net_liq": 15.16
+  },
+  "positions": [
+    {"ticker": "SPUS", "contract_id": 396046406, "name": "SP Funds S&P 500 Sharia Industry Exclusions ETF", "qty": 208, "avg_cost": 58.84279135, "market_price": 59.29999925, "currency": "USD", "market_value_usd": 12334.40, "weight_pct": 20.61, "unrealized_pnl_usd": 95.10, "unrealized_pct": 0.78},
+    {"ticker": "SPWO", "contract_id": 673665039, "name": "SP Funds S&P World (ex-US) ETF", "qty": 200, "avg_cost": 33.635003, "market_price": 33.7599983, "currency": "USD", "market_value_usd": 6752.00, "weight_pct": 11.28, "unrealized_pnl_usd": 25.00, "unrealized_pct": 0.37},
+    {"ticker": "NVO", "contract_id": 10611, "name": "Novo Nordisk A/S ADR", "qty": 120, "avg_cost": 45.31583667, "market_price": 46.18999865, "currency": "USD", "market_value_usd": 5542.80, "weight_pct": 9.26, "unrealized_pnl_usd": 104.90, "unrealized_pct": 1.93},
+    {"ticker": "NOK", "contract_id": 661513, "name": "Nokia Oyj ADR", "qty": 400, "avg_cost": 10.331253, "market_price": 10.5500002, "currency": "USD", "market_value_usd": 4220.00, "weight_pct": 7.05, "unrealized_pnl_usd": 87.50, "unrealized_pct": 2.12},
+    {"ticker": "HIES", "contract_id": 872765740, "name": "HSBC MSCI EM Islamic Screened Capped ETF (SBF/Paris)", "qty": 140, "avg_cost": 25.33678571, "market_price": 25.6000004, "currency": "EUR", "market_value_eur": 3584.00, "market_value_usd": 4179.17, "weight_pct": 6.98, "unrealized_pnl_eur": 36.85, "unrealized_pct": 1.04},
+    {"ticker": "NOW", "contract_id": 109911821, "name": "ServiceNow Inc", "qty": 30, "avg_cost": 118.59333667, "market_price": 138.00, "currency": "USD", "market_value_usd": 4140.00, "weight_pct": 6.92, "unrealized_pnl_usd": 582.20, "unrealized_pct": 16.36},
+    {"ticker": "AVGO", "contract_id": 313130367, "name": "Broadcom Inc", "qty": 10, "avg_cost": 384.56667, "market_price": 374.01000975, "currency": "USD", "market_value_usd": 3740.10, "weight_pct": 6.25, "unrealized_pnl_usd": -105.57, "unrealized_pct": -2.75},
+    {"ticker": "ISRG", "contract_id": 9063285, "name": "Intuitive Surgical Inc", "qty": 10, "avg_cost": 392.881, "market_price": 368.7999878, "currency": "USD", "market_value_usd": 3688.00, "weight_pct": 6.16, "unrealized_pnl_usd": -240.81, "unrealized_pct": -6.13},
+    {"ticker": "APP", "contract_id": 481863646, "name": "AppLovin Corp", "qty": 11, "avg_cost": 309.78090909, "market_price": 316.7999878, "currency": "USD", "market_value_usd": 3484.80, "weight_pct": 5.82, "unrealized_pnl_usd": 77.21, "unrealized_pct": 2.27},
+    {"ticker": "VRT", "contract_id": 402783527, "name": "Vertiv Holdings Co", "qty": 10, "avg_cost": 280.07, "market_price": 269.00, "currency": "USD", "market_value_usd": 2690.00, "weight_pct": 4.49, "unrealized_pnl_usd": -110.70, "unrealized_pct": -3.95}
+  ],
+  "totals": {
+    "unrealized_pnl_usd": 557.80,
+    "positions_count": 10
+  },
+  "threshold_check": {
+    "single_position_ceiling_10pct": "No single stock above 10%. NVO highest at 9.26%. SPUS excluded per rules. SPWO at 11.28% is a diversified world ex-US Shariah ETF not named in the exclusion clause.",
+    "cash_target_7_5_to_10pct": "BREACH - 15.16%, ~5.2pp above the top of the band (~$3,100 excess).",
+    "price_review_minus_15pct": "None. Worst position ISRG at -6.13% from cost.",
+    "theme_correlation_cap_30pct": "AI-capex cluster (AVGO+VRT+NOK) 17.79%. Adding NOW+APP as AI-demand-sensitive brings the broad AI complex to 30.51%, at the cap."
+  }
+}

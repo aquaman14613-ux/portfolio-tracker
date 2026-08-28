@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-28",
+  "run": "pre-market deep-dive report",
+  "run_utc": "2026-08-28T13:30:00Z",
+  "delivery": {
+    "channel": "inkbox email -> kbialmannai@gmail.com",
+    "status": "FAILED",
+    "reason": "inkbox_unanswered_limit — 20 messages sent without a reply (limit 20). Blocked until an authenticated reply is received, the recipient domain is verified, or support raises the cap. Not a transient rate limit; not retried.",
+    "fallback": "Report committed to reports/2026-08-28-premarket.html and pushed; summary delivered by push notification."
+  },
+  "alerts": [
+    {
+      "id": "cash-band-2026-08-28",
+      "type": "cash_target_breach",
+      "detail": "Cash 15.16% of net liq vs 7.5-10% target band; ~$3,100 above the top of the band.",
+      "new_today": true
+    },
+    {
+      "id": "spwo-weight-2026-08-28",
+      "type": "position_weight_note",
+      "detail": "SPWO 11.28%, above the 10% single-position ceiling but a diversified world ex-US Shariah ETF. Exclusion clause in st0ck_rules.md names only SPUS. Flagged as a rules gap, not raised as a concentration alert.",
+      "new_today": true
+    },
+    {
+      "id": "theme-cap-2026-08-28",
+      "type": "theme_correlation_watch",
+      "detail": "Direct AI-capex cluster (AVGO+VRT+NOK) 17.79%. Broad AI complex including NOW and APP reaches 30.51%, at the 30% cap.",
+      "new_today": true
+    }
+  ],
+  "review_flags": [
+    "Warsh first Jackson Hole keynote today; ~1-in-3 odds priced for a September rate hike.",
+    "AVGO fiscal Q3 Wed 2 Sep after close; options imply +/-12.4% (~+/-$465 on the position).",
+    "VRT: fourth securities investigation opened 26 Aug (Hagens Berman), following 29 Jul Q2 miss and -17.3% drop.",
+    "NVO: Deutsche Bank first Sell rating 27 Aug; largest single stock at 9.26%, near the 10% ceiling."
+  ],
+  "threshold_breaches_requiring_action": {
+    "single_position_10pct": false,
+    "single_position_12pct": false,
+    "price_minus_15pct": false,
+    "price_minus_20pct": false,
+    "cash_band": true
+  }
+}
