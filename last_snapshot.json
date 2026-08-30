@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-08-30T17:05:51Z",
+  "source": "IBKR live pull",
+  "net_liquidation_value_usd": 59542.12,
+  "cash_usd": 9072.66,
+  "cash_weight": 0.1524,
+  "positions": [
+    {"symbol": "APP",  "shares": 11,  "avg_cost": 309.7809, "currency": "USD", "market_value_usd": 3503.50,  "weight": 0.0588},
+    {"symbol": "AVGO", "shares": 10,  "avg_cost": 384.5667, "currency": "USD", "market_value_usd": 3687.90,  "weight": 0.0619},
+    {"symbol": "HIES", "shares": 140, "avg_cost": 25.3368,  "currency": "EUR", "market_value_usd": 4176.70,  "weight": 0.0701},
+    {"symbol": "ISRG", "shares": 10,  "avg_cost": 392.881,  "currency": "USD", "market_value_usd": 3738.00,  "weight": 0.0628},
+    {"symbol": "NOK",  "shares": 400, "avg_cost": 10.3313,  "currency": "USD", "market_value_usd": 4072.04,  "weight": 0.0684},
+    {"symbol": "NOW",  "shares": 30,  "avg_cost": 118.5933, "currency": "USD", "market_value_usd": 4296.00,  "weight": 0.0722},
+    {"symbol": "NVO",  "shares": 120, "avg_cost": 45.3158,  "currency": "USD", "market_value_usd": 5473.20,  "weight": 0.0919},
+    {"symbol": "SPUS", "shares": 208, "avg_cost": 58.8428,  "currency": "USD", "market_value_usd": 12228.32, "weight": 0.2054},
+    {"symbol": "SPWO", "shares": 200, "avg_cost": 33.635,   "currency": "USD", "market_value_usd": 6692.00,  "weight": 0.1124},
+    {"symbol": "VRT",  "shares": 10,  "avg_cost": 280.07,   "currency": "USD", "market_value_usd": 2591.10,  "weight": 0.0435}
+  ],
+  "week_trades_included": [
+    "SPUS SELL 90 @ 59.11 (2026-08-27)",
+    "NVO BUY 50 @ 45.83 (2026-08-27)",
+    "APP BUY 11 @ 309.69 (2026-08-27)",
+    "MRVL BUY 10 @ 243.84 / SELL 10 @ 256.08 (2026-08-26/27) - closed, not held",
+    "NVDA BUY 31 @ 214.98 / SELL 31 @ 219.00 (2026-08-26) - closed, not held",
+    "NOK BUY 300 @ 10.39 (2026-08-26)",
+    "SPWO BUY 200 @ 33.63 (2026-08-26)",
+    "HIES BUY 140 @ 25.31 EUR (2026-08-26)"
+  ]
+}
