@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-31",
+  "alerts": [
+    {
+      "ticker": "AVGO",
+      "type": "concentration_10pct",
+      "detected_at": "2026-08-31T15:19:00Z",
+      "weight_pct": 10.74,
+      "threshold_pct": 10.0,
+      "reason": "10.7% weight exceeds 10% single-position ceiling; below 12% mandatory-review line",
+      "news_checked": true,
+      "news_summary": "No adverse catalyst. Consensus Buy, up on the year, VMware Explore 2026 opened Aug 31; fiscal Q3 earnings Sept 2.",
+      "delivery": {
+        "channel": "inkbox_email",
+        "to": "kbialmannai@gmail.com",
+        "status": "failed",
+        "error": "inkbox_unanswered_limit — 20 messages sent without a reply (limit 20)",
+        "retry_eligible": true
+      },
+      "notified_via": "push_notification"
+    }
+  ],
+  "notes": "Alert is logged as detected-but-undelivered. Dedup should NOT suppress a retry of this alert while delivery.status is 'failed'; suppress only once it has been delivered."
+}
