@@ -1,0 +1,19 @@
+{
+  "date": "2026-08-31",
+  "alerts": [
+    {
+      "id": "cash-band-2026-08-31",
+      "type": "cash_target_breach",
+      "fired_at_utc": "2026-08-31T13:34:00Z",
+      "detail": "Cash 26.38% of NLV ($18,072.66) vs 7.5-10% target. Approx $11,222 above top of band.",
+      "delivered_via": "email:kbialmannai@gmail.com",
+      "severity": "review"
+    }
+  ],
+  "not_fired": {
+    "concentration": "No position >=10% excluding SPUS. Highest: SPWO 9.78%.",
+    "price_review_15pct": "No position at -15% vs cost. Worst: VRT -7.95%.",
+    "price_decision_20pct": "None.",
+    "theme_correlation_30pct": "AI/long-duration cluster 26.63% - under cap."
+  }
+}

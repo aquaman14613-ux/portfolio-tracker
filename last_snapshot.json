@@ -1,0 +1,41 @@
+{
+  "captured_at_utc": "2026-08-31T13:34:00Z",
+  "captured_at_et": "2026-08-31T09:34:00-04:00",
+  "source": "IBKR live (reachable)",
+  "account_summary": {
+    "currency": "USD",
+    "net_liquidation": 68507.21,
+    "total_cash_value": 18072.66,
+    "gross_position_value": 50433.37,
+    "available_funds": 18072.66,
+    "excess_liquidity": 18072.66,
+    "initial_margin": 0,
+    "maintenance_margin": 0,
+    "leverage": "0.74",
+    "cash_pct_of_nlv": 26.38
+  },
+  "fx": {
+    "EURUSD": 1.15989555
+  },
+  "positions": [
+    {"ticker": "SPUS", "contract_id": 396046406, "qty": 208, "avg_cost": 58.84279135, "market_price": 58.75500105, "market_value_usd": 12221.04, "unrealized_pnl": -18.26, "pct_vs_cost": -0.15, "weight_pct": 17.84, "currency": "USD"},
+    {"ticker": "SPWO", "contract_id": 673665039, "qty": 200, "avg_cost": 33.635003, "market_price": 33.4900017, "market_value_usd": 6698.00, "unrealized_pnl": -29.00, "pct_vs_cost": -0.43, "weight_pct": 9.78, "currency": "USD"},
+    {"ticker": "NVO", "contract_id": 10611, "qty": 120, "avg_cost": 45.31583667, "market_price": 45.09999845, "market_value_usd": 5412.00, "unrealized_pnl": -25.90, "pct_vs_cost": -0.48, "weight_pct": 7.90, "currency": "USD"},
+    {"ticker": "NOW", "contract_id": 109911821, "qty": 30, "avg_cost": 118.59333667, "market_price": 145.0299988, "market_value_usd": 4350.90, "unrealized_pnl": 793.10, "pct_vs_cost": 22.29, "weight_pct": 6.35, "currency": "USD"},
+    {"ticker": "HIES", "contract_id": 872765740, "qty": 140, "avg_cost": 25.33678571, "market_price": 25.625, "market_value_eur": 3587.50, "market_value_usd": 4155.77, "unrealized_pnl_eur": 40.35, "pct_vs_cost": 1.14, "weight_pct": 6.07, "currency": "EUR", "exchange": "SBF", "name": "HSBC MSCI EM Islamic ESG UCITS ETF"},
+    {"ticker": "NOK", "contract_id": 661513, "qty": 400, "avg_cost": 10.331253, "market_price": 10.26500035, "market_value_usd": 4106.00, "unrealized_pnl": -26.50, "pct_vs_cost": -0.64, "weight_pct": 5.99, "currency": "USD"},
+    {"ticker": "AVGO", "contract_id": 313130367, "qty": 10, "avg_cost": 384.56667, "market_price": 372.25, "market_value_usd": 3722.50, "unrealized_pnl": -123.17, "pct_vs_cost": -3.20, "weight_pct": 5.43, "currency": "USD"},
+    {"ticker": "ISRG", "contract_id": 9063285, "qty": 10, "avg_cost": 392.881, "market_price": 367.57998655, "market_value_usd": 3675.80, "unrealized_pnl": -253.01, "pct_vs_cost": -6.44, "weight_pct": 5.37, "currency": "USD"},
+    {"ticker": "APP", "contract_id": 481863646, "qty": 11, "avg_cost": 309.78090909, "market_price": 317.33499145, "market_value_usd": 3490.68, "unrealized_pnl": 83.09, "pct_vs_cost": 2.44, "weight_pct": 5.10, "currency": "USD"},
+    {"ticker": "VRT", "contract_id": 402783527, "qty": 10, "avg_cost": 280.07, "market_price": 257.81500245, "market_value_usd": 2578.15, "unrealized_pnl": -222.55, "pct_vs_cost": -7.95, "weight_pct": 3.76, "currency": "USD"}
+  ],
+  "checks": {
+    "single_position_ceiling_10pct": "PASS - highest ex-SPUS is SPWO at 9.78%",
+    "single_position_mandatory_review_12pct": "PASS",
+    "spus_excluded_from_concentration": true,
+    "theme_correlation_cap_30pct": "PASS - AI/long-duration cluster (APP, AVGO, NOK, NOW, VRT) = 26.63%",
+    "price_review_minus15pct": "PASS - worst is VRT at -7.95%",
+    "price_documented_decision_minus20pct": "PASS",
+    "cash_target_7_5_to_10pct": "BREACH - 26.38%, approx $11,222 above top of band"
+  }
+}
