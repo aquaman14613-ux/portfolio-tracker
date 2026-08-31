@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-31",
+  "alerts": [
+    {
+      "ticker": "AVGO",
+      "type": "concentration",
+      "rule": "single-position ceiling 10%",
+      "detected_at": "2026-08-31T18:20:00Z",
+      "weight_pct": 10.81,
+      "market_value_usd": 7415.32,
+      "net_liquidation_usd": 68610.13,
+      "detail": "20 sh @ 370.77; ceiling value 6861.01; below 12% mandatory-review line",
+      "delivered": false,
+      "delivery_channel": "inkbox_email",
+      "delivery_error": "403 inkbox_unanswered_limit - 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)",
+      "fallback_delivery": "push_notification",
+      "retry_email": true
+    }
+  ]
+}
