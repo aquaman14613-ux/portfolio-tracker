@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-31",
+  "alerts": [
+    {
+      "id": "2026-08-31-AVGO-weight-10pct",
+      "ticker": "AVGO",
+      "type": "weight_breach",
+      "threshold": "10% single-position ceiling",
+      "value_pct": 10.79,
+      "detected_at": "2026-08-31T16:19:00Z",
+      "subject": "⚠ Portfolio Alert – AVGO – 10.8% weight, above 10% ceiling",
+      "delivered": false,
+      "delivery_channel": "inkbox_email",
+      "delivery_error": "403 conversation_unhealthy / inkbox_unanswered_limit — 20 messages sent without a reply (limit 20)",
+      "fallback_delivery": "push_notification",
+      "retry_email": true,
+      "note": "Email blocked, not delivered. Retry email on a later run; do not treat as already-sent for dedup purposes until delivered=true."
+    }
+  ],
+  "ibkr_status": {
+    "last_run": "2026-08-31T16:19:00Z",
+    "reachable": true,
+    "consecutive_failures": 0
+  }
+}

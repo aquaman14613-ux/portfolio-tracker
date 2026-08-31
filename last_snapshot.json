@@ -1,0 +1,24 @@
+{
+  "as_of": "2026-08-31T16:19:00Z",
+  "as_of_et": "2026-08-31 12:19 ET",
+  "source": "IBKR",
+  "base_currency": "USD",
+  "net_liquidation": 68421.28,
+  "gross_position_value": 68418.74,
+  "total_cash_value": 1.36,
+  "cash_pct": 0.0,
+  "positions": [
+    {"ticker": "APP",  "contract_id": 481863646, "qty": 21,       "currency": "USD", "market_price": 309.4450073,  "avg_cost": 308.59952381, "market_value_usd": 6498.35,  "pct_vs_cost": 0.27,   "daily_pnl": -70.01,  "daily_pct": -1.07, "weight_pct": 9.50},
+    {"ticker": "AVGO", "contract_id": 313130367, "qty": 20,       "currency": "USD", "market_price": 369.0249939,  "avg_cost": 376.473335,   "market_value_usd": 7380.50,  "pct_vs_cost": -1.98,  "daily_pnl": 8.80,    "daily_pct": 0.07,  "weight_pct": 10.79},
+    {"ticker": "HIES", "contract_id": 872765740, "qty": 140,      "currency": "EUR", "market_price": 25.4750004,   "avg_cost": 25.33678571,  "market_value_usd": 4154.55,  "pct_vs_cost": 0.55,   "daily_pnl": -39.20,  "daily_pct": -1.09, "weight_pct": 6.07},
+    {"ticker": "ISRG", "contract_id": 9063285,   "qty": 10,       "currency": "USD", "market_price": 373.70999145, "avg_cost": 392.881,      "market_value_usd": 3737.10,  "pct_vs_cost": -4.88,  "daily_pnl": 11.10,   "daily_pct": 0.30,  "weight_pct": 5.46},
+    {"ticker": "NOK",  "contract_id": 661513,    "qty": 600,      "currency": "USD", "market_price": 10.0649996,   "avg_cost": 10.239003,    "market_value_usd": 6039.00,  "pct_vs_cost": -1.70,  "daily_pnl": -55.90,  "daily_pct": -0.92, "weight_pct": 8.83},
+    {"ticker": "NOW",  "contract_id": 109911821, "qty": 30,       "currency": "USD", "market_price": 148.5099945,  "avg_cost": 118.59333667, "market_value_usd": 4455.30,  "pct_vs_cost": 25.23,  "daily_pnl": 114.00,  "daily_pct": 2.63,  "weight_pct": 6.51},
+    {"ticker": "NVO",  "contract_id": 10611,     "qty": 120,      "currency": "USD", "market_price": 45.53499985,  "avg_cost": 45.31583667,  "market_value_usd": 5464.20,  "pct_vs_cost": 0.48,   "daily_pnl": -9.00,   "daily_pct": -0.16, "weight_pct": 7.99},
+    {"ticker": "SPUS", "contract_id": 396046406, "qty": 322.5194, "currency": "USD", "market_price": 58.63010025,  "avg_cost": 58.78808818,  "market_value_usd": 18909.34, "pct_vs_cost": -0.27,  "daily_pnl": -39.97,  "daily_pct": -0.21, "weight_pct": 27.64, "concentration_check": "excluded"},
+    {"ticker": "SPWO", "contract_id": 673665039, "qty": 200,      "currency": "USD", "market_price": 33.31000135,  "avg_cost": 33.635003,    "market_value_usd": 6662.00,  "pct_vs_cost": -0.97,  "daily_pnl": -30.00,  "daily_pct": -0.45, "weight_pct": 9.74},
+    {"ticker": "VRT",  "contract_id": 402783527, "qty": 20,       "currency": "USD", "market_price": 255.920105,   "avg_cost": 269.165,      "market_value_usd": 5118.40,  "pct_vs_cost": -4.92,  "daily_pnl": -34.99,  "daily_pct": -0.68, "weight_pct": 7.48}
+  ],
+  "fx": {"EURUSD": 1.1649},
+  "notes": "First recorded snapshot; no prior baseline existed in repo."
+}
