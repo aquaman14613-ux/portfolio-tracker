@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-31",
+  "alerts": [
+    {
+      "id": "2026-08-31-AVGO-weight-10pct",
+      "ticker": "AVGO",
+      "type": "weight_breach",
+      "threshold": "10% single-position ceiling",
+      "value_pct": 10.78,
+      "detected_at": "2026-08-31T19:18:00Z",
+      "reason": "AVGO at 10.78% of NLV ($7,391.20 of $68,567.70), above the 10% ceiling; below the 12% mandatory-review level. Weight/drift breach, not a price event (intraday +0.26%, -1.8% vs cost).",
+      "news_check": "One search run for AVGO. No adverse news driving the weight. Fiscal Q3 earnings scheduled 2026-09-02 is near-term event risk on an oversized position.",
+      "delivery": {
+        "channel": "inkbox_email",
+        "to": "kbialmannai@gmail.com",
+        "subject": "⚠ Portfolio Alert – AVGO – 10.8% weight breach",
+        "status": "failed",
+        "error": "403 inkbox_unanswered_limit — 20 messages sent to this recipient without a reply (limit 20). Requires an authenticated reply, a verified recipient domain, or a support limit increase.",
+        "retry": "Do not auto-retry: the block is not a time window and will not clear on its own. Re-attempt only once the Inkbox limit is lifted."
+      },
+      "suppress_repeat": true
+    }
+  ],
+  "checks_run": {
+    "intraday_move_5pct": "none",
+    "weight_breach_10_12pct": "AVGO 10.78% (SPUS 27.62% excluded per rules)",
+    "cost_breach_15_20pct": "none (worst: ISRG -4.48%)"
+  },
+  "ibkr_status": {
+    "last_result": "ok",
+    "consecutive_failures": 0
+  }
+}
