@@ -1,0 +1,48 @@
+{
+  "as_of_utc": "2026-08-31T13:21:34Z",
+  "as_of_et": "2026-08-31T09:21:34-04:00",
+  "source": "IBKR",
+  "source_status": "ok",
+  "consecutive_ibkr_failures": 0,
+  "basis": {
+    "weight_denominator": "net_liquidation",
+    "note": "Weights are % of total portfolio value including cash, consistent with the 7.5-10% cash target being expressed against the same total. Invested-only weights recorded separately for reference."
+  },
+  "account": {
+    "currency": "USD",
+    "net_liquidation": 68300.24,
+    "gross_position_value": 50226.4,
+    "total_cash_value": 18072.66,
+    "cash_weight_pct": 26.46,
+    "fx_eur_usd": 1.18096
+  },
+  "positions": [
+    {"ticker": "APP",  "contract_id": 481863646, "qty": 11,  "currency": "USD", "market_price": 314.5,        "avg_cost": 309.78090909, "market_value_usd": 3459.50,  "weight_pct_netliq": 5.07,  "weight_pct_invested": 6.89,  "intraday_pct": -1.04, "vs_cost_pct": 1.52},
+    {"ticker": "AVGO", "contract_id": 313130367, "qty": 10,  "currency": "USD", "market_price": 367.6799927,  "avg_cost": 384.56667,    "market_value_usd": 3676.80,  "weight_pct_netliq": 5.38,  "weight_pct_invested": 7.32,  "intraday_pct": -0.30, "vs_cost_pct": -4.39},
+    {"ticker": "HIES", "contract_id": 872765740, "qty": 140, "currency": "EUR", "market_price": 25.5400009,   "avg_cost": 25.33678571,  "market_value_usd": 4222.65,  "weight_pct_netliq": 6.18,  "weight_pct_invested": 8.41,  "intraday_pct": -0.84, "vs_cost_pct": 0.80},
+    {"ticker": "ISRG", "contract_id": 9063285,   "qty": 10,  "currency": "USD", "market_price": 370.519989,   "avg_cost": 392.881,      "market_value_usd": 3705.20,  "weight_pct_netliq": 5.42,  "weight_pct_invested": 7.38,  "intraday_pct": -0.56, "vs_cost_pct": -5.69},
+    {"ticker": "NOK",  "contract_id": 661513,    "qty": 400, "currency": "USD", "market_price": 10.14850045,  "avg_cost": 10.331253,    "market_value_usd": 4059.40,  "weight_pct_netliq": 5.94,  "weight_pct_invested": 8.08,  "intraday_pct": -0.61, "vs_cost_pct": -1.77},
+    {"ticker": "NOW",  "contract_id": 109911821, "qty": 30,  "currency": "USD", "market_price": 141.05000305, "avg_cost": 118.59333667, "market_value_usd": 4231.50,  "weight_pct_netliq": 6.20,  "weight_pct_invested": 8.42,  "intraday_pct": -2.59, "vs_cost_pct": 18.94},
+    {"ticker": "NVO",  "contract_id": 10611,     "qty": 120, "currency": "USD", "market_price": 45.16999815,  "avg_cost": 45.31583667,  "market_value_usd": 5420.40,  "weight_pct_netliq": 7.94,  "weight_pct_invested": 10.79, "intraday_pct": -0.97, "vs_cost_pct": -0.32},
+    {"ticker": "SPUS", "contract_id": 396046406, "qty": 208, "currency": "USD", "market_price": 58.65000155,  "avg_cost": 58.84279135,  "market_value_usd": 12199.20, "weight_pct_netliq": 17.86, "weight_pct_invested": 24.29, "intraday_pct": -0.24, "vs_cost_pct": -0.33, "concentration_check": "excluded"},
+    {"ticker": "SPWO", "contract_id": 673665039, "qty": 200, "currency": "USD", "market_price": 33.4700012,   "avg_cost": 33.635003,    "market_value_usd": 6694.00,  "weight_pct_netliq": 9.80,  "weight_pct_invested": 13.33, "intraday_pct": 0.03,  "vs_cost_pct": -0.49},
+    {"ticker": "VRT",  "contract_id": 402783527, "qty": 10,  "currency": "USD", "market_price": 255.7745056,  "avg_cost": 280.07,       "market_value_usd": 2557.75,  "weight_pct_netliq": 3.74,  "weight_pct_invested": 5.09,  "intraday_pct": -0.51, "vs_cost_pct": -8.67}
+  ],
+  "stage1_result": {
+    "triggers_found": false,
+    "intraday_move_ge_5pct": [],
+    "weight_breach_10pct": [],
+    "weight_breach_12pct": [],
+    "cost_breach_15pct": [],
+    "cost_breach_20pct": [],
+    "extremes": {
+      "largest_intraday_move": {"ticker": "NOW", "pct": -2.59},
+      "largest_non_excluded_weight": {"ticker": "SPWO", "weight_pct_netliq": 9.80},
+      "worst_vs_cost": {"ticker": "VRT", "pct": -8.67}
+    }
+  },
+  "watch_items": [
+    "SPWO at 9.80% of net liquidation is approaching the 10% single-position ceiling.",
+    "Cash at 26.46% is well above the 7.5-10% target band; not an alert trigger under this routine's checks."
+  ]
+}

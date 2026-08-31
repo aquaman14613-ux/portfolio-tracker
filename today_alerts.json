@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-31",
+  "alerts_sent": [],
+  "runs": [
+    {
+      "ts_utc": "2026-08-31T13:21:34Z",
+      "stage": 1,
+      "ibkr": "ok",
+      "triggers": 0,
+      "action": "none",
+      "note": "First run; baseline snapshot created."
+    }
+  ]
+}
