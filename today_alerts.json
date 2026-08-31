@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-31",
+  "alerts": [
+    {
+      "id": "2026-08-31-AVGO-weight-10pct",
+      "timestamp": "2026-08-31T14:20:21Z",
+      "ticker": "AVGO",
+      "type": "concentration",
+      "trigger": "single-position weight 10.79% exceeds 10% ceiling",
+      "detail": {
+        "quantity": 20,
+        "market_price": 368.56,
+        "market_value_usd": 7371.2,
+        "net_liquidation": 68329,
+        "weight_pct": 10.79,
+        "ceiling_pct": 10,
+        "mandatory_review_pct": 12,
+        "cause": "drift; AVGO daily P&L -$0.50",
+        "context": "Broadcom fiscal Q3 earnings 2026-09-02"
+      },
+      "notified_via": "push_notification",
+      "email": {
+        "delivered": false,
+        "to": "kbialmannai@gmail.com",
+        "subject": "⚠ Portfolio Alert – AVGO – 10.8% weight breaches 10% ceiling",
+        "error": "inkbox_unanswered_limit — 20 messages sent to recipient without a reply (limit 20); blocked until recipient replies, domain is verified, or limit is raised",
+        "retry_when_unblocked": true
+      }
+    }
+  ],
+  "ibkr_consecutive_failures": 0
+}
