@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-31",
+  "alerts": [
+    {
+      "id": "concentration-AVGO-2026-08-31",
+      "type": "concentration",
+      "ticker": "AVGO",
+      "weight_pct": 10.79,
+      "threshold_pct": 10.0,
+      "severity": "breach",
+      "note": "Above 10% single-position ceiling; below 12% mandatory-review line.",
+      "sent_utc": "2026-08-31T20:15:00Z",
+      "channel": "push_notification (email to kbialmannai@gmail.com BLOCKED: Inkbox inkbox_unanswered_limit, 20 sends without a reply)",
+      "email_delivered": false
+    },
+    {
+      "id": "cash-below-target-2026-08-31",
+      "type": "cash_target",
+      "cash_pct": 0.002,
+      "target_range_pct": [
+        7.5,
+        10.0
+      ],
+      "severity": "breach",
+      "note": "Cash effectively zero ($1.36) vs 7.5-10% target; portfolio fully invested.",
+      "sent_utc": "2026-08-31T20:15:00Z",
+      "channel": "push_notification (email to kbialmannai@gmail.com BLOCKED: Inkbox inkbox_unanswered_limit, 20 sends without a reply)",
+      "email_delivered": false
+    }
+  ],
+  "delivery_note": "Inkbox refused the send with upstream 403 inkbox_unanswered_limit. Report archived at reports/2026-08-31-post-close.{txt,html}; summary delivered by push notification instead."
+}

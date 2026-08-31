@@ -1,0 +1,170 @@
+{
+  "timestamp_utc": "2026-08-31T20:15:00Z",
+  "session": "2026-08-31 post-close",
+  "source": "IBKR MCP (live)",
+  "account": {
+    "net_liquidation_usd": 68610.5849,
+    "gross_position_value_usd": 68608.04,
+    "total_cash_usd": 1.3609,
+    "cash_pct_of_nlv": 0.002,
+    "unrealized_pnl_usd": 339.44,
+    "realized_pnl_usd": 0.0,
+    "leverage": "1.0"
+  },
+  "fx": {
+    "EURUSD": 1.16189205
+  },
+  "positions": [
+    {
+      "ticker": "SPUS",
+      "name": "SP Funds S&P 500 Sharia ETF",
+      "qty": 322.5194,
+      "currency": "USD",
+      "market_price": 58.9624,
+      "avg_cost": 58.7881,
+      "market_value_usd": 19016.52,
+      "weight_pct": 27.72,
+      "unrealized_pnl_usd": 56.22,
+      "unrealized_pct": 0.3,
+      "day_pnl_usd": 67.2,
+      "day_pct": 0.35
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "qty": 20,
+      "currency": "USD",
+      "market_price": 370.06,
+      "avg_cost": 376.4733,
+      "market_value_usd": 7401.2,
+      "weight_pct": 10.79,
+      "unrealized_pnl_usd": -128.27,
+      "unrealized_pct": -1.7,
+      "day_pnl_usd": 29.5,
+      "day_pct": 0.4
+    },
+    {
+      "ticker": "SPWO",
+      "name": "SP Funds S&P World ex-US ETF",
+      "qty": 200,
+      "currency": "USD",
+      "market_price": 33.3,
+      "avg_cost": 33.635,
+      "market_value_usd": 6660.0,
+      "weight_pct": 9.71,
+      "unrealized_pnl_usd": -67.0,
+      "unrealized_pct": -1.0,
+      "day_pnl_usd": -32.0,
+      "day_pct": -0.48
+    },
+    {
+      "ticker": "APP",
+      "name": "AppLovin",
+      "qty": 21,
+      "currency": "USD",
+      "market_price": 311.9971,
+      "avg_cost": 308.5995,
+      "market_value_usd": 6551.94,
+      "weight_pct": 9.55,
+      "unrealized_pnl_usd": 71.35,
+      "unrealized_pct": 1.1,
+      "day_pnl_usd": -16.42,
+      "day_pct": -0.25
+    },
+    {
+      "ticker": "NOK",
+      "name": "Nokia",
+      "qty": 600,
+      "currency": "USD",
+      "market_price": 10.1,
+      "avg_cost": 10.239,
+      "market_value_usd": 6060.0,
+      "weight_pct": 8.83,
+      "unrealized_pnl_usd": -83.4,
+      "unrealized_pct": -1.36,
+      "day_pnl_usd": -34.9,
+      "day_pct": -0.57
+    },
+    {
+      "ticker": "NVO",
+      "name": "Novo Nordisk",
+      "qty": 120,
+      "currency": "USD",
+      "market_price": 45.44,
+      "avg_cost": 45.3158,
+      "market_value_usd": 5452.8,
+      "weight_pct": 7.95,
+      "unrealized_pnl_usd": 14.9,
+      "unrealized_pct": 0.27,
+      "day_pnl_usd": -20.4,
+      "day_pct": -0.37
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv",
+      "qty": 20,
+      "currency": "USD",
+      "market_price": 258.39,
+      "avg_cost": 269.165,
+      "market_value_usd": 5167.8,
+      "weight_pct": 7.53,
+      "unrealized_pnl_usd": -215.5,
+      "unrealized_pct": -4.0,
+      "day_pnl_usd": 14.4,
+      "day_pct": 0.28
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "qty": 30,
+      "currency": "USD",
+      "market_price": 147.5104,
+      "avg_cost": 118.5933,
+      "market_value_usd": 4425.31,
+      "weight_pct": 6.45,
+      "unrealized_pnl_usd": 867.51,
+      "unrealized_pct": 24.38,
+      "day_pnl_usd": 84.01,
+      "day_pct": 1.94
+    },
+    {
+      "ticker": "HIES",
+      "name": "HSBC MSCI EM Islamic ESG ETF",
+      "qty": 140,
+      "currency": "EUR",
+      "market_price": 25.465,
+      "avg_cost": 25.3368,
+      "market_value_usd": 4142.26,
+      "weight_pct": 6.04,
+      "unrealized_pnl_usd": 20.86,
+      "unrealized_pct": 0.51,
+      "day_pnl_usd": -47.17,
+      "day_pct": -1.13
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "qty": 10,
+      "currency": "USD",
+      "market_price": 376.4,
+      "avg_cost": 392.881,
+      "market_value_usd": 3764.0,
+      "weight_pct": 5.49,
+      "unrealized_pnl_usd": -164.81,
+      "unrealized_pct": -4.19,
+      "day_pnl_usd": 38.0,
+      "day_pct": 1.02
+    }
+  ],
+  "benchmark": {
+    "ticker": "SPUS",
+    "day_pct": 0.355,
+    "since_inception_pct": 0.297
+  },
+  "portfolio_return": {
+    "day_pct": 0.12,
+    "since_inception_pct": 0.545,
+    "ex_spus_sleeve_day_pct": 0.03,
+    "ex_spus_sleeve_inception_pct": 0.64
+  }
+}

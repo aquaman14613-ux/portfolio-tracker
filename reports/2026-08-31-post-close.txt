@@ -1,0 +1,80 @@
+POST-CLOSE PORTFOLIO REPORT - Mon 31 Aug 2026
+IBKR live pull, post-close marks. NLV $68,610.58. EURUSD 1.1619.
+
+PERFORMANCE VS SPUS
+  Today                       Portfolio +0.12%  |  SPUS +0.35%  |  -0.23 pp
+  Since inception (unreal.)   Portfolio +0.55%  |  SPUS +0.30%  |  +0.25 pp
+  Stock sleeve (ex-SPUS)      +0.64%            |  SPUS +0.30%  |  +0.34 pp
+Day P&L +$82.22; total unrealized +$339.44. Today's gain was almost all SPUS
+(+$67); the stock sleeve added just +$15 - HIES -$47, NOK -$35, SPWO -$32 vs
+NOW +$84 and ISRG +$38.
+
+POSITIONS (USD)
+Ticker  Qty      Price    Mkt Val    Wt      Unreal.    Unr%     Day P&L   Day%    Flag
+SPUS    322.52   58.96    19,016.52  27.72%   +56.22   +0.30%    +67.20   +0.35%  benchmark - excluded
+AVGO     20     370.06     7,401.20  10.79%  -128.27   -1.70%    +29.50   +0.40%  >10% CEILING BREACH
+SPWO    200      33.30     6,660.00   9.71%   -67.00   -1.00%    -32.00   -0.48%  approaching 10%
+APP      21     312.00     6,551.94   9.55%   +71.35   +1.10%    -16.42   -0.25%  approaching 10%
+NOK     600      10.10     6,060.00   8.83%   -83.40   -1.36%    -34.90   -0.57%
+NVO     120      45.44     5,452.80   7.95%   +14.90   +0.27%    -20.40   -0.37%
+VRT      20     258.39     5,167.80   7.53%  -215.50   -4.00%    +14.40   +0.28%  largest $ drawdown
+NOW      30     147.51     4,425.31   6.45%  +867.51  +24.38%    +84.01   +1.94%  top contributor
+HIES    140     EUR25.47   4,142.26   6.04%   +20.86   +0.51%    -47.17   -1.13%  EUR / Euronext
+ISRG     10     376.40     3,764.00   5.49%  -164.81   -4.19%    +38.00   +1.02%  worst % drawdown
+TOTAL                     68,641.83  100.0%  +371.86   +0.54%    +82.22   +0.12%
+No zero-share/closed positions returned.
+
+THRESHOLD CHECKS
+  Single-position ceiling 10% : BREACH - AVGO 10.79% (0.79 pp over). Below the
+      12% mandatory-review line. Trimming ~$860 (~2.3 sh) restores compliance.
+  Mandatory review 12%        : Clear (max non-SPUS 10.79%)
+  Cash target 7.5-10%         : BREACH - $1.36 = 0.00%. 100% invested, no dry
+      powder for the AVGO trim or any drawdown add. Target range $5,150-$6,860.
+  Price review -15% / -20%    : Clear - deepest is ISRG at -4.19%.
+
+CORRELATION / THEME (cap 30%)
+  AI datacenter capex (AVGO+VRT)          18.32%  shared revenue driver
+  + enterprise AI software (NOW)          24.77%  under cap; the number to watch
+  All direct tech (APP,AVGO,NOW,VRT,NOK)  43.15%  not one sub-industry/driver - informational
+  Healthcare (ISRG+NVO)                   13.43%  clear
+No cluster breaches the cap on the rule's own terms. Two caveats: the AI cluster
+at 24.8% would cross 30% on ~a 20% relative re-rating alone, with no new buying;
+and SPUS (~28% of NLV) is itself tech-heavy, so look-through AI exposure is
+materially above 24.8%. A trailing-12mo correlation matrix isn't available from
+the IBKR pull, so the >0.7 leg of the test is unverified.
+
+SESSION NEWS (tier)
+  AVGO (D,B)  Q3 FY26 earnings Wed 2 Sep after close - the week's main event for
+              the largest single stock, and the one already over the ceiling.
+              VMware Explore 2026 opened today. Oppenheimer reiterated Buy, $535 PT.
+  NOW  (D)    +28% in a month on agentic-AI momentum. Q3 subscription guide
+              $3.98bn = +20.5% y/y, decelerating from +24% in Q2.
+  NOK  (B,D)  JPMorgan Overweight, $21 PT, top pick; Nvidia's $2.21bn stake backs
+              the AI-networking thesis. Offsetting: Hangzhou radio R&D unit
+              closing, ~1,600 jobs by end-2026. Run from ~$9.14 (31 Jul) to ~$10.10.
+  NVO  (A,B,D) China NMPA accepted the Wegovy marketing application (27 Aug);
+              Deutsche Bank downgraded to Sell the same day. Q2 strong GLP-1
+              growth but pricing pressure and pipeline setbacks.
+  APP  (B)    Needham cut PT to $475 from $500 (26 Aug), rating intact.
+  VRT  (B,C)  Bernstein maintained Buy (21 Aug); consensus PT ~$331. Guidance
+              raised, backlog robust. Traded $255.57-$270.00 on 30 Aug.
+  ISRG (C)    No stock-specific catalyst; +1.02%. Valuation vs decelerating
+              procedure growth remains the standing debate.
+  SPUS/SPWO (D) No fund news. SPUS +0.35% today, YTD +10.7%, -2.0% past month.
+  HIES (D)    No fund news. HSBC MSCI EM Islamic ESG UCITS ETF (Euronext, EUR).
+Tiers: A primary/filings, B institutional, C independent, D news, E alternative,
+F sentiment. No A-tier filings for the US holdings beyond the NVO acceptance.
+
+WHAT NEEDS A DECISION
+  1. AVGO at 10.79%, two days before earnings. Ceiling breach and a binary event
+     land together. Trim to <=10% is ~2.3 shares (~$860), which also starts
+     rebuilding cash. Doing nothing carries an oversized position into the print.
+  2. Cash at zero. No capacity to act on any trigger, including the AVGO trim's
+     reinvestment or a -15% drawdown add.
+  3. SPWO (9.71%) and APP (9.55%) are one good session from the same breach.
+  4. Rules gap: the SPUS concentration exclusion is written for SPUS only, but
+     SPWO and HIES are also diversified index ETFs, not single-stock risk. As
+     written they count against the ceiling. Extending the exclusion is your call.
+
+Shariah: SPUS/SPWO/HIES compliant by mandate. Zoya compliance for the seven
+single names was not re-verified - no Zoya source is wired into the pull.
