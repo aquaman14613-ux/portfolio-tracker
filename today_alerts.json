@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-01",
+  "alerts": [
+    {
+      "id": "2026-09-01-weight-NOW-12pct",
+      "ticker": "NOW",
+      "type": "single_position_weight",
+      "threshold": "12% mandatory review",
+      "value_pct": 12.52,
+      "market_value_usd": 9989.7,
+      "detected_at": "2026-09-01T20:20:00Z",
+      "email_sent": false,
+      "delivery_status": "blocked",
+      "delivery_error": "Inkbox 403 inkbox_unanswered_limit — 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)",
+      "notified_via": "push_notification",
+      "retry_email_next_run": true
+    },
+    {
+      "id": "2026-09-01-weight-VRT-12pct",
+      "ticker": "VRT",
+      "type": "single_position_weight",
+      "threshold": "12% mandatory review",
+      "value_pct": 12.83,
+      "market_value_usd": 10236.04,
+      "detected_at": "2026-09-01T20:20:00Z",
+      "email_sent": false,
+      "delivery_status": "blocked",
+      "delivery_error": "Inkbox 403 inkbox_unanswered_limit — 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)",
+      "notified_via": "push_notification",
+      "retry_email_next_run": true
+    }
+  ]
+}
