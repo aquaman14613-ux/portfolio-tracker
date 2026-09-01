@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-01",
+  "alerts": [
+    {
+      "ticker": "NOW",
+      "type": "concentration",
+      "threshold": "12% mandatory review",
+      "value_pct": 12.73,
+      "market_value_usd": 10124.45,
+      "triggered_at": "2026-09-01T14:22:00Z",
+      "delivery": {
+        "email": "failed",
+        "email_error": "inkbox_unanswered_limit (20 unanswered messages to kbialmannai@gmail.com)",
+        "push_notification": "sent"
+      }
+    },
+    {
+      "ticker": "VRT",
+      "type": "concentration",
+      "threshold": "12% mandatory review",
+      "value_pct": 12.54,
+      "market_value_usd": 9970.8,
+      "triggered_at": "2026-09-01T14:22:00Z",
+      "delivery": {
+        "email": "failed",
+        "email_error": "inkbox_unanswered_limit (20 unanswered messages to kbialmannai@gmail.com)",
+        "push_notification": "sent"
+      }
+    }
+  ]
+}

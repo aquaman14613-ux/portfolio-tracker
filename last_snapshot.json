@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-09-01T14:22:00Z",
+  "source": "IBKR",
+  "net_liquidation_value_usd": 79523.96,
+  "cash_usd": 858.96,
+  "cash_pct": 1.08,
+  "eur_usd_rate": 1.1605294,
+  "positions": [
+    {"ticker": "APP",  "shares": 21,       "currency": "USD", "market_price": 313.605011,  "avg_cost": 308.59952857, "market_value_usd": 6585.71,  "weight_pct": 8.28,  "day_pct": 0.50,  "vs_cost_pct": 1.62},
+    {"ticker": "AVGO", "shares": 20,       "currency": "USD", "market_price": 364.7850952, "avg_cost": 376.473335,   "market_value_usd": 7295.70,  "weight_pct": 9.17,  "day_pct": -1.50, "vs_cost_pct": -3.10},
+    {"ticker": "HIES", "shares": 140,      "currency": "EUR", "market_price": 25.5300007,  "avg_cost": 25.33678571,  "market_value_usd": 4147.96,  "weight_pct": 5.22,  "day_pct": 0.22,  "vs_cost_pct": 0.76},
+    {"ticker": "ISRG", "shares": 10,       "currency": "USD", "market_price": 371.3200073, "avg_cost": 392.881,      "market_value_usd": 3713.20,  "weight_pct": 4.67,  "day_pct": -1.47, "vs_cost_pct": -5.49},
+    {"ticker": "NOK",  "shares": 600,      "currency": "USD", "market_price": 9.78499985,  "avg_cost": 10.239003,    "market_value_usd": 5871.00,  "weight_pct": 7.38,  "day_pct": -3.50, "vs_cost_pct": -4.43},
+    {"ticker": "NOW",  "shares": 70,       "currency": "USD", "market_price": 144.6349945, "avg_cost": 133.52000286, "market_value_usd": 10124.45, "weight_pct": 12.73, "day_pct": -1.02, "vs_cost_pct": 8.32},
+    {"ticker": "NVO",  "shares": 120,      "currency": "USD", "market_price": 45.72499845, "avg_cost": 45.31583667,  "market_value_usd": 5487.00,  "weight_pct": 6.90,  "day_pct": 0.87,  "vs_cost_pct": 0.90},
+    {"ticker": "SPUS", "shares": 322.5194, "currency": "USD", "market_price": 58.43999865, "avg_cost": 58.78808841,  "market_value_usd": 18848.03, "weight_pct": 23.70, "day_pct": -0.68, "vs_cost_pct": -0.59},
+    {"ticker": "SPWO", "shares": 200,      "currency": "USD", "market_price": 33.19680025, "avg_cost": 33.635003,    "market_value_usd": 6639.36,  "weight_pct": 8.35,  "day_pct": -0.31, "vs_cost_pct": -1.30},
+    {"ticker": "VRT",  "shares": 40,       "currency": "USD", "market_price": 249.27000425,"avg_cost": 262.177505,   "market_value_usd": 9970.80,  "weight_pct": 12.54, "day_pct": -2.99, "vs_cost_pct": -4.92}
+  ],
+  "ibkr_consecutive_failures": 0
+}
