@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-01",
+  "alerts": [
+    {
+      "id": "2026-09-01-VRT-weight-12pct",
+      "ticker": "VRT",
+      "type": "weight_breach_12pct",
+      "reason": "Single-position weight 12.84% of net liquidation, above the 12% mandatory-review ceiling",
+      "weight_pct": 12.84,
+      "market_value_usd": 10237.6,
+      "pct_vs_cost": -2.38,
+      "detected_at": "2026-09-01T18:19:04Z",
+      "news_checked": true,
+      "news_driver": "none — Q2 2026 beat, full-year guidance raised; breach is portfolio drift, not a news event",
+      "delivery": {
+        "email": "failed",
+        "email_error": "Inkbox inkbox_unanswered_limit — 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)",
+        "push_notification": "sent"
+      }
+    },
+    {
+      "id": "2026-09-01-NOW-weight-12pct",
+      "ticker": "NOW",
+      "type": "weight_breach_12pct",
+      "reason": "Single-position weight 12.65% of net liquidation, above the 12% mandatory-review ceiling",
+      "weight_pct": 12.65,
+      "market_value_usd": 10087.7,
+      "pct_vs_cost": 7.93,
+      "detected_at": "2026-09-01T18:19:04Z",
+      "news_checked": true,
+      "news_driver": "none found; breach is portfolio drift",
+      "delivery": {
+        "email": "failed",
+        "email_error": "Inkbox inkbox_unanswered_limit — 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)",
+        "push_notification": "sent"
+      }
+    }
+  ],
+  "ibkr_status": {
+    "last_run": "2026-09-01T18:19:04Z",
+    "result": "ok",
+    "consecutive_failures": 0
+  },
+  "searches_used": 1
+}
