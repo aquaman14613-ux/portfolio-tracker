@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-01",
+  "delivery": {
+    "intended_channel": "email:kbialmannai@gmail.com via Inkbox",
+    "status": "FAILED",
+    "failure_reason": "inkbox_unanswered_limit — 20 messages sent to kbialmannai@gmail.com without a reply (limit 20). Sends resume on an authenticated reply, recipient-domain verification on a paid plan, or a support limit increase.",
+    "attempted_utc": "2026-09-01T12:22:00Z",
+    "fallback_channel": "push notification to session owner",
+    "report_artifact": "reports/2026-09-01-premarket.html"
+  },
+  "alerts": [
+    {
+      "id": "conc-VRT-2026-09-01",
+      "type": "single_position_ceiling",
+      "ticker": "VRT",
+      "weight_pct": 12.87,
+      "threshold_pct": 12.0,
+      "severity": "mandatory_review",
+      "delivered": false
+    },
+    {
+      "id": "conc-NOW-2026-09-01",
+      "type": "single_position_ceiling",
+      "ticker": "NOW",
+      "weight_pct": 12.77,
+      "threshold_pct": 12.0,
+      "severity": "mandatory_review",
+      "delivered": false
+    },
+    {
+      "id": "theme-AI-2026-09-01",
+      "type": "theme_correlation_cap",
+      "theme": "AI compute / monetization complex",
+      "constituents": ["VRT", "NOW", "AVGO", "APP"],
+      "weight_pct": 42.89,
+      "threshold_pct": 30.0,
+      "severity": "breach",
+      "note": "Understated — SPUS (Shariah screen strips financials, leaving a tech overweight) and HIES (EM index gains concentrated in TSMC/Samsung/SK Hynix) add further exposure to the same driver.",
+      "delivered": false
+    },
+    {
+      "id": "cash-2026-09-01",
+      "type": "cash_target_shortfall",
+      "cash_pct": 1.08,
+      "target_range_pct": [7.5, 10.0],
+      "severity": "below_floor",
+      "delivered": false
+    },
+    {
+      "id": "event-AVGO-2026-09-01",
+      "type": "event_risk",
+      "ticker": "AVGO",
+      "event": "Q3 FY26 earnings Wed 2026-09-02 after close",
+      "weight_pct": 9.11,
+      "severity": "same_day_review",
+      "note": "Marks AVGO directly and VRT/NOW/APP by correlation — roughly 43% of NLV against one print, with 1.08% cash.",
+      "delivered": false
+    }
+  ],
+  "price_triggers_checked": {
+    "worst_drawdown_from_cost": {"ticker": "ISRG", "pct": -4.76},
+    "minus_15_breaches": [],
+    "minus_20_breaches": []
+  }
+}
