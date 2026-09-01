@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-01",
+  "alerts": [
+    {
+      "id": "2026-09-01-weight-NOW",
+      "ticker": "NOW",
+      "type": "weight_breach",
+      "threshold": "12% mandatory review",
+      "value_pct": 12.59,
+      "detected_at": "2026-09-01T15:20:00Z",
+      "news_checked": true,
+      "news_catalyst": null,
+      "delivered": false,
+      "delivery_channel": "email",
+      "delivery_error": "inkbox_unanswered_limit - 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)",
+      "fallback_notification": "push",
+      "retry_email_on_next_run": true
+    },
+    {
+      "id": "2026-09-01-weight-VRT",
+      "ticker": "VRT",
+      "type": "weight_breach",
+      "threshold": "12% mandatory review",
+      "value_pct": 12.67,
+      "detected_at": "2026-09-01T15:20:00Z",
+      "news_checked": true,
+      "news_catalyst": null,
+      "delivered": false,
+      "delivery_channel": "email",
+      "delivery_error": "inkbox_unanswered_limit - 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)",
+      "fallback_notification": "push",
+      "retry_email_on_next_run": true
+    }
+  ],
+  "notes": "First run to create this file - no prior-day state existed, so it is unknown whether these breaches are new today or standing."
+}
