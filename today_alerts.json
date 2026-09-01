@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-01",
+  "_note": "Dedup ledger. An entry suppresses a repeat alert ONLY when delivered == true. Entries with delivered == false are failed sends and MUST be retried on the next run.",
+  "alerts": [
+    {
+      "id": "2026-09-01-concentration-NOW-VRT",
+      "tickers": ["NOW", "VRT"],
+      "type": "concentration",
+      "reason": "12% single-position ceiling breach",
+      "detail": "VRT 12.85% ($10,251.82), NOW 12.62% ($10,066.70) of NLV $79,794.31",
+      "detected_at": "2026-09-01T19:19:00Z",
+      "delivered": false,
+      "delivery_channel": "inkbox_email",
+      "delivery_error": "403 conversation_unhealthy / inkbox_unanswered_limit - 20 messages sent to kbialmannai@gmail.com without a reply (limit 20). Blocked until an authenticated reply is received, the recipient domain is verified on a paid plan, or support raises the limit.",
+      "retry_required": true
+    }
+  ]
+}
