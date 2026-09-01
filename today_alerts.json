@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-01",
+  "alerts": [
+    {
+      "id": "conc-VRT-2026-09-01",
+      "type": "concentration",
+      "ticker": "VRT",
+      "weight_pct": 12.83,
+      "threshold": 12,
+      "severity": "mandatory_review",
+      "logged_at": "2026-09-01T20:16:23Z",
+      "delivered": false,
+      "delivery_note": "Inkbox blocked send to kbialmannai@gmail.com (inkbox_unanswered_limit); surfaced via push notification instead"
+    },
+    {
+      "id": "conc-NOW-2026-09-01",
+      "type": "concentration",
+      "ticker": "NOW",
+      "weight_pct": 12.48,
+      "threshold": 12,
+      "severity": "mandatory_review",
+      "logged_at": "2026-09-01T20:16:23Z",
+      "delivered": false,
+      "delivery_note": "Inkbox blocked send to kbialmannai@gmail.com (inkbox_unanswered_limit); surfaced via push notification instead"
+    },
+    {
+      "id": "cash-below-target-2026-09-01",
+      "type": "cash_target",
+      "cash_pct": 1.08,
+      "target_range": [7.5, 10],
+      "severity": "breach",
+      "logged_at": "2026-09-01T20:16:23Z",
+      "delivered": false,
+      "delivery_note": "Inkbox blocked send to kbialmannai@gmail.com (inkbox_unanswered_limit); surfaced via push notification instead"
+    },
+    {
+      "id": "theme-ai-cluster-2026-09-01",
+      "type": "correlation_theme",
+      "cluster": ["AVGO", "VRT", "NOW", "APP"],
+      "weight_pct": 42.82,
+      "weight_pct_hardware_only": 22.14,
+      "threshold": 30,
+      "severity": "review_basis_dependent",
+      "logged_at": "2026-09-01T20:16:23Z",
+      "delivered": false,
+      "delivery_note": "Inkbox blocked send to kbialmannai@gmail.com (inkbox_unanswered_limit); surfaced via push notification instead"
+    }
+  ]
+}

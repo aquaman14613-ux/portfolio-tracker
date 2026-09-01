@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-09-01T20:16:23Z",
+  "session": "post-close",
+  "source": "IBKR live",
+  "base_currency": "USD",
+  "fx": { "EUR_USD": 1.15919995 },
+  "account": {
+    "net_liquidation": 79761.94,
+    "gross_position_value": 78901.80,
+    "total_cash_value": 858.96,
+    "available_funds": 858.96,
+    "excess_liquidity": 858.96,
+    "initial_margin": 0,
+    "maintenance_margin": 0,
+    "leverage": "0.99",
+    "unrealized_pnl": -249.47,
+    "realized_pnl": 0
+  },
+  "day_pnl_total": -605.66,
+  "day_return_pct": -0.75,
+  "benchmark": {
+    "ticker": "SPUS",
+    "prior_close": 58.84,
+    "last": 58.36,
+    "change_pct": -0.82,
+    "ytd_pct": 10.73,
+    "one_month_pct": -2.02
+  },
+  "positions": [
+    { "ticker": "SPUS", "contract_id": 396046406, "qty": 322.5194, "currency": "USD", "avg_price": 58.78808841, "market_price": 58.38000105, "market_value_usd": 18828.68, "weight_pct": 23.61, "unrealized_pnl": -131.62, "unrealized_pct": -0.69, "day_pnl": -148.36 },
+    { "ticker": "VRT", "contract_id": 402783527, "qty": 40, "currency": "USD", "avg_price": 262.177505, "market_price": 255.90109255, "market_value_usd": 10236.04, "weight_pct": 12.83, "unrealized_pnl": -251.06, "unrealized_pct": -2.39, "day_pnl": -42.16 },
+    { "ticker": "NOW", "contract_id": 109911821, "qty": 70, "currency": "USD", "avg_price": 133.52000286, "market_price": 142.2400055, "market_value_usd": 9956.80, "weight_pct": 12.48, "unrealized_pnl": 610.40, "unrealized_pct": 6.53, "day_pnl": -271.50 },
+    { "ticker": "AVGO", "contract_id": 313130367, "qty": 20, "currency": "USD", "avg_price": 376.473335, "market_price": 371.07888795, "market_value_usd": 7421.58, "weight_pct": 9.31, "unrealized_pnl": -107.89, "unrealized_pct": -1.43, "day_pnl": 14.78 },
+    { "ticker": "SPWO", "contract_id": 673665039, "qty": 200, "currency": "USD", "avg_price": 33.635003, "market_price": 33.00, "market_value_usd": 6600.00, "weight_pct": 8.27, "unrealized_pnl": -127.00, "unrealized_pct": -1.89, "day_pnl": -60.00 },
+    { "ticker": "APP", "contract_id": 481863646, "qty": 21, "currency": "USD", "avg_price": 308.59952857, "market_price": 311.44000245, "market_value_usd": 6540.24, "weight_pct": 8.20, "unrealized_pnl": 59.65, "unrealized_pct": 0.92, "day_pnl": -13.02 },
+    { "ticker": "NOK", "contract_id": 661513, "qty": 600, "currency": "USD", "avg_price": 10.239003, "market_price": 10.1300001, "market_value_usd": 6078.00, "weight_pct": 7.62, "unrealized_pnl": -65.40, "unrealized_pct": -1.06, "day_pnl": -6.00 },
+    { "ticker": "NVO", "contract_id": 10611, "qty": 120, "currency": "USD", "avg_price": 45.31583667, "market_price": 45.15999985, "market_value_usd": 5419.20, "weight_pct": 6.79, "unrealized_pnl": -18.70, "unrealized_pct": -0.34, "day_pnl": -20.40 },
+    { "ticker": "HIES", "contract_id": 872765740, "qty": 140, "currency": "EUR", "exchange": "SBF", "avg_price": 25.33678571, "market_price": 25.61499975, "market_value_eur": 3586.10, "market_value_usd": 4157.00, "weight_pct": 5.21, "unrealized_pnl": 38.95, "unrealized_pct": 1.10, "day_pnl": 19.60, "note": "HSBC MSCI EM Islamic Screened Capped UCITS ETF" },
+    { "ticker": "ISRG", "contract_id": 9063285, "qty": 10, "currency": "USD", "avg_price": 392.881, "market_price": 369.00, "market_value_usd": 3690.00, "weight_pct": 4.63, "unrealized_pnl": -238.81, "unrealized_pct": -6.08, "day_pnl": -78.60 }
+  ],
+  "cash_pct": 1.08,
+  "checks": {
+    "single_position_ceiling_breaches": ["VRT", "NOW"],
+    "price_review_triggers": [],
+    "cash_within_target": false,
+    "ai_theme_cluster_pct": { "AVGO+VRT": 22.14, "AVGO+VRT+NOW": 34.62, "AVGO+VRT+NOW+APP": 42.82 }
+  }
+}
