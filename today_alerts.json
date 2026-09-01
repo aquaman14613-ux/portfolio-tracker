@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-01",
+  "alerts": [
+    {
+      "id": "2026-09-01-weight12-NOW",
+      "ticker": "NOW",
+      "type": "single_position_ceiling",
+      "threshold": "12%",
+      "value_pct": 12.49,
+      "detected_at": "2026-09-01T16:19:07Z",
+      "news_checked": true,
+      "news_catalyst": false,
+      "delivered": false,
+      "delivery_channel": "inkbox_email",
+      "delivery_error": "inkbox_unanswered_limit (20 unanswered messages to kbialmannai@gmail.com); send blocked upstream 403",
+      "retry_on_next_run": true
+    },
+    {
+      "id": "2026-09-01-weight12-VRT",
+      "ticker": "VRT",
+      "type": "single_position_ceiling",
+      "threshold": "12%",
+      "value_pct": 12.81,
+      "detected_at": "2026-09-01T16:19:07Z",
+      "news_checked": true,
+      "news_catalyst": false,
+      "delivered": false,
+      "delivery_channel": "inkbox_email",
+      "delivery_error": "inkbox_unanswered_limit (20 unanswered messages to kbialmannai@gmail.com); send blocked upstream 403",
+      "retry_on_next_run": true
+    }
+  ],
+  "notes": "Alerts detected and confirmed but NOT emailed - Inkbox rate limit. Marked undelivered so a later run retries instead of dedup-suppressing them. User was notified via push instead."
+}

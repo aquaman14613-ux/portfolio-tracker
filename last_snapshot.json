@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-09-01T16:19:07Z",
+  "timestamp_local": "2026-09-01 12:19:07 EDT",
+  "source": "IBKR",
+  "account": {
+    "currency": "USD",
+    "net_liquidation": 79709.33,
+    "gross_position_value": 78849.19,
+    "total_cash_value": 858.96,
+    "cash_pct": 1.08
+  },
+  "fx": {
+    "EURUSD": 1.1609
+  },
+  "positions": [
+    {"ticker": "APP",  "shares": 21,       "market_price": 314.2999878,  "avg_cost": 308.59952857, "market_value_usd": 6600.30,  "weight_pct": 8.28,  "daily_pnl": 47.04,    "intraday_pct": 0.72,  "vs_cost_pct": 1.85,  "currency": "USD"},
+    {"ticker": "AVGO", "shares": 20,       "market_price": 369.269989,   "avg_cost": 376.473335,   "market_value_usd": 7385.40,  "weight_pct": 9.27,  "daily_pnl": -21.40,   "intraday_pct": -0.29, "vs_cost_pct": -1.91, "currency": "USD"},
+    {"ticker": "HIES", "shares": 140,      "market_price": 25.62000085,  "avg_cost": 25.33678571,  "market_value_usd": 4163.74,  "weight_pct": 5.22,  "daily_pnl": 20.30,    "intraday_pct": 0.57,  "vs_cost_pct": 1.12,  "currency": "EUR", "market_value_native": 3586.80},
+    {"ticker": "ISRG", "shares": 10,       "market_price": 366.64871215, "avg_cost": 392.881,      "market_value_usd": 3666.49,  "weight_pct": 4.60,  "daily_pnl": -102.11,  "intraday_pct": -2.71, "vs_cost_pct": -6.68, "currency": "USD"},
+    {"ticker": "NOK",  "shares": 600,      "market_price": 9.85499955,   "avg_cost": 10.239003,    "market_value_usd": 5913.00,  "weight_pct": 7.42,  "daily_pnl": -171.00,  "intraday_pct": -2.81, "vs_cost_pct": -3.75, "currency": "USD"},
+    {"ticker": "NOW",  "shares": 70,       "market_price": 142.2550049,  "avg_cost": 133.52000286, "market_value_usd": 9957.85,  "weight_pct": 12.49, "daily_pnl": -270.45,  "intraday_pct": -2.64, "vs_cost_pct": 6.54,  "currency": "USD"},
+    {"ticker": "NVO",  "shares": 120,      "market_price": 45.35499955,  "avg_cost": 45.31583667,  "market_value_usd": 5442.60,  "weight_pct": 6.83,  "daily_pnl": 3.00,     "intraday_pct": 0.06,  "vs_cost_pct": 0.09,  "currency": "USD"},
+    {"ticker": "SPUS", "shares": 322.5194, "market_price": 58.5099983,   "avg_cost": 58.78808841,  "market_value_usd": 18870.61, "weight_pct": 23.67, "daily_pnl": -106.43,  "intraday_pct": -0.56, "vs_cost_pct": -0.47, "currency": "USD", "concentration_check": "excluded_benchmark_etf"},
+    {"ticker": "SPWO", "shares": 200,      "market_price": 33.18999865,  "avg_cost": 33.635003,    "market_value_usd": 6638.00,  "weight_pct": 8.33,  "daily_pnl": -22.00,   "intraday_pct": -0.33, "vs_cost_pct": -1.32, "currency": "USD"},
+    {"ticker": "VRT",  "shares": 40,       "market_price": 255.2799988,  "avg_cost": 262.177505,   "market_value_usd": 10211.20, "weight_pct": 12.81, "daily_pnl": -67.00,   "intraday_pct": -0.65, "vs_cost_pct": -2.63, "currency": "USD"}
+  ],
+  "checks": {
+    "intraday_move_5pct": [],
+    "weight_breach_10pct": ["NOW", "VRT"],
+    "weight_breach_12pct": ["NOW", "VRT"],
+    "cost_breach_15pct": [],
+    "cost_breach_20pct": [],
+    "cash_target_7_5_to_10pct": "below (1.08%)"
+  },
+  "ibkr_consecutive_failures": 0
+}
