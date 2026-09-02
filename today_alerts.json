@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-02",
+  "alerts": [
+    {
+      "ticker": "AVGO",
+      "type": "intraday_move",
+      "threshold": "-5%",
+      "value": -6.62,
+      "reason": "Intraday -6.62% ($369.21 -> $345.20) into Q3 FY26 earnings after today's close; attributed to pre-earnings profit-taking, not company-specific news.",
+      "detected_at": "2026-09-02T20:20:00Z",
+      "delivered": false,
+      "delivery_error": "inkbox_unanswered_limit (20 messages sent without a reply)",
+      "retry_on_next_run": true
+    },
+    {
+      "ticker": "VRT",
+      "type": "weight_breach",
+      "threshold": "12%",
+      "value": 12.87,
+      "reason": "12.87% of net liq ($10,213) — above the 12% mandatory-review line. Size breach only; -2.6% vs cost.",
+      "detected_at": "2026-09-02T20:20:00Z",
+      "delivered": false,
+      "delivery_error": "inkbox_unanswered_limit (20 messages sent without a reply)",
+      "retry_on_next_run": true
+    },
+    {
+      "ticker": "NOW",
+      "type": "weight_breach",
+      "threshold": "12%",
+      "value": 12.28,
+      "reason": "12.28% of net liq ($9,749) — above the 12% mandatory-review line. Size breach only; +4.3% vs cost.",
+      "detected_at": "2026-09-02T20:20:00Z",
+      "delivered": false,
+      "delivery_error": "inkbox_unanswered_limit (20 messages sent without a reply)",
+      "retry_on_next_run": true
+    }
+  ],
+  "notes": [
+    "Cash $859 = 1.08% of net liq, below the 7.5-10% target. Not one of the three Stage 1 checks; not alerted separately.",
+    "SPUS excluded from the 10%/12% concentration check per st0ck_rules.md.",
+    "No position breached -15% vs cost. Worst is AVGO at -8.43%."
+  ]
+}
