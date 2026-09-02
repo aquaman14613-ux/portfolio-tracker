@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-02",
+  "alerts": [
+    {
+      "id": "2026-09-02-weight-NOW-VRT",
+      "detected_utc": "2026-09-02T19:19:00Z",
+      "type": "single_position_weight",
+      "threshold": "12%",
+      "tickers": ["NOW", "VRT"],
+      "detail": "VRT 12.87% ($10,247.80), NOW 12.04% ($9,590.70) of $79,634.10 NLV",
+      "delivery_status": "send_failed",
+      "delivery_error": "Inkbox 403 inkbox_unanswered_limit — 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)",
+      "retry_on_next_run": true
+    }
+  ],
+  "notes": "delivery_status=send_failed means this alert was NOT delivered; do not treat it as a dedup suppression. Retry the send on the next run until delivery_status=sent."
+}
