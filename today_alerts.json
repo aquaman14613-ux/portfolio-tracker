@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-02",
+  "alerts": [
+    {
+      "id": "2026-09-02-concentration-VRT",
+      "ticker": "VRT",
+      "type": "concentration",
+      "threshold": "12% mandatory review",
+      "value_pct": 12.96,
+      "detected_at": "2026-09-02T14:22:00Z",
+      "delivery": "email_failed_push_sent",
+      "delivery_note": "Inkbox refused send to kbialmannai@gmail.com (inkbox_unanswered_limit, 20 unanswered). Delivered via push notification instead."
+    },
+    {
+      "id": "2026-09-02-concentration-NOW",
+      "ticker": "NOW",
+      "type": "concentration",
+      "threshold": "12% mandatory review",
+      "value_pct": 12.17,
+      "detected_at": "2026-09-02T14:22:00Z",
+      "delivery": "email_failed_push_sent",
+      "delivery_note": "Inkbox refused send to kbialmannai@gmail.com (inkbox_unanswered_limit, 20 unanswered). Delivered via push notification instead."
+    }
+  ],
+  "checks_clear": {
+    "intraday_move_5pct": "none (largest: NVO +3.59%)",
+    "cost_breach_15pct": "none (worst: NOK -3.73%)"
+  },
+  "ibkr_consecutive_failures": 0
+}

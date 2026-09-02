@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-02T14:22:00Z",
+  "source": "IBKR",
+  "net_liquidation": 79714.74,
+  "gross_position_value": 78854.07,
+  "total_cash_value": 858.96,
+  "cash_pct_of_nlv": 1.08,
+  "base_currency": "USD",
+  "positions": [
+    {"ticker": "SPUS", "contract_id": 396046406, "qty": 322.5194, "price": 58.59, "market_value_usd": 18896.41, "avg_cost": 58.78808841, "weight_pct": 23.7, "pnl_vs_cost_pct": -0.34, "daily_pct": 0.36, "concentration_check": "excluded"},
+    {"ticker": "VRT", "contract_id": 402783527, "qty": 40, "price": 258.315, "market_value_usd": 10332.6, "avg_cost": 262.177504, "weight_pct": 12.96, "pnl_vs_cost_pct": -1.47, "daily_pct": 0.77},
+    {"ticker": "NOW", "contract_id": 109911821, "qty": 70, "price": 138.625, "market_value_usd": 9703.75, "avg_cost": 133.52000314, "weight_pct": 12.17, "pnl_vs_cost_pct": 3.82, "daily_pct": -3.08},
+    {"ticker": "AVGO", "contract_id": 313130367, "qty": 20, "price": 369.09, "market_value_usd": 7381.8, "avg_cost": 376.473335, "weight_pct": 9.26, "pnl_vs_cost_pct": -1.96, "daily_pct": -0.16},
+    {"ticker": "SPWO", "contract_id": 673665039, "qty": 200, "price": 33.08, "market_value_usd": 6616.0, "avg_cost": 33.635003, "weight_pct": 8.3, "pnl_vs_cost_pct": -1.65, "daily_pct": 0.24},
+    {"ticker": "APP", "contract_id": 481863646, "qty": 21, "price": 312.84, "market_value_usd": 6569.64, "avg_cost": 308.59952857, "weight_pct": 8.24, "pnl_vs_cost_pct": 1.37, "daily_pct": 0.35},
+    {"ticker": "NOK", "contract_id": 661513, "qty": 600, "price": 9.8567, "market_value_usd": 5914.02, "avg_cost": 10.239003, "weight_pct": 7.42, "pnl_vs_cost_pct": -3.73, "daily_pct": -0.74},
+    {"ticker": "NVO", "contract_id": 10611, "qty": 120, "price": 46.75, "market_value_usd": 5610.0, "avg_cost": 45.31583667, "weight_pct": 7.04, "pnl_vs_cost_pct": 3.16, "daily_pct": 3.59},
+    {"ticker": "HIES", "contract_id": 872765740, "qty": 140, "price": 25.32, "currency": "EUR", "market_value_eur": 3544.8, "market_value_usd": 4035.05, "avg_cost": 25.33678571, "weight_pct": 5.06, "pnl_vs_cost_pct": -0.07, "daily_pct": -1.17},
+    {"ticker": "ISRG", "contract_id": 9063285, "qty": 10, "price": 379.48, "market_value_usd": 3794.8, "avg_cost": 392.881, "weight_pct": 4.76, "pnl_vs_cost_pct": -3.41, "daily_pct": 2.77}
+  ],
+  "notes": "HIES market value converted at implied EUR/USD 1.1383 (derived from gross_position_value residual). Weights computed against net_liquidation."
+}
