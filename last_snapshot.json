@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-09-02T18:20:00Z",
+  "source": "IBKR",
+  "net_liquidation_value_usd": 79568.27,
+  "cash_usd": 858.96,
+  "cash_pct_of_nlv": 1.08,
+  "eur_usd_rate": 1.15927805,
+  "positions": [
+    {"ticker": "VRT",  "shares": 40,       "currency": "USD", "market_price": 255.675,   "avg_cost": 262.1775,   "market_value_usd": 10227.00, "weight_pct": 12.85, "daily_pnl": -11.80,   "intraday_pct": -0.12, "vs_cost_pct": -2.48},
+    {"ticker": "NOW",  "shares": 70,       "currency": "USD", "market_price": 137.45,    "avg_cost": 133.52,     "market_value_usd": 9621.50,  "weight_pct": 12.09, "daily_pnl": -381.50,  "intraday_pct": -3.81, "vs_cost_pct": 2.94},
+    {"ticker": "AVGO", "shares": 20,       "currency": "USD", "market_price": 369.37,    "avg_cost": 376.4733,   "market_value_usd": 7387.40,  "weight_pct": 9.28,  "daily_pnl": -6.20,    "intraday_pct": -0.08, "vs_cost_pct": -1.89},
+    {"ticker": "APP",  "shares": 21,       "currency": "USD", "market_price": 319.23,    "avg_cost": 308.5995,   "market_value_usd": 6703.83,  "weight_pct": 8.42,  "daily_pnl": 157.29,   "intraday_pct": 2.40,  "vs_cost_pct": 3.44},
+    {"ticker": "SPWO", "shares": 200,      "currency": "USD", "market_price": 33.05,     "avg_cost": 33.635,     "market_value_usd": 6610.00,  "weight_pct": 8.31,  "daily_pnl": 10.00,    "intraday_pct": 0.15,  "vs_cost_pct": -1.74},
+    {"ticker": "NOK",  "shares": 600,      "currency": "USD", "market_price": 9.8399,    "avg_cost": 10.239,     "market_value_usd": 5903.94,  "weight_pct": 7.42,  "daily_pnl": -54.06,   "intraday_pct": -0.91, "vs_cost_pct": -3.90},
+    {"ticker": "NVO",  "shares": 120,      "currency": "USD", "market_price": 46.86,     "avg_cost": 45.3158,    "market_value_usd": 5623.20,  "weight_pct": 7.07,  "daily_pnl": 208.80,   "intraday_pct": 3.86,  "vs_cost_pct": 3.41},
+    {"ticker": "HIES", "shares": 140,      "currency": "EUR", "market_price": 25.295,    "avg_cost": 25.3368,    "market_value_usd": 4104.38,  "weight_pct": 5.16,  "daily_pnl": -45.50,   "intraday_pct": -1.27, "vs_cost_pct": -0.16},
+    {"ticker": "ISRG", "shares": 10,       "currency": "USD", "market_price": 370.205,   "avg_cost": 392.881,    "market_value_usd": 3702.05,  "weight_pct": 4.65,  "daily_pnl": 9.55,     "intraday_pct": 0.26,  "vs_cost_pct": -5.77},
+    {"ticker": "SPUS", "shares": 322.5194, "currency": "USD", "market_price": 58.69,     "avg_cost": 58.7881,    "market_value_usd": 18928.66, "weight_pct": 23.79, "daily_pnl": 99.98,    "intraday_pct": 0.53,  "vs_cost_pct": -0.17, "excluded_from_concentration_check": true}
+  ]
+}
