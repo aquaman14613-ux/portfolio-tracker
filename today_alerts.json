@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-02",
+  "alerts": [
+    {
+      "type": "concentration",
+      "ticker": "VRT",
+      "level": "mandatory_review",
+      "threshold_pct": 12.0,
+      "observed_pct": 12.85,
+      "logged_at": "2026-09-02T20:30:00Z",
+      "delivery": {
+        "email": "failed",
+        "email_error": "inkbox_unanswered_limit (403) — 20 messages sent without a reply",
+        "push_notification": "sent"
+      }
+    },
+    {
+      "type": "concentration",
+      "ticker": "NOW",
+      "level": "mandatory_review",
+      "threshold_pct": 12.0,
+      "observed_pct": 12.25,
+      "logged_at": "2026-09-02T20:30:00Z",
+      "delivery": {
+        "email": "failed",
+        "email_error": "inkbox_unanswered_limit (403) — 20 messages sent without a reply",
+        "push_notification": "sent"
+      }
+    },
+    {
+      "type": "cash_band",
+      "level": "below_target",
+      "target_pct_range": [7.5, 10.0],
+      "observed_pct": 1.08,
+      "logged_at": "2026-09-02T20:30:00Z",
+      "delivery": {
+        "email": "failed",
+        "email_error": "inkbox_unanswered_limit (403) — 20 messages sent without a reply",
+        "push_notification": "sent"
+      }
+    }
+  ],
+  "price_threshold_alerts": [],
+  "notes": "No position at or beyond -15% from cost; worst is AVGO at -6.09%. SPUS excluded from concentration ceiling per rules. Post-close report for 2026-09-02 could not be emailed: Inkbox blocked the send under its unanswered-message limit. Report body archived at reports/2026-09-02-post-close.html; resend once the recipient replies to an Inkbox message or the limit is raised."
+}
