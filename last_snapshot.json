@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-02T21:20:00Z",
+  "timestamp_local": "2026-09-02 17:20 ET (post-close)",
+  "source": "IBKR",
+  "net_liquidation": 79628.23,
+  "gross_position_value": 78767.56,
+  "total_cash_value": 858.96,
+  "cash_pct": 1.08,
+  "positions": [
+    {"ticker": "SPUS", "shares": 322.5194, "market_price": 58.63000105, "market_value_usd": 18909.31, "weight_pct": 23.75, "avg_cost": 58.78808841, "unrealized_pnl": -50.99, "cost_pnl_pct": -0.27, "daily_pnl": 80.63, "daily_pct": 0.43, "currency": "USD", "concentration_exempt": true},
+    {"ticker": "VRT", "shares": 40, "market_price": 256.1799927, "market_value_usd": 10247.20, "weight_pct": 12.87, "avg_cost": 262.177504, "unrealized_pnl": -239.90, "cost_pnl_pct": -2.29, "daily_pnl": 8.40, "daily_pct": 0.08, "currency": "USD"},
+    {"ticker": "NOW", "shares": 70, "market_price": 139.4597931, "market_value_usd": 9762.19, "weight_pct": 12.26, "avg_cost": 133.52000314, "unrealized_pnl": 415.79, "cost_pnl_pct": 4.45, "daily_pnl": -240.81, "daily_pct": -2.47, "currency": "USD"},
+    {"ticker": "AVGO", "shares": 20, "market_price": 366.5, "market_value_usd": 7330.00, "weight_pct": 9.21, "avg_cost": 376.473335, "unrealized_pnl": -199.47, "cost_pnl_pct": -2.65, "daily_pnl": -63.60, "daily_pct": -0.87, "currency": "USD"},
+    {"ticker": "APP", "shares": 21, "market_price": 319.0, "market_value_usd": 6699.00, "weight_pct": 8.41, "avg_cost": 308.59952857, "unrealized_pnl": 218.41, "cost_pnl_pct": 3.37, "daily_pnl": 152.46, "daily_pct": 2.33, "currency": "USD"},
+    {"ticker": "SPWO", "shares": 200, "market_price": 33.13000105, "market_value_usd": 6626.00, "weight_pct": 8.32, "avg_cost": 33.635003, "unrealized_pnl": -101.00, "cost_pnl_pct": -1.50, "daily_pnl": 26.00, "daily_pct": 0.39, "currency": "USD"},
+    {"ticker": "NOK", "shares": 600, "market_price": 9.8000002, "market_value_usd": 5880.00, "weight_pct": 7.38, "avg_cost": 10.239003, "unrealized_pnl": -263.40, "cost_pnl_pct": -4.29, "daily_pnl": -78.00, "daily_pct": -1.33, "currency": "USD"},
+    {"ticker": "NVO", "shares": 120, "market_price": 46.7378998, "market_value_usd": 5608.55, "weight_pct": 7.04, "avg_cost": 45.31583667, "unrealized_pnl": 170.65, "cost_pnl_pct": 3.14, "daily_pnl": 194.15, "daily_pct": 3.59, "currency": "USD"},
+    {"ticker": "HIES", "shares": 140, "market_price": 25.2950001, "market_value_local": 3541.30, "market_value_usd": 3979.41, "weight_pct": 5.00, "avg_cost": 25.33678571, "unrealized_pnl": -5.85, "cost_pnl_pct": -0.16, "daily_pnl": -45.50, "daily_pct": -1.27, "currency": "EUR", "exchange": "SBF", "fx_note": "USD value derived from gross_position_value residual; implied EUR/USD ~1.1237"},
+    {"ticker": "ISRG", "shares": 10, "market_price": 372.58999635, "market_value_usd": 3725.90, "weight_pct": 4.68, "avg_cost": 392.881, "unrealized_pnl": -202.91, "cost_pnl_pct": -5.17, "daily_pnl": 33.40, "daily_pct": 0.90, "currency": "USD"}
+  ],
+  "notes": "First snapshot written by the automated run; no prior baseline existed in this repo. Weights are computed against net_liquidation. SPUS excluded from the 10%/12% single-position ceiling per st0ck_rules.md."
+}

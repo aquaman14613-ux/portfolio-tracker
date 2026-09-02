@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-02",
+  "alerts": [
+    {
+      "id": "2026-09-02-concentration-VRT",
+      "ticker": "VRT",
+      "type": "concentration",
+      "threshold": "12% mandatory review",
+      "observed_weight_pct": 12.87,
+      "market_value_usd": 10247.20,
+      "detected_at": "2026-09-02T21:20:00Z",
+      "delivered": false,
+      "delivery_channel": "inkbox_email",
+      "delivery_error": "403 inkbox_unanswered_limit — 20 messages sent to kbialmannai@gmail.com without a reply (limit 20). Unblocks on an authenticated reply, domain verification, or a support limit raise.",
+      "retry_on_next_run": true,
+      "news_checked": true,
+      "news_summary": "No adverse catalyst. Q2 2026 EPS $1.52 vs $1.43 est; 2026 revenue guidance raised to $14B; $2.6B grid/microgrid acquisition announced. Breach is weight drift, not a news event."
+    },
+    {
+      "id": "2026-09-02-concentration-NOW",
+      "ticker": "NOW",
+      "type": "concentration",
+      "threshold": "12% mandatory review",
+      "observed_weight_pct": 12.26,
+      "market_value_usd": 9762.19,
+      "detected_at": "2026-09-02T21:20:00Z",
+      "delivered": false,
+      "delivery_channel": "inkbox_email",
+      "delivery_error": "403 inkbox_unanswered_limit — see VRT entry.",
+      "retry_on_next_run": true,
+      "news_checked": true,
+      "news_summary": "No adverse catalyst found. Breach is weight drift."
+    }
+  ],
+  "notes": "delivered=false means the breach was detected but the alert did NOT reach the user by email. Do not treat these as deduped-and-sent: retry delivery on the next run while the breach persists. Once delivered, set delivered=true so it stops repeating."
+}
