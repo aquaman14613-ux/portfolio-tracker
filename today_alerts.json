@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-02",
+  "alerts": [
+    {
+      "id": "2026-09-02-weight-VRT",
+      "ticker": "VRT",
+      "type": "weight_breach",
+      "threshold": "12% mandatory review",
+      "value_pct": 12.90,
+      "detected_at": "2026-09-02T17:19:00Z",
+      "delivered": false,
+      "delivery_error": "Inkbox 403 conversation_unhealthy: inkbox_unanswered_limit (20 messages sent without a reply). Retry delivery on a later run; do not treat as sent."
+    },
+    {
+      "id": "2026-09-02-weight-NOW",
+      "ticker": "NOW",
+      "type": "weight_breach",
+      "threshold": "12% mandatory review",
+      "value_pct": 12.06,
+      "detected_at": "2026-09-02T17:19:00Z",
+      "delivered": false,
+      "delivery_error": "Inkbox 403 conversation_unhealthy: inkbox_unanswered_limit (20 messages sent without a reply). Retry delivery on a later run; do not treat as sent."
+    }
+  ],
+  "ibkr_consecutive_failures": 0
+}
