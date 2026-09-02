@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-02",
+  "delivery": {
+    "intended_channel": "email:kbialmannai@gmail.com via Inkbox (claudereports@inkboxmail.com)",
+    "status": "FAILED",
+    "error": "403 conversation_unhealthy / inkbox_unanswered_limit — 20 messages sent without a reply (limit 20)",
+    "remedy": "Reply to any message from claudereports@inkboxmail.com to reset the counter, or verify the recipient domain on the org (paid plan), or ask Inkbox support to raise the limit.",
+    "fallback_used": "PushNotification (phone + inbox)",
+    "report_artifact": "reports/2026-09-02-premarket.html"
+  },
+  "alerts": [
+    {
+      "id": "2026-09-02-concentration-VRT",
+      "type": "concentration",
+      "ticker": "VRT",
+      "detail": "12.93% of net liq — above 12% mandatory-review threshold",
+      "sent_utc": "2026-09-02T13:40:00Z",
+      "channel": "push"
+    },
+    {
+      "id": "2026-09-02-concentration-NOW",
+      "type": "concentration",
+      "ticker": "NOW",
+      "detail": "12.30% of net liq — above 12% mandatory-review threshold",
+      "sent_utc": "2026-09-02T13:40:00Z",
+      "channel": "push"
+    },
+    {
+      "id": "2026-09-02-cash-below-target",
+      "type": "cash_target",
+      "ticker": null,
+      "detail": "Cash 1.08% of net liq vs 7.5-10% target",
+      "sent_utc": "2026-09-02T13:40:00Z",
+      "channel": "push"
+    },
+    {
+      "id": "2026-09-02-event-risk-AVGO",
+      "type": "event_risk",
+      "ticker": "AVGO",
+      "detail": "Q3 FY26 earnings after close today; 9.32% position, no cash buffer",
+      "sent_utc": "2026-09-02T13:40:00Z",
+      "channel": "push"
+    }
+  ],
+  "price_threshold_alerts": [],
+  "notes": "No -15% or -20% from-cost triggers. Worst drawdown vs cost: ISRG -5.91%."
+}
