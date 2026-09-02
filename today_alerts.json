@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-02",
+  "alerts": [
+    {
+      "id": "2026-09-02-VRT-weight-12pct",
+      "ticker": "VRT",
+      "type": "single_position_ceiling",
+      "threshold": "12% mandatory review",
+      "observed": "12.88%",
+      "detail": "Market value $10,257.80 vs net liquidation $79,629.16. Drift-driven; no adverse catalyst found.",
+      "detected_at": "2026-09-02T15:20:20Z",
+      "delivery": {
+        "channel": "email",
+        "status": "BLOCKED",
+        "reason": "inkbox_unanswered_limit - 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)",
+        "fallback": "Surfaced via push notification instead."
+      }
+    },
+    {
+      "id": "2026-09-02-NOW-weight-12pct",
+      "ticker": "NOW",
+      "type": "single_position_ceiling",
+      "threshold": "12% mandatory review",
+      "observed": "12.15%",
+      "detail": "Market value $9,674.00 vs net liquidation $79,629.16. Drift-driven; no adverse catalyst found.",
+      "detected_at": "2026-09-02T15:20:20Z",
+      "delivery": {
+        "channel": "email",
+        "status": "BLOCKED",
+        "reason": "inkbox_unanswered_limit - 20 messages sent to kbialmannai@gmail.com without a reply (limit 20)",
+        "fallback": "Surfaced via push notification instead."
+      }
+    }
+  ],
+  "notes": "First run in which last_snapshot.json / today_alerts.json exist in the repo. Their absence meant the dedup gate in st0ck_rules.md could never fire, so prior runs re-sent alerts each time - the likely cause of the 20 unanswered emails that tripped the Inkbox send limit."
+}
