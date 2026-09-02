@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-02",
+  "alerts": [
+    {
+      "id": "2026-09-02-concentration-VRT",
+      "ticker": "VRT",
+      "type": "concentration",
+      "threshold": "12% mandatory review",
+      "detail": "Weight 12.90% of $79,578.95 NLV ($10,263.40). Intraday +0.23%, -2.13% vs cost. Weight drift, not a price event.",
+      "detected_at": "2026-09-02T16:20:00Z",
+      "delivery": {
+        "channel": "inkbox_email",
+        "to": "kbialmannai@gmail.com",
+        "status": "failed",
+        "error": "403 inkbox_unanswered_limit - 20 messages sent without a reply (limit 20)",
+        "note": "Not delivered. Next run should retry delivery rather than treating this as already alerted."
+      }
+    },
+    {
+      "id": "2026-09-02-concentration-NOW",
+      "ticker": "NOW",
+      "type": "concentration",
+      "threshold": "12% mandatory review",
+      "detail": "Weight 12.03% of $79,578.95 NLV ($9,569.70). Intraday -4.47% ($142.90 prior close -> $136.51), below the 5% alert threshold. +2.39% vs cost.",
+      "detected_at": "2026-09-02T16:20:00Z",
+      "delivery": {
+        "channel": "inkbox_email",
+        "to": "kbialmannai@gmail.com",
+        "status": "failed",
+        "error": "403 inkbox_unanswered_limit - 20 messages sent without a reply (limit 20)",
+        "note": "Not delivered. Next run should retry delivery rather than treating this as already alerted."
+      }
+    }
+  ],
+  "checks_clear": {
+    "intraday_move_5pct": "none (worst: NOW -4.47%)",
+    "cost_breach_15pct": "none (worst: NOK -4.19%)",
+    "weight_10pct_no_review": "none between 10% and 12%"
+  },
+  "ibkr_status": "ok",
+  "ibkr_consecutive_failures": 0
+}
