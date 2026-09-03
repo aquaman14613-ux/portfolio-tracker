@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-03",
+  "alerts": [],
+  "notices": [
+    {
+      "type": "state_file_missing",
+      "timestamp": "2026-09-03T20:19:00Z",
+      "detail": "today_alerts.json and last_snapshot.json were absent from the repo. Bootstrapped today_alerts.json with an empty alerts list. last_snapshot.json must be written by an in-market-hours run that can pull live IBKR positions; it is not fabricated here."
+    }
+  ]
+}
