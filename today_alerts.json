@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-03",
+  "alerts": [
+    {
+      "id": "2026-09-03-VRT-concentration",
+      "ticker": "VRT",
+      "type": "concentration",
+      "detected_at": "2026-09-03T19:19:00Z",
+      "threshold": "12% mandatory review",
+      "weight_pct": 13.2989,
+      "position_shares": 40,
+      "market_price": 267.94,
+      "market_value_usd": 10717.6,
+      "nlv_usd": 80589.89,
+      "subject": "⚠ Portfolio Alert – VRT – 13.3% weight, above 12% review threshold",
+      "reason": "Weight breach driven by price appreciation (+4.38% intraday), not a new purchase. News check found no adverse catalyst.",
+      "delivered": false,
+      "delivery_channel": "inkbox_email",
+      "delivery_error": "inkbox_unanswered_limit: 20 messages sent to kbialmannai@gmail.com without a reply. Mailbox claudereports@inkboxmail.com is active and the sending domain is verified; the cap clears once the recipient replies to one message, the domain is verified on a paid plan, or support raises the limit.",
+      "delivery_fallback": "PushNotification (mobile/email digest) with full alert content",
+      "retry_delivery": true
+    }
+  ],
+  "notes": "delivered=false means the alert was detected but never reached the user by email. Do not treat an undelivered alert as satisfying dedup: retry email delivery on the next run while the same breach persists, and only set delivered=true once a send succeeds."
+}

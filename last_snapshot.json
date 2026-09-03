@@ -1,0 +1,174 @@
+{
+  "timestamp": "2026-09-03T19:19:00Z",
+  "timestamp_local": "2026-09-03 15:19 EDT",
+  "source": "IBKR",
+  "base_currency": "USD",
+  "account": {
+    "net_liquidation": 80589.89,
+    "gross_position_value": 70257.39,
+    "total_cash_value": 10332.51,
+    "cash_pct": 12.8224,
+    "excess_liquidity": 10332.51,
+    "leverage": "0.87"
+  },
+  "positions": [
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "shares": 40,
+      "market_price": 267.94,
+      "market_value_usd": 10717.6,
+      "weight_pct": 13.2989,
+      "average_cost": 262.1775,
+      "pct_vs_cost": 2.1979,
+      "unrealized_pnl": 230.5,
+      "daily_pnl": 449.6,
+      "intraday_pct": 4.38,
+      "prior_close": 256.7,
+      "currency": "USD"
+    },
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "shares": 22,
+      "market_price": 356.9502,
+      "market_value_usd": 7852.9,
+      "weight_pct": 9.7443,
+      "average_cost": 375.2139,
+      "pct_vs_cost": -4.8676,
+      "unrealized_pnl": -401.8,
+      "daily_pnl": -226.38,
+      "intraday_pct": -2.8,
+      "currency": "USD"
+    },
+    {
+      "ticker": "SPWO",
+      "contract_id": 673665039,
+      "shares": 200,
+      "market_price": 33.28,
+      "market_value_usd": 6656.0,
+      "weight_pct": 8.2591,
+      "average_cost": 33.635,
+      "pct_vs_cost": -1.0554,
+      "unrealized_pnl": -71.0,
+      "daily_pnl": 30.0,
+      "intraday_pct": 0.45,
+      "currency": "USD"
+    },
+    {
+      "ticker": "APP",
+      "contract_id": 481863646,
+      "shares": 21,
+      "market_price": 312.6199,
+      "market_value_usd": 6565.02,
+      "weight_pct": 8.1462,
+      "average_cost": 308.5995,
+      "pct_vs_cost": 1.3028,
+      "unrealized_pnl": 84.43,
+      "daily_pnl": -135.03,
+      "intraday_pct": -2.02,
+      "currency": "USD"
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "shares": 600,
+      "market_price": 9.735,
+      "market_value_usd": 5841.0,
+      "weight_pct": 7.2478,
+      "average_cost": 10.239,
+      "pct_vs_cost": -4.9224,
+      "unrealized_pnl": -302.4,
+      "daily_pnl": -63.0,
+      "intraday_pct": -1.07,
+      "currency": "USD"
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "shares": 120,
+      "market_price": 47.275,
+      "market_value_usd": 5673.0,
+      "weight_pct": 7.0394,
+      "average_cost": 45.3158,
+      "pct_vs_cost": 4.3234,
+      "unrealized_pnl": 235.1,
+      "daily_pnl": 60.6,
+      "intraday_pct": 1.08,
+      "currency": "USD"
+    },
+    {
+      "ticker": "HIES",
+      "contract_id": 872765740,
+      "shares": 140,
+      "market_price": 25.45,
+      "market_value_local": 3563.0,
+      "market_value_usd": 4143.95,
+      "weight_pct": 5.142,
+      "average_cost": 25.3368,
+      "pct_vs_cost": 0.4468,
+      "unrealized_pnl": 15.85,
+      "daily_pnl": 22.4,
+      "intraday_pct": 0.63,
+      "currency": "EUR",
+      "exchange": "SBF",
+      "note": "USD value derived from gross_position_value residual; implied EURUSD ~1.163"
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "shares": 10,
+      "market_price": 371.1551,
+      "market_value_usd": 3711.55,
+      "weight_pct": 4.6055,
+      "average_cost": 392.881,
+      "pct_vs_cost": -5.5299,
+      "unrealized_pnl": -217.26,
+      "daily_pnl": -7.25,
+      "intraday_pct": -0.2,
+      "currency": "USD"
+    },
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "shares": 322.5194,
+      "market_price": 59.21,
+      "market_value_usd": 19096.37,
+      "weight_pct": 23.6957,
+      "average_cost": 58.7881,
+      "pct_vs_cost": 0.7177,
+      "unrealized_pnl": 136.07,
+      "daily_pnl": 190.29,
+      "intraday_pct": 1.01,
+      "currency": "USD",
+      "excluded_from_concentration_check": true,
+      "note": "Diversified Shariah-compliant benchmark ETF; excluded from the 10%/12% single-position ceiling."
+    }
+  ],
+  "excluded_positions": [
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "shares": 0,
+      "reason": "Fully closed position (0 shares); excluded per data hygiene rule. IBKR still reports a residual daily_pnl of 626.676 for it."
+    }
+  ],
+  "checks": {
+    "intraday_move_ge_5pct": [],
+    "concentration_breach_10pct": [
+      "VRT"
+    ],
+    "concentration_breach_12pct": [
+      "VRT"
+    ],
+    "cost_breach_minus_15pct": [],
+    "cost_breach_minus_20pct": [],
+    "ibkr_reachable": true,
+    "consecutive_ibkr_failures": 0
+  },
+  "observations": [
+    "Cash at 12.82% is above the 7.5-10% target band.",
+    "AVGO at 9.74% is close to the 10% single-position ceiling.",
+    "VRT + AVGO share an AI/data-center demand driver at 23.04% combined, below the 30% theme cap."
+  ]
+}
