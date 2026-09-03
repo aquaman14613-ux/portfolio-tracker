@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-03",
+  "alerts": [
+    {
+      "ticker": "AVGO",
+      "type": "intraday_move",
+      "reason": "intraday -6.5% on weak Q4 guidance despite Q3 beat",
+      "value_pct": -6.49,
+      "threshold": "5% intraday",
+      "detected_at": "2026-09-03T14:20:00Z",
+      "delivery": {"channel": "inkbox_email", "status": "FAILED", "error": "inkbox_unanswered_limit (20 unanswered, resets 2026-09-03T15:00:00Z)", "delivered": false}
+    },
+    {
+      "ticker": "VRT",
+      "type": "concentration_breach",
+      "reason": "13.1% weight breaches 10% ceiling and 12% mandatory-review threshold",
+      "value_pct": 13.08,
+      "threshold": "10% ceiling / 12% mandatory review",
+      "detected_at": "2026-09-03T14:20:00Z",
+      "delivery": {"channel": "inkbox_email", "status": "FAILED", "error": "inkbox_unanswered_limit (20 unanswered, resets 2026-09-03T15:00:00Z)", "delivered": false}
+    }
+  ],
+  "notes": "Both alerts detected but email delivery BLOCKED by Inkbox unanswered-message limit. Marked delivered:false so a later run retries the email once the limit clears. User was notified via push notification."
+}

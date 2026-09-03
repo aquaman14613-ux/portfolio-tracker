@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-09-03T14:20:00Z",
+  "source": "IBKR",
+  "net_liquidation_value_base": 79847.7865,
+  "cash_balance_base": 132.4961,
+  "currency": "USD",
+  "positions": [
+    {"ticker": "APP",  "shares": 21,        "avg_price": 308.59952857, "last": 324.2999878,  "market_value_base": 6810.30,  "weight_pct": 8.53,  "daily_pnl": 110.25,  "unrealized_pnl": 329.71},
+    {"ticker": "AVGO", "shares": 22,        "avg_price": 375.21394091, "last": 343.42001345, "market_value_base": 7555.24,  "weight_pct": 9.46,  "daily_pnl": -524.04, "unrealized_pnl": -699.47},
+    {"ticker": "HIES", "shares": 140,       "avg_price": 25.33678571,  "last": 25.21500015,  "market_value_base": 4103.40,  "weight_pct": 5.14,  "daily_pnl": -10.50,  "unrealized_pnl": -17.05, "currency": "EUR"},
+    {"ticker": "ISRG", "shares": 10,        "avg_price": 392.881,      "last": 367.75,       "market_value_base": 3677.50,  "weight_pct": 4.61,  "daily_pnl": -41.30,  "unrealized_pnl": -251.31},
+    {"ticker": "NOK",  "shares": 600,       "avg_price": 10.239003,    "last": 9.6800003,    "market_value_base": 5808.00,  "weight_pct": 7.27,  "daily_pnl": -96.00,  "unrealized_pnl": -335.40},
+    {"ticker": "NVO",  "shares": 120,       "avg_price": 45.31583667,  "last": 46.7983017,   "market_value_base": 5615.80,  "weight_pct": 7.03,  "daily_pnl": 3.40,    "unrealized_pnl": 177.90},
+    {"ticker": "SPUS", "shares": 322.5194,  "avg_price": 58.78808841,  "last": 58.84999845,  "market_value_base": 18980.27, "weight_pct": 23.77, "daily_pnl": 74.18,   "unrealized_pnl": 19.97, "concentration_excluded": true},
+    {"ticker": "SPWO", "shares": 200,       "avg_price": 33.635003,    "last": 32.99499895,  "market_value_base": 6599.00,  "weight_pct": 8.27,  "daily_pnl": -27.00,  "unrealized_pnl": -128.00},
+    {"ticker": "VRT",  "shares": 40,        "avg_price": 262.1775025,  "last": 261.19000245, "market_value_base": 10447.60, "weight_pct": 13.08, "daily_pnl": 179.60,  "unrealized_pnl": -39.50}
+  ],
+  "notes": "NOW excluded (0 shares, fully closed). SPUS excluded from concentration ceiling per rules. HIES market_value_base converted from EUR at 1.162444."
+}
