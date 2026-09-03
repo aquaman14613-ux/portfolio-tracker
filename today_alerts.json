@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-03",
+  "alerts": [
+    {
+      "id": "2026-09-03-VRT-weight-12pct",
+      "ticker": "VRT",
+      "type": "weight_breach",
+      "threshold": "12% mandatory review",
+      "value_pct": 13.37,
+      "detected_at": "2026-09-03T17:19:00Z",
+      "reason": "Single-position weight 13.37% of net liq ($10,772 / $80,553) — above 12% mandatory-review line. Driven by +4.96% intraday move ($256.70 -> $269.42).",
+      "news_check": "No adverse driver. Analyst price-target hikes on AI infrastructure demand (Loop Capital $500 target); Q2 2026 fifth straight beat, FY guidance raised to ~$14B revenue / $6.70 adj EPS.",
+      "email_status": "failed",
+      "email_error": "Inkbox inkbox_unanswered_limit — 20 messages sent to kbialmannai@gmail.com without a reply. Blocked until recipient replies or limit is raised.",
+      "delivered_via": "push_notification",
+      "retry_email_next_run": true,
+      "still_breaching_at": "2026-09-03T18:22:00Z",
+      "still_breaching_value_pct": 13.35
+    }
+  ],
+  "checks_run": {
+    "as_of": "2026-09-03T18:22:00Z",
+    "intraday_5pct": "no breach (VRT closest at +4.87%)",
+    "weight_10_12pct": "VRT 13.35% — already logged today, not re-alerted; AVGO 9.71% below line; SPUS 23.69% excluded per rules",
+    "cost_15_20pct": "no breach (worst: ISRG -5.56%)"
+  },
+  "run_log": [
+    {
+      "at": "2026-09-03T18:22:00Z",
+      "ibkr": "ok",
+      "outcome": "no_new_trigger",
+      "action": "Stage 1 only — no Stage 2 search, no email, no notification. Sole breach (VRT weight) was already logged and communicated earlier today; dedup rule suppresses repeat."
+    }
+  ],
+  "observations_not_alerted": [
+    "Cash 12.80% of net liq — above the 7.5–10% target band. Not one of the configured alert triggers; noted only."
+  ]
+}
