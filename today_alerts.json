@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-03",
+  "alerts": [
+    {
+      "ticker": "VRT",
+      "type": "concentration",
+      "reason": "13.32% weight, above 12% mandatory review",
+      "detected_at": "2026-09-03T15:19:00Z",
+      "detail": "Market value $10,709.60 of $80,392.01 net liq. Breaches 10% ceiling and 12% mandatory-review line. Driven by +4.3% intraday appreciation; no adverse news.",
+      "delivery": {
+        "channel": "inkbox_email",
+        "to": "kbialmannai@gmail.com",
+        "delivered": false,
+        "error": "inkbox_unanswered_limit - 20 messages sent without a reply",
+        "fallback_sent": "push_notification"
+      }
+    },
+    {
+      "ticker": "AVGO",
+      "type": "intraday_move",
+      "reason": "-5.4% intraday on soft Q4 guidance",
+      "detected_at": "2026-09-03T15:19:00Z",
+      "detail": "Price 347.26, -5.44% on session. Q3 FY26 beat on revenue and EPS but Q4 revenue guide ~$34.8B vs $35.03B consensus. 9.5% weight, -7.4% vs cost - no cost threshold breached.",
+      "delivery": {
+        "channel": "inkbox_email",
+        "to": "kbialmannai@gmail.com",
+        "delivered": false,
+        "error": "inkbox_unanswered_limit - 20 messages sent without a reply",
+        "fallback_sent": "push_notification"
+      }
+    }
+  ],
+  "ibkr_status": {
+    "reachable": true,
+    "consecutive_failures": 0
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "as_of": "2026-09-03T15:19:00Z",
+  "as_of_et": "2026-09-03 11:19 EDT",
+  "source": "IBKR",
+  "base_currency": "USD",
+  "net_liquidation": 80392.01,
+  "total_cash_value": 10330.8,
+  "gross_position_value": 70059.5,
+  "cash_pct_of_net_liq": 12.85,
+  "fx": {
+    "EUR": 1.1623
+  },
+  "positions": [
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "shares": 322.5194,
+      "currency": "USD",
+      "market_price": 59.07,
+      "market_value_usd": 19051.22,
+      "average_cost": 58.78808841,
+      "pct_vs_cost": 0.48,
+      "weight_pct": 23.7,
+      "daily_pnl": 145.13,
+      "daily_pct": 0.77,
+      "excluded_from_concentration": true,
+      "exclusion_reason": "diversified Shariah-compliant benchmark ETF"
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "shares": 40,
+      "currency": "USD",
+      "market_price": 267.73999025,
+      "market_value_usd": 10709.6,
+      "average_cost": 262.1775025,
+      "pct_vs_cost": 2.12,
+      "weight_pct": 13.32,
+      "daily_pnl": 441.6,
+      "daily_pct": 4.3
+    },
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "shares": 22,
+      "currency": "USD",
+      "market_price": 347.5770874,
+      "market_value_usd": 7646.7,
+      "average_cost": 375.21394091,
+      "pct_vs_cost": -7.37,
+      "weight_pct": 9.51,
+      "daily_pnl": -432.58,
+      "daily_pct": -5.44
+    },
+    {
+      "ticker": "APP",
+      "contract_id": 481863646,
+      "shares": 21,
+      "currency": "USD",
+      "market_price": 323.1199951,
+      "market_value_usd": 6785.52,
+      "average_cost": 308.59952857,
+      "pct_vs_cost": 4.71,
+      "weight_pct": 8.44,
+      "daily_pnl": 85.47,
+      "daily_pct": 1.28
+    },
+    {
+      "ticker": "SPWO",
+      "contract_id": 673665039,
+      "shares": 200,
+      "currency": "USD",
+      "market_price": 33.06000135,
+      "market_value_usd": 6612.0,
+      "average_cost": 33.635003,
+      "pct_vs_cost": -1.71,
+      "weight_pct": 8.22,
+      "daily_pnl": -14.0,
+      "daily_pct": -0.21
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "shares": 600,
+      "currency": "USD",
+      "market_price": 9.6850004,
+      "market_value_usd": 5811.0,
+      "average_cost": 10.239003,
+      "pct_vs_cost": -5.41,
+      "weight_pct": 7.23,
+      "daily_pnl": -93.0,
+      "daily_pct": -1.58
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "shares": 120,
+      "currency": "USD",
+      "market_price": 46.8017006,
+      "market_value_usd": 5616.2,
+      "average_cost": 45.31583667,
+      "pct_vs_cost": 3.28,
+      "weight_pct": 6.99,
+      "daily_pnl": 3.8,
+      "daily_pct": 0.07
+    },
+    {
+      "ticker": "HIES",
+      "contract_id": 872765740,
+      "shares": 140,
+      "currency": "EUR",
+      "exchange": "SBF",
+      "market_price": 25.26000025,
+      "market_value_eur": 3536.4,
+      "market_value_usd": 4110.36,
+      "average_cost": 25.33678571,
+      "pct_vs_cost": -0.3,
+      "weight_pct": 5.11,
+      "daily_pnl": -4.2,
+      "daily_pct": -0.12
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "shares": 10,
+      "currency": "USD",
+      "market_price": 368.5499878,
+      "market_value_usd": 3685.5,
+      "average_cost": 392.881,
+      "pct_vs_cost": -6.19,
+      "weight_pct": 4.58,
+      "daily_pnl": -33.3,
+      "daily_pct": -0.9
+    }
+  ],
+  "excluded_positions": [
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "shares": 0,
+      "reason": "fully closed position - excluded per data hygiene rule"
+    }
+  ]
+}
