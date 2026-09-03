@@ -1,0 +1,19 @@
+{
+  "snapshot_timestamp_utc": "2026-09-03T13:26:00Z",
+  "source": "IBKR live",
+  "net_liquidation_usd": 80067.78,
+  "total_cash_usd": 133.72,
+  "gross_position_value_usd": 79932.35,
+  "positions": [
+    {"ticker": "SPUS", "shares": 322.5194, "avg_cost": 58.78808841, "market_price": 58.70000075, "market_value_usd": 18931.89, "currency": "USD", "unrealized_pnl": -28.41, "pct_of_nlv": 23.65, "note": "diversified Shariah ETF - excluded from concentration ceiling"},
+    {"ticker": "VRT", "shares": 40, "avg_cost": 262.1775025, "market_price": 257.5, "market_value_usd": 10300.00, "currency": "USD", "unrealized_pnl": -187.10, "pct_of_nlv": 12.86},
+    {"ticker": "NOW", "shares": 70, "avg_cost": 133.52000286, "market_price": 141.5399933, "market_value_usd": 9907.80, "currency": "USD", "unrealized_pnl": 561.40, "pct_of_nlv": 12.37},
+    {"ticker": "AVGO", "shares": 22, "avg_cost": 375.21394091, "market_price": 355.69970705, "market_value_usd": 7825.39, "currency": "USD", "unrealized_pnl": -429.31, "pct_of_nlv": 9.77},
+    {"ticker": "APP", "shares": 21, "avg_cost": 308.59952857, "market_price": 323.59698485, "market_value_usd": 6795.54, "currency": "USD", "unrealized_pnl": 314.95, "pct_of_nlv": 8.49},
+    {"ticker": "SPWO", "shares": 200, "avg_cost": 33.635003, "market_price": 33.20000075, "market_value_usd": 6640.00, "currency": "USD", "unrealized_pnl": -87.00, "pct_of_nlv": 8.29, "note": "Shariah international ETF"},
+    {"ticker": "NOK", "shares": 600, "avg_cost": 10.239003, "market_price": 9.7797003, "market_value_usd": 5867.82, "currency": "USD", "unrealized_pnl": -275.58, "pct_of_nlv": 7.33},
+    {"ticker": "NVO", "shares": 120, "avg_cost": 45.31583667, "market_price": 48.0099983, "market_value_usd": 5761.20, "currency": "USD", "unrealized_pnl": 323.30, "pct_of_nlv": 7.20},
+    {"ticker": "HIES", "shares": 140, "avg_cost": 25.33678571, "market_price": 25.2199993, "market_value_eur": 3530.80, "market_value_usd": 4103.90, "currency": "EUR", "unrealized_pnl_eur": -16.35, "pct_of_nlv": 5.13, "fx_eurusd": 1.1622466},
+    {"ticker": "ISRG", "shares": 10, "avg_cost": 392.881, "market_price": 376.269989, "market_value_usd": 3762.70, "currency": "USD", "unrealized_pnl": -166.11, "pct_of_nlv": 4.70}
+  ]
+}

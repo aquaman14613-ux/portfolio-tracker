@@ -1,0 +1,8 @@
+{
+  "date": "2026-09-03",
+  "alerts": [
+    {"type": "concentration", "ticker": "VRT", "pct_of_nlv": 12.86, "threshold": 12, "level": "mandatory_review", "logged_utc": "2026-09-03T13:26:00Z"},
+    {"type": "concentration", "ticker": "NOW", "pct_of_nlv": 12.37, "threshold": 12, "level": "mandatory_review", "logged_utc": "2026-09-03T13:26:00Z"},
+    {"type": "cash_below_target", "cash_pct": 0.17, "target_range": "7.5-10", "logged_utc": "2026-09-03T13:26:00Z"}
+  ]
+}
