@@ -1,0 +1,37 @@
+{
+  "snapshot_utc": "2026-09-03T20:16:51Z",
+  "source": "IBKR live (get_account_positions / get_account_summary / get_account_balances)",
+  "base_currency": "USD",
+  "net_liquidation": 80646.96,
+  "gross_position_value": 70314.45,
+  "total_cash_value": 10332.51,
+  "available_funds": 134.21,
+  "buying_power": 134.21,
+  "excess_liquidity": 10332.51,
+  "unrealized_pnl_base": -229.88,
+  "realized_pnl_base": 850.68,
+  "fx": { "EURUSD": 1.1622548 },
+  "positions": [
+    { "symbol": "SPUS", "contract_id": 396046406, "qty": 322.5194, "ccy": "USD", "mark": 59.05049895, "avg_cost": 58.78808841, "market_value_usd": 19044.93, "weight_pct": 23.62, "unrealized_pnl_usd": 84.63, "unrealized_pct": 0.45, "daily_pnl_usd": 138.84 },
+    { "symbol": "VRT",  "contract_id": 402783527, "qty": 40, "ccy": "USD", "mark": 269.0, "avg_cost": 262.1775025, "market_value_usd": 10760.00, "weight_pct": 13.34, "unrealized_pnl_usd": 272.90, "unrealized_pct": 2.60, "daily_pnl_usd": 492.00 },
+    { "symbol": "AVGO", "contract_id": 313130367, "qty": 22, "ccy": "USD", "mark": 357.35998535, "avg_cost": 375.21394091, "market_value_usd": 7861.92, "weight_pct": 9.75, "unrealized_pnl_usd": -392.79, "unrealized_pct": -4.76, "daily_pnl_usd": -217.36 },
+    { "symbol": "SPWO", "contract_id": 673665039, "qty": 200, "ccy": "USD", "mark": 33.3600006, "avg_cost": 33.635003, "market_value_usd": 6672.00, "weight_pct": 8.27, "unrealized_pnl_usd": -55.00, "unrealized_pct": -0.82, "daily_pnl_usd": 46.00 },
+    { "symbol": "APP",  "contract_id": 481863646, "qty": 21, "ccy": "USD", "mark": 313.7000122, "avg_cost": 308.59952857, "market_value_usd": 6587.70, "weight_pct": 8.17, "unrealized_pnl_usd": 107.11, "unrealized_pct": 1.65, "daily_pnl_usd": -112.35 },
+    { "symbol": "NOK",  "contract_id": 661513, "qty": 600, "ccy": "USD", "mark": 9.73999975, "avg_cost": 10.239003, "market_value_usd": 5844.00, "weight_pct": 7.25, "unrealized_pnl_usd": -299.40, "unrealized_pct": -4.87, "daily_pnl_usd": -60.00 },
+    { "symbol": "NVO",  "contract_id": 10611, "qty": 120, "ccy": "USD", "mark": 47.34999845, "avg_cost": 45.31583667, "market_value_usd": 5682.00, "weight_pct": 7.05, "unrealized_pnl_usd": 244.10, "unrealized_pct": 4.49, "daily_pnl_usd": 69.60 },
+    { "symbol": "HIES", "contract_id": 872765740, "qty": 140, "ccy": "EUR", "exchange": "SBF", "name": "HSBC MSCI EM Islamic Screened ETF", "mark": 25.45000075, "avg_cost": 25.33678571, "market_value_usd": 4141.11, "weight_pct": 5.13, "unrealized_pnl_usd": 18.42, "unrealized_pct": 0.45, "daily_pnl_usd": 26.03 },
+    { "symbol": "ISRG", "contract_id": 9063285, "qty": 10, "ccy": "USD", "mark": 369.82998655, "avg_cost": 392.881, "market_value_usd": 3698.30, "weight_pct": 4.59, "unrealized_pnl_usd": -230.51, "unrealized_pct": -5.87, "daily_pnl_usd": -20.50 }
+  ],
+  "closed_today": [
+    { "symbol": "NOW", "qty_sold": 70, "price": 145.69, "realized_pnl_usd": 850.68, "note": "position fully closed; excluded from position table per data hygiene rule" }
+  ],
+  "performance_twr": {
+    "measure": "TWR",
+    "inception": "2026-08-17",
+    "1D": 0.01261909,
+    "7D": 0.0002541,
+    "MTD": 0.00285185,
+    "ITD": 0.00210939
+  },
+  "benchmark_spus": { "1D": 0.00734, "7D": -0.00387, "MTD": 0.00358, "ITD": -0.00253 }
+}
