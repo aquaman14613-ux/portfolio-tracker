@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-03",
+  "alerts": [
+    {
+      "ticker": "VRT",
+      "type": "concentration",
+      "threshold": "12% mandatory review",
+      "detail": "13.37% of net liquidation ($10,772.80 of $80,574.82); 15.34% of gross position value",
+      "cause": "VRT +4.90% intraday ($256.49 open -> $269.27) pushed weight through 12%",
+      "sent_at": "2026-09-03T16:19:00Z",
+      "channel": "push_notification",
+      "email_status": "blocked",
+      "email_block_reason": "inkbox_unanswered_limit (20 messages sent to kbialmannai@gmail.com without a reply)"
+    }
+  ],
+  "checked": {
+    "intraday_5pct": "none (max moves: VRT +4.90%, AVGO -4.07%)",
+    "concentration_10_12pct": "VRT breach; SPUS 23.68% excluded per rules",
+    "cost_15_20pct": "none (worst: ISRG -6.34%, AVGO -6.15%)"
+  },
+  "ibkr_status": "ok"
+}

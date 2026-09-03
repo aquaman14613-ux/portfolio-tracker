@@ -1,0 +1,135 @@
+{
+  "timestamp": "2026-09-03T16:19:00Z",
+  "source": "IBKR",
+  "account": {
+    "net_liquidation": 80574.82,
+    "gross_position_value": 70242.31,
+    "total_cash_value": 10330.80,
+    "cash_pct": 12.82,
+    "currency": "USD"
+  },
+  "fx": {
+    "EURUSD_implied": 1.1619
+  },
+  "positions": [
+    {
+      "ticker": "APP",
+      "contract_id": 481863646,
+      "shares": 21,
+      "price": 320.216,
+      "market_value_usd": 6724.54,
+      "avg_cost": 308.600,
+      "pct_from_cost": 3.77,
+      "weight_pct": 8.35,
+      "daily_pct": 0.37,
+      "currency": "USD"
+    },
+    {
+      "ticker": "AVGO",
+      "contract_id": 313130367,
+      "shares": 22,
+      "price": 352.125,
+      "market_value_usd": 7746.75,
+      "avg_cost": 375.214,
+      "pct_from_cost": -6.15,
+      "weight_pct": 9.61,
+      "daily_pct": -4.07,
+      "currency": "USD"
+    },
+    {
+      "ticker": "HIES",
+      "contract_id": 872765740,
+      "shares": 140,
+      "price": 25.465,
+      "market_value_eur": 3565.10,
+      "market_value_usd": 4142.32,
+      "avg_cost": 25.337,
+      "pct_from_cost": 0.51,
+      "weight_pct": 5.14,
+      "daily_pct": 0.69,
+      "currency": "EUR"
+    },
+    {
+      "ticker": "ISRG",
+      "contract_id": 9063285,
+      "shares": 10,
+      "price": 367.985,
+      "market_value_usd": 3679.85,
+      "avg_cost": 392.881,
+      "pct_from_cost": -6.34,
+      "weight_pct": 4.57,
+      "daily_pct": -1.05,
+      "currency": "USD"
+    },
+    {
+      "ticker": "NOK",
+      "contract_id": 661513,
+      "shares": 600,
+      "price": 9.695,
+      "market_value_usd": 5817.00,
+      "avg_cost": 10.239,
+      "pct_from_cost": -5.31,
+      "weight_pct": 7.22,
+      "daily_pct": -1.47,
+      "currency": "USD"
+    },
+    {
+      "ticker": "NVO",
+      "contract_id": 10611,
+      "shares": 120,
+      "price": 47.040,
+      "market_value_usd": 5644.80,
+      "avg_cost": 45.316,
+      "pct_from_cost": 3.81,
+      "weight_pct": 7.01,
+      "daily_pct": 0.58,
+      "currency": "USD"
+    },
+    {
+      "ticker": "SPUS",
+      "contract_id": 396046406,
+      "shares": 322.5194,
+      "price": 59.160,
+      "market_value_usd": 19080.25,
+      "avg_cost": 58.788,
+      "pct_from_cost": 0.63,
+      "weight_pct": 23.68,
+      "daily_pct": 0.92,
+      "currency": "USD",
+      "note": "benchmark ETF - excluded from single-position concentration check"
+    },
+    {
+      "ticker": "SPWO",
+      "contract_id": 673665039,
+      "shares": 200,
+      "price": 33.170,
+      "market_value_usd": 6634.00,
+      "avg_cost": 33.635,
+      "pct_from_cost": -1.38,
+      "weight_pct": 8.23,
+      "daily_pct": 0.12,
+      "currency": "USD"
+    },
+    {
+      "ticker": "VRT",
+      "contract_id": 402783527,
+      "shares": 40,
+      "price": 269.320,
+      "market_value_usd": 10772.80,
+      "avg_cost": 262.178,
+      "pct_from_cost": 2.72,
+      "weight_pct": 13.37,
+      "daily_pct": 4.90,
+      "currency": "USD",
+      "note": "above 12% mandatory review ceiling"
+    }
+  ],
+  "excluded_closed": [
+    {
+      "ticker": "NOW",
+      "contract_id": 109911821,
+      "shares": 0,
+      "reason": "fully closed - excluded per data hygiene rule"
+    }
+  ]
+}
