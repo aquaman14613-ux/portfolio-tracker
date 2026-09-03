@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-03",
+  "alerts": [
+    {
+      "id": "2026-09-03-VRT-weight-12pct",
+      "ticker": "VRT",
+      "type": "weight_breach",
+      "threshold": "12% mandatory review",
+      "value_pct": 13.37,
+      "detected_at": "2026-09-03T17:19:00Z",
+      "reason": "Single-position weight 13.37% of net liq ($10,772 / $80,553) — above 12% mandatory-review line. Driven by +4.96% intraday move ($256.70 -> $269.42).",
+      "news_check": "No adverse driver. Analyst price-target hikes on AI infrastructure demand (Loop Capital $500 target); Q2 2026 fifth straight beat, FY guidance raised to ~$14B revenue / $6.70 adj EPS.",
+      "email_status": "failed",
+      "email_error": "Inkbox inkbox_unanswered_limit — 20 messages sent to kbialmannai@gmail.com without a reply. Blocked until recipient replies or limit is raised.",
+      "delivered_via": "push_notification",
+      "retry_email_next_run": true
+    }
+  ],
+  "checks_run": {
+    "intraday_5pct": "no breach (VRT closest at +4.96%)",
+    "weight_10_12pct": "VRT 13.37% breach; SPUS 23.67% excluded per rules",
+    "cost_15_20pct": "no breach (worst: ISRG -5.75%)"
+  }
+}
