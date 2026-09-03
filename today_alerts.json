@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-03",
+  "alerts": [
+    {
+      "ticker": "NOW",
+      "type": "concentration",
+      "reason": "single-position weight 12.35% (>12% mandatory review)",
+      "detected_utc": "2026-09-03T13:24:00Z",
+      "delivered": false,
+      "delivery_status": "blocked_inkbox_unanswered_limit",
+      "note": "Email send blocked by Inkbox (20 unanswered-message limit). Retry send on a future run once the channel is unblocked; do not treat as delivered."
+    },
+    {
+      "ticker": "VRT",
+      "type": "concentration",
+      "reason": "single-position weight 12.84% (>12% mandatory review)",
+      "detected_utc": "2026-09-03T13:24:00Z",
+      "delivered": false,
+      "delivery_status": "blocked_inkbox_unanswered_limit",
+      "note": "Email send blocked by Inkbox (20 unanswered-message limit). Retry send on a future run once the channel is unblocked; do not treat as delivered."
+    }
+  ]
+}

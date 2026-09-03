@@ -1,0 +1,25 @@
+{
+  "timestamp_utc": "2026-09-03T13:24:00Z",
+  "source": "IBKR",
+  "net_liquidation_value_base": 80067.78,
+  "cash_balance_base": 133.72,
+  "cash_pct": 0.17,
+  "positions": [
+    {"ticker": "SPUS", "shares": 322.5194, "market_price": 58.70, "market_value_usd": 18931.89, "avg_cost": 58.788, "weight_pct": 23.64, "daily_pnl": 25.80, "note": "diversified ETF - excluded from concentration check"},
+    {"ticker": "VRT", "shares": 40, "market_price": 257.01, "market_value_usd": 10280.40, "avg_cost": 262.178, "weight_pct": 12.84, "daily_pnl": 12.40},
+    {"ticker": "NOW", "shares": 70, "market_price": 141.21, "market_value_usd": 9884.70, "avg_cost": 133.520, "weight_pct": 12.35, "daily_pnl": 314.30},
+    {"ticker": "AVGO", "shares": 22, "market_price": 355.10, "market_value_usd": 7812.20, "avg_cost": 375.214, "weight_pct": 9.76, "daily_pnl": -267.08},
+    {"ticker": "APP", "shares": 21, "market_price": 323.60, "market_value_usd": 6795.54, "avg_cost": 308.600, "weight_pct": 8.49, "daily_pnl": 95.49},
+    {"ticker": "SPWO", "shares": 200, "market_price": 33.20, "market_value_usd": 6640.00, "avg_cost": 33.635, "weight_pct": 8.29, "daily_pnl": 14.00},
+    {"ticker": "NOK", "shares": 600, "market_price": 9.778, "market_value_usd": 5867.10, "avg_cost": 10.239, "weight_pct": 7.33, "daily_pnl": -36.90},
+    {"ticker": "NVO", "shares": 120, "market_price": 47.973, "market_value_usd": 5756.78, "avg_cost": 45.316, "weight_pct": 7.19, "daily_pnl": 144.38},
+    {"ticker": "HIES", "shares": 140, "market_price": 25.21, "market_value_eur": 3529.40, "market_value_usd": 4102.28, "avg_cost": 25.337, "weight_pct": 5.12, "daily_pnl_eur": -11.20, "currency": "EUR"},
+    {"ticker": "ISRG", "shares": 10, "market_price": 376.27, "market_value_usd": 3762.70, "avg_cost": 392.881, "weight_pct": 4.70, "daily_pnl": 43.90}
+  ],
+  "stage1_checks": {
+    "intraday_move_ge_5pct": [],
+    "weight_breach_10_12pct": ["NOW (12.35%)", "VRT (12.84%)"],
+    "cost_breach_15_20pct": []
+  },
+  "ibkr_status": "ok"
+}
