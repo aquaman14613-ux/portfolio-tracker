@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-09-04T14:19:15Z",
+  "timestamp_local": "2026-09-04 10:19:15 EDT",
+  "source": "IBKR",
+  "base_currency": "USD",
+  "net_liquidation_value": 80928.4726,
+  "cash": {
+    "balance": 3793.7999,
+    "weight_pct": 4.69
+  },
+  "fx": {
+    "EUR": 1.1614138
+  },
+  "positions": [
+    {"ticker": "APP",  "contract_id": 481863646, "shares": 21,       "currency": "USD", "market_price": 313.38,     "market_value_base": 6580.98,  "avg_cost": 308.5995,  "weight_pct": 8.13,  "unrealized_pnl": 100.39,   "pct_vs_cost": 1.55,  "daily_pnl": -4.20,    "daily_pct": -0.06},
+    {"ticker": "AVGO", "contract_id": 313130367, "shares": 32,       "currency": "USD", "market_price": 354.84,     "market_value_base": 11354.88, "avg_cost": 369.8377,  "weight_pct": 14.03, "unrealized_pnl": -479.93,  "pct_vs_cost": -4.06, "daily_pnl": -82.74,   "daily_pct": -0.72},
+    {"ticker": "HIES", "contract_id": 872765740, "shares": 140,      "currency": "EUR", "market_price": 26.05,      "market_value_base": 4235.68,  "avg_cost": 25.3368,   "weight_pct": 5.23,  "unrealized_pnl": 99.85,    "pct_vs_cost": 2.82,  "daily_pnl": 81.90,    "daily_pct": 2.25},
+    {"ticker": "ISRG", "contract_id": 9063285,   "shares": 18,       "currency": "USD", "market_price": 367.1028,   "market_value_base": 6607.85,  "avg_cost": 382.6339,  "weight_pct": 8.17,  "unrealized_pnl": -279.56,  "pct_vs_cost": -4.06, "daily_pnl": -49.05,   "daily_pct": -0.74},
+    {"ticker": "NOK",  "contract_id": 661513,    "shares": 600,      "currency": "USD", "market_price": 9.9899,     "market_value_base": 5993.94,  "avg_cost": 10.2390,   "weight_pct": 7.41,  "unrealized_pnl": -149.46,  "pct_vs_cost": -2.43, "daily_pnl": 131.94,   "daily_pct": 2.25},
+    {"ticker": "NVO",  "contract_id": 10611,     "shares": 120,      "currency": "USD", "market_price": 46.415,     "market_value_base": 5569.80,  "avg_cost": 45.3158,   "weight_pct": 6.88,  "unrealized_pnl": 131.90,   "pct_vs_cost": 2.42,  "daily_pnl": -131.40,  "daily_pct": -2.31},
+    {"ticker": "SPUS", "contract_id": 396046406, "shares": 322.5194, "currency": "USD", "market_price": 59.15,      "market_value_base": 19077.02, "avg_cost": 58.7881,   "weight_pct": 23.57, "unrealized_pnl": 116.72,   "pct_vs_cost": 0.62,  "daily_pnl": -3.22,    "daily_pct": -0.02, "excluded_from_concentration_check": true},
+    {"ticker": "SPWO", "contract_id": 673665039, "shares": 200,      "currency": "USD", "market_price": 33.63,      "market_value_base": 6726.00,  "avg_cost": 33.6350,   "weight_pct": 8.31,  "unrealized_pnl": -1.00,    "pct_vs_cost": -0.00, "daily_pnl": 54.00,    "daily_pct": 0.81},
+    {"ticker": "VRT",  "contract_id": 402783527, "shares": 40,       "currency": "USD", "market_price": 273.91,     "market_value_base": 10956.40, "avg_cost": 262.1775,  "weight_pct": 13.54, "unrealized_pnl": 469.30,   "pct_vs_cost": 4.47,  "daily_pnl": 203.20,   "daily_pct": 1.89}
+  ],
+  "checks": {
+    "intraday_move_5pct": [],
+    "weight_breach_10pct": ["AVGO", "VRT"],
+    "weight_breach_12pct": ["AVGO", "VRT"],
+    "cost_breach_15pct": [],
+    "cost_breach_20pct": []
+  },
+  "ibkr_consecutive_failures": 0
+}

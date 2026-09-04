@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-04",
+  "alerts": [
+    {
+      "ticker": "AVGO",
+      "type": "weight_breach_12pct",
+      "reason": "single-position weight 14.03% (ceiling 10%, mandatory review 12%)",
+      "value_pct": 14.03,
+      "detected_at": "2026-09-04T14:19:15Z",
+      "notified": true,
+      "notification_channel": "push",
+      "email_sent": false,
+      "email_error": "inkbox_unanswered_limit: 20 messages sent to kbialmannai@gmail.com without a reply"
+    },
+    {
+      "ticker": "VRT",
+      "type": "weight_breach_12pct",
+      "reason": "single-position weight 13.54% (ceiling 10%, mandatory review 12%)",
+      "value_pct": 13.54,
+      "detected_at": "2026-09-04T14:19:15Z",
+      "notified": true,
+      "notification_channel": "push",
+      "email_sent": false,
+      "email_error": "inkbox_unanswered_limit: 20 messages sent to kbialmannai@gmail.com without a reply"
+    }
+  ]
+}
