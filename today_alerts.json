@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-04",
+  "alerts": [
+    {
+      "ticker": "AVGO",
+      "type": "weight_12pct",
+      "reason": "Single-position weight 14.08% (>12% mandatory review)",
+      "weight_pct": 14.08,
+      "flagged_at": "2026-09-04T15:20:00Z",
+      "delivery": {
+        "email": "blocked",
+        "email_error": "inkbox_unanswered_limit (20 messages sent to kbialmannai@gmail.com without a reply)",
+        "fallback": "push_notification"
+      }
+    },
+    {
+      "ticker": "VRT",
+      "type": "weight_12pct",
+      "reason": "Single-position weight 13.59% (>12% mandatory review)",
+      "weight_pct": 13.59,
+      "flagged_at": "2026-09-04T15:20:00Z",
+      "delivery": {
+        "email": "blocked",
+        "email_error": "inkbox_unanswered_limit (20 messages sent to kbialmannai@gmail.com without a reply)",
+        "fallback": "push_notification"
+      }
+    }
+  ]
+}
