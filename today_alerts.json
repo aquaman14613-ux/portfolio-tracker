@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-04",
+  "alerts": [
+    {
+      "id": "setup-missing-last-snapshot-2026-09-04",
+      "type": "setup",
+      "ticker": null,
+      "reason": "last_snapshot.json absent from repo - no baseline available for intraday-move comparison or IBKR fallback",
+      "notified_at": "2026-09-04T11:21:43Z",
+      "channel": "push"
+    }
+  ]
+}
