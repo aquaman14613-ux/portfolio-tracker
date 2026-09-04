@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-04",
+  "alerts": [
+    {
+      "id": "2026-09-04-conc-AVGO-12",
+      "type": "concentration",
+      "ticker": "AVGO",
+      "threshold": "12% mandatory review",
+      "value_pct": 14.18,
+      "sent_utc": "2026-09-04T13:30:00Z",
+      "channel": "email:kbialmannai@gmail.com",
+      "note": "Sent in Pre-Market Portfolio Report - 2026-09-04."
+    },
+    {
+      "id": "2026-09-04-conc-VRT-12",
+      "type": "concentration",
+      "ticker": "VRT",
+      "threshold": "12% mandatory review",
+      "value_pct": 13.55,
+      "sent_utc": "2026-09-04T13:30:00Z",
+      "channel": "email:kbialmannai@gmail.com",
+      "note": "Sent in Pre-Market Portfolio Report - 2026-09-04."
+    },
+    {
+      "id": "2026-09-04-cash-below-floor",
+      "type": "cash_target",
+      "threshold": "7.5% floor",
+      "value_pct": 4.69,
+      "sent_utc": "2026-09-04T13:30:00Z",
+      "channel": "email:kbialmannai@gmail.com",
+      "note": "Cash below 7.5-10% target band. Sent in Pre-Market Portfolio Report - 2026-09-04."
+    }
+  ],
+  "not_triggered": {
+    "price_review_minus_15pct": "No position worse than -3.82% from cost (ISRG).",
+    "theme_cap_30pct": "AI-datacenter-capex theme (AVGO+VRT) at 27.73%, under cap."
+  }
+}

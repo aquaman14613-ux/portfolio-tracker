@@ -1,0 +1,46 @@
+{
+  "snapshot_utc": "2026-09-04T13:22:00Z",
+  "source": "IBKR live (get_account_positions + get_account_summary)",
+  "base_currency": "USD",
+  "fx": {
+    "EURUSD_implied": 1.15772,
+    "note": "Implied from gross_position_value minus sum of USD position market values."
+  },
+  "account_summary": {
+    "net_liquidation": 80883.30,
+    "gross_position_value": 77089.50,
+    "total_cash_value": 3793.80,
+    "available_funds": 3793.80,
+    "buying_power": 3793.80,
+    "excess_liquidity": 3793.80,
+    "initial_margin": 0,
+    "maintenance_margin": 0,
+    "leverage": "0.95",
+    "cash_pct_of_net_liq": 4.69
+  },
+  "positions": [
+    {"ticker": "SPUS", "contract_id": 396046406, "shares": 322.5194, "currency": "USD", "avg_cost": 58.78808841, "market_price": 59.09999845, "market_value_usd": 19060.90, "weight_pct": 23.57, "unrealized_pnl_usd": 100.60, "pct_from_cost": 0.53, "daily_pnl_usd": -19.35},
+    {"ticker": "AVGO", "contract_id": 313130367, "shares": 32, "currency": "USD", "avg_cost": 369.83770937, "market_price": 358.35, "market_value_usd": 11467.20, "weight_pct": 14.18, "unrealized_pnl_usd": -367.61, "pct_from_cost": -3.11, "daily_pnl_usd": 29.58},
+    {"ticker": "VRT", "contract_id": 402783527, "shares": 40, "currency": "USD", "avg_cost": 262.1775025, "market_price": 273.97, "market_value_usd": 10958.80, "weight_pct": 13.55, "unrealized_pnl_usd": 471.70, "pct_from_cost": 4.50, "daily_pnl_usd": 205.60},
+    {"ticker": "SPWO", "contract_id": 673665039, "shares": 200, "currency": "USD", "avg_cost": 33.635003, "market_price": 33.36, "market_value_usd": 6672.00, "weight_pct": 8.25, "unrealized_pnl_usd": -55.00, "pct_from_cost": -0.82, "daily_pnl_usd": 0.00},
+    {"ticker": "ISRG", "contract_id": 9063285, "shares": 18, "currency": "USD", "avg_cost": 382.63388889, "market_price": 368.02, "market_value_usd": 6624.36, "weight_pct": 8.19, "unrealized_pnl_usd": -263.05, "pct_from_cost": -3.82, "daily_pnl_usd": -32.54},
+    {"ticker": "APP", "contract_id": 481863646, "shares": 21, "currency": "USD", "avg_cost": 308.59952857, "market_price": 313.80, "market_value_usd": 6589.80, "weight_pct": 8.15, "unrealized_pnl_usd": 109.21, "pct_from_cost": 1.69, "daily_pnl_usd": 4.62},
+    {"ticker": "NOK", "contract_id": 661513, "shares": 600, "currency": "USD", "avg_cost": 10.239003, "market_price": 9.98989965, "market_value_usd": 5993.94, "weight_pct": 7.41, "unrealized_pnl_usd": -149.46, "pct_from_cost": -2.43, "daily_pnl_usd": 131.94},
+    {"ticker": "NVO", "contract_id": 10611, "shares": 120, "currency": "USD", "avg_cost": 45.31583667, "market_price": 46.39, "market_value_usd": 5566.80, "weight_pct": 6.88, "unrealized_pnl_usd": 128.90, "pct_from_cost": 2.37, "daily_pnl_usd": -134.40},
+    {"ticker": "HIES", "contract_id": 872765740, "name": "HSBC MSCI EM Islamic Screened ETF", "exchange": "SBF", "shares": 140, "currency": "EUR", "avg_cost": 25.33678571, "market_price": 25.64, "market_value_eur": 3589.60, "market_value_usd": 4155.70, "weight_pct": 5.14, "unrealized_pnl_eur": 42.45, "pct_from_cost": 1.20, "daily_pnl_eur": 24.50}
+  ],
+  "totals": {
+    "invested_pct": 95.31,
+    "cash_pct": 4.69,
+    "total_unrealized_pnl_usd": 24.44,
+    "last_session_pnl_usd": 213.81
+  },
+  "threshold_state": {
+    "single_position_ceiling_10pct_breaches": ["AVGO", "VRT"],
+    "mandatory_review_12pct_breaches": ["AVGO", "VRT"],
+    "spus_excluded_from_concentration_check": true,
+    "theme_correlation_ai_datacenter_capex": {"members": ["AVGO", "VRT"], "combined_pct": 27.73, "cap_pct": 30, "status": "under cap, approaching"},
+    "cash_target_7_5_to_10pct": {"actual_pct": 4.69, "status": "below floor"},
+    "price_review_triggers": {"minus_15pct_from_cost": [], "minus_20pct_from_cost": []}
+  }
+}
