@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-04",
+  "last_updated": "2026-09-04T20:20:00Z",
+  "alerts": [
+    {
+      "id": "2026-09-04-concentration-AVGO",
+      "type": "concentration",
+      "ticker": "AVGO",
+      "threshold": "12% mandatory review",
+      "value_pct": 14.04,
+      "first_seen": "2026-09-04T20:16:00Z",
+      "sent": true,
+      "channel": "push_notification",
+      "note": "Email delivery blocked by Inkbox unanswered-reply limit; delivered via push instead."
+    },
+    {
+      "id": "2026-09-04-concentration-VRT",
+      "type": "concentration",
+      "ticker": "VRT",
+      "threshold": "12% mandatory review",
+      "value_pct": 13.79,
+      "first_seen": "2026-09-04T20:16:00Z",
+      "sent": true,
+      "channel": "push_notification",
+      "note": "Crossed on +4.34% session move (UtilityInnovation Group acquisition), not on an add."
+    },
+    {
+      "id": "2026-09-04-cash-below-floor",
+      "type": "cash_target",
+      "ticker": null,
+      "threshold": "7.5% floor",
+      "value_pct": 4.66,
+      "shortfall_usd": 2308.51,
+      "first_seen": "2026-09-04T20:16:00Z",
+      "sent": true,
+      "channel": "push_notification"
+    }
+  ],
+  "not_alerted": [
+    { "type": "theme_correlation", "detail": "AI/data-centre capex AVGO+VRT 27.83% vs 30% cap - under cap on the narrow reading, reported but not alerted. Broad reading incl. NOK is 35.22%; reading unresolved." },
+    { "type": "price_review", "detail": "No position at or beyond -15% from cost. Worst is ISRG -4.16%." }
+  ],
+  "delivery": {
+    "email": {
+      "attempted": true,
+      "delivered": false,
+      "to": "kbialmannai@gmail.com",
+      "subject": "Post-Close Portfolio Report - 2026-09-04",
+      "error": "inkbox_unanswered_limit - 20 messages sent without a reply (limit 20)",
+      "remedy": "Recipient replies to an Inkbox email from claudereports@inkboxmail.com, or verify the sending domain, or ask support to raise the limit."
+    },
+    "push_notification": { "attempted": true, "delivered": true }
+  }
+}

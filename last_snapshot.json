@@ -1,0 +1,55 @@
+{
+  "as_of": "2026-09-04T20:16:00Z",
+  "as_of_local": "2026-09-04 post-close",
+  "source": "IBKR live (get_account_positions / get_account_summary / get_account_balances)",
+  "base_currency": "USD",
+  "fx": { "EURUSD": 1.16195 },
+  "account": {
+    "net_liquidation": 81364.07,
+    "gross_position_value": 77570.27,
+    "total_cash_value": 3793.80,
+    "available_funds": 3793.80,
+    "excess_liquidity": 3793.80,
+    "initial_margin": 0,
+    "maintenance_margin": 0,
+    "leverage": "0.95",
+    "cash_pct_of_nlv": 4.66
+  },
+  "day": {
+    "total_pnl_usd": 738.69,
+    "total_pnl_pct": 0.92,
+    "portfolio_twr_1d_pct": 0.83,
+    "benchmark_spus_1d_pct": -0.27
+  },
+  "performance_twr_vs_spus": {
+    "note": "Account inception 2026-08-17; NAV grew 19.7k -> 81.4k on deposits. TWR neutralises flows; 13-session base.",
+    "1D": { "portfolio_pct": 0.83, "spus_pct": -0.27, "delta_pp": 1.10 },
+    "7D": { "from": "2026-08-28", "portfolio_pct": 1.34, "spus_pct": 0.36, "delta_pp": 0.98 },
+    "MTD": { "from": "2026-08-31", "portfolio_pct": 1.19, "spus_pct": 0.27, "delta_pp": 0.92 },
+    "inception": { "from": "2026-08-17", "portfolio_pct": 1.12, "spus_pct": -0.34, "delta_pp": 1.46 }
+  },
+  "positions": [
+    { "ticker": "SPUS", "contract_id": 396046406, "type": "ETF", "currency": "USD", "qty": 322.5194, "last": 59.1034012, "avg_cost": 58.78808841, "market_value_usd": 19061.99, "weight_pct": 23.43, "unrealized_pnl_usd": 101.69, "pnl_pct": 0.54, "day_pnl_usd": -18.25, "day_pct": -0.10, "flag": "benchmark ETF - excluded from single-position ceiling" },
+    { "ticker": "AVGO", "contract_id": 313130367, "type": "STK", "currency": "USD", "qty": 32, "last": 357.1000061, "avg_cost": 369.83770937, "market_value_usd": 11427.20, "weight_pct": 14.04, "unrealized_pnl_usd": -407.61, "pnl_pct": -3.44, "day_pnl_usd": -10.42, "day_pct": -0.09, "flag": "OVER 12% - mandatory review" },
+    { "ticker": "VRT", "contract_id": 402783527, "type": "STK", "currency": "USD", "qty": 40, "last": 280.50, "avg_cost": 262.1775025, "market_value_usd": 11220.00, "weight_pct": 13.79, "unrealized_pnl_usd": 732.90, "pnl_pct": 6.99, "day_pnl_usd": 466.80, "day_pct": 4.34, "flag": "OVER 12% - mandatory review" },
+    { "ticker": "SPWO", "contract_id": 673665039, "type": "ETF", "currency": "USD", "qty": 200, "last": 33.7799988, "avg_cost": 33.635003, "market_value_usd": 6756.00, "weight_pct": 8.30, "unrealized_pnl_usd": 29.00, "pnl_pct": 0.43, "day_pnl_usd": 84.00, "day_pct": 1.26, "flag": null },
+    { "ticker": "APP", "contract_id": 481863646, "type": "STK", "currency": "USD", "qty": 21, "last": 320.04000855, "avg_cost": 308.59952857, "market_value_usd": 6720.84, "weight_pct": 8.26, "unrealized_pnl_usd": 240.25, "pnl_pct": 3.71, "day_pnl_usd": 135.66, "day_pct": 2.06, "flag": null },
+    { "ticker": "ISRG", "contract_id": 9063285, "type": "STK", "currency": "USD", "qty": 18, "last": 366.7000122, "avg_cost": 382.63388889, "market_value_usd": 6600.60, "weight_pct": 8.11, "unrealized_pnl_usd": -286.81, "pnl_pct": -4.16, "day_pnl_usd": -56.30, "day_pct": -0.85, "flag": null },
+    { "ticker": "NOK", "contract_id": 661513, "type": "STK", "currency": "USD", "qty": 600, "last": 10.02000045, "avg_cost": 10.239003, "market_value_usd": 6012.00, "weight_pct": 7.39, "unrealized_pnl_usd": -131.40, "pnl_pct": -2.14, "day_pnl_usd": 150.00, "day_pct": 2.56, "flag": null },
+    { "ticker": "NVO", "contract_id": 10611, "type": "STK", "currency": "USD", "qty": 120, "last": 46.59000015, "avg_cost": 45.31583667, "market_value_usd": 5590.80, "weight_pct": 6.87, "unrealized_pnl_usd": 152.90, "pnl_pct": 2.81, "day_pnl_usd": -110.40, "day_pct": -1.94, "flag": null },
+    { "ticker": "HIES", "contract_id": 872765740, "type": "ETF", "exchange": "SBF", "name": "HSBC MSCI EM Islamic Screened ETF", "currency": "EUR", "qty": 140, "last": 26.06500055, "avg_cost": 25.33678571, "market_value_native": 3649.10, "market_value_usd": 4240.07, "weight_pct": 5.21, "unrealized_pnl_usd": 118.46, "pnl_pct": 2.87, "day_pnl_usd": 97.60, "day_pct": 2.36, "flag": null }
+  ],
+  "checks": {
+    "single_position_ceiling": { "limit_pct": 10, "mandatory_review_pct": 12, "spus_excluded": true, "breaches": ["AVGO 14.04%", "VRT 13.79%"] },
+    "theme_correlation_cap": {
+      "cap_pct": 30,
+      "narrow_ai_datacenter_capex": { "members": ["AVGO", "VRT"], "pct": 27.83, "status": "under cap, 2.17pp headroom" },
+      "broad_incl_nok": { "members": ["AVGO", "VRT", "NOK"], "pct": 35.22, "status": "over cap on this reading" }
+    },
+    "cash_target": { "band_pct": [7.5, 10], "actual_pct": 4.66, "status": "below floor", "shortfall_to_floor_usd": 2308.51, "shortfall_to_10pct_usd": 4342.61 },
+    "price_review_triggers": { "review_pct": -15, "documented_decision_pct": -20, "breaches": [], "worst": "ISRG -4.16%" },
+    "shariah_zoya": { "status": "not_verified", "note": "No Zoya access this run. ETF sleeve (SPUS/SPWO/HIES) screened by mandate; six single names unverified." }
+  },
+  "etf_sleeve_pct": 36.94,
+  "single_stock_pct": 58.39
+}
