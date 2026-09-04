@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-04",
+  "alerts": [
+    {
+      "id": "2026-09-04-weight-AVGO",
+      "ticker": "AVGO",
+      "type": "weight_breach_12pct",
+      "weight_pct": 14.02,
+      "detected_utc": "2026-09-04T16:18:29Z",
+      "reason": "Single-position weight 14.02% exceeds the 12% mandatory-review ceiling",
+      "delivered": false,
+      "delivery_channel": "inkbox_email",
+      "delivery_error": "403 inkbox_unanswered_limit - 20 messages sent to kbialmannai@gmail.com without a reply; resets 2026-09-04T17:00:00Z",
+      "notified_via": "push_notification"
+    },
+    {
+      "id": "2026-09-04-weight-VRT",
+      "ticker": "VRT",
+      "type": "weight_breach_12pct",
+      "weight_pct": 13.57,
+      "detected_utc": "2026-09-04T16:18:29Z",
+      "reason": "Single-position weight 13.57% exceeds the 12% mandatory-review ceiling",
+      "delivered": false,
+      "delivery_channel": "inkbox_email",
+      "delivery_error": "403 inkbox_unanswered_limit - 20 messages sent to kbialmannai@gmail.com without a reply; resets 2026-09-04T17:00:00Z",
+      "notified_via": "push_notification"
+    }
+  ],
+  "ibkr_consecutive_failures": 0,
+  "notes": "Both breaches detected; email send blocked by Inkbox unanswered-message limit. A later run may retry the email send for alerts with delivered=false, but must not re-detect these as new breaches."
+}
