@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-04",
+  "alerts": [
+    {
+      "id": "2026-09-04:AVGO:weight_12pct",
+      "ticker": "AVGO",
+      "type": "weight_breach_12pct",
+      "reason": "single-position weight 14.03% (mandatory review level 12%)",
+      "detected_at_utc": "2026-09-04T18:18:22Z",
+      "weight_pct": 14.03,
+      "delivered": false,
+      "delivery_status": "blocked",
+      "delivery_error": "Inkbox 403 inkbox_unanswered_limit - 20 messages sent to kbialmannai@gmail.com without a reply; clears on an authenticated reply, verified recipient domain, or a support limit raise",
+      "channel": "inkbox_email",
+      "retry_on_next_run": true
+    },
+    {
+      "id": "2026-09-04:VRT:weight_12pct",
+      "ticker": "VRT",
+      "type": "weight_breach_12pct",
+      "reason": "single-position weight 13.65% (mandatory review level 12%)",
+      "detected_at_utc": "2026-09-04T18:18:22Z",
+      "weight_pct": 13.65,
+      "delivered": false,
+      "delivery_status": "blocked",
+      "delivery_error": "Inkbox 403 inkbox_unanswered_limit - 20 messages sent to kbialmannai@gmail.com without a reply; clears on an authenticated reply, verified recipient domain, or a support limit raise",
+      "channel": "inkbox_email",
+      "retry_on_next_run": true
+    }
+  ],
+  "dedup_note": "Entries with delivered=false have NOT reached the user. Do not treat them as already-sent for dedup purposes; retry delivery on the next run while the breach still holds."
+}
