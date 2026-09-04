@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-09-04T19:18:32Z",
+  "source": "IBKR",
+  "net_liquidation_usd": 81157.53,
+  "gross_position_value_usd": 77363.73,
+  "total_cash_usd": 3793.80,
+  "cash_pct": 4.67,
+  "positions": [
+    {"ticker": "APP",  "shares": 21,       "market_price": 319.81,  "market_value_usd": 6716.01,  "avg_cost": 308.59953, "weight_pct": 8.28,  "day_pct": 1.99,  "vs_cost_pct": 3.63},
+    {"ticker": "AVGO", "shares": 32,       "market_price": 355.82,  "market_value_usd": 11386.24, "avg_cost": 369.83771, "weight_pct": 14.03, "day_pct": -0.45, "vs_cost_pct": -3.79},
+    {"ticker": "HIES", "shares": 140,      "market_price": 26.065,  "market_value_usd": 4239.72,  "avg_cost": 25.33679,  "weight_pct": 5.22,  "day_pct": 2.36,  "vs_cost_pct": 2.88, "currency": "EUR"},
+    {"ticker": "ISRG", "shares": 18,       "market_price": 366.39,  "market_value_usd": 6595.02,  "avg_cost": 382.63389, "weight_pct": 8.13,  "day_pct": -0.93, "vs_cost_pct": -4.25},
+    {"ticker": "NOK",  "shares": 600,      "market_price": 10.015,  "market_value_usd": 6009.00,  "avg_cost": 10.23900,  "weight_pct": 7.40,  "day_pct": 2.51,  "vs_cost_pct": -2.19},
+    {"ticker": "NVO",  "shares": 120,      "market_price": 46.44,   "market_value_usd": 5572.80,  "avg_cost": 45.31584,  "weight_pct": 6.87,  "day_pct": -2.25, "vs_cost_pct": 2.48},
+    {"ticker": "SPUS", "shares": 322.5194, "market_price": 58.96,   "market_value_usd": 19015.74, "avg_cost": 58.78809,  "weight_pct": 23.43, "day_pct": -0.34, "vs_cost_pct": 0.29, "concentration_check": "excluded"},
+    {"ticker": "SPWO", "shares": 200,      "market_price": 33.68,   "market_value_usd": 6736.00,  "avg_cost": 33.63500,  "weight_pct": 8.30,  "day_pct": 0.96,  "vs_cost_pct": 0.13},
+    {"ticker": "VRT",  "shares": 40,       "market_price": 277.33,  "market_value_usd": 11093.20, "avg_cost": 262.17750, "weight_pct": 13.67, "day_pct": 3.16,  "vs_cost_pct": 5.78}
+  ]
+}
