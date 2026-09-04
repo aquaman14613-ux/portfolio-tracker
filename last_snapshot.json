@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-04T17:19:00Z",
+  "timestamp_local": "2026-09-04 13:19 EDT (Friday)",
+  "source": "IBKR live",
+  "base_currency": "USD",
+  "net_liquidation_value": 81158.34,
+  "cash_balance": 3793.80,
+  "cash_pct_of_nlv": 4.67,
+  "fx": { "EUR_USD": 1.16195 },
+  "positions": [
+    { "ticker": "APP",  "contract_id": 481863646, "quantity": 21,       "currency": "USD", "market_price": 322.09, "avg_cost": 308.60, "market_value_base": 6763.89,  "weight_pct": 8.33,  "intraday_pct": 2.71,  "vs_cost_pct": 4.37 },
+    { "ticker": "AVGO", "contract_id": 313130367, "quantity": 32,       "currency": "USD", "market_price": 355.39, "avg_cost": 369.84, "market_value_base": 11372.64, "weight_pct": 14.01, "intraday_pct": -0.57, "vs_cost_pct": -3.91 },
+    { "ticker": "HIES", "contract_id": 872765740, "quantity": 140,      "currency": "EUR", "market_price": 26.07,  "avg_cost": 25.34,  "market_value_base": 4240.05,  "weight_pct": 5.22,  "intraday_pct": 2.36,  "vs_cost_pct": 2.87 },
+    { "ticker": "ISRG", "contract_id": 9063285,   "quantity": 18,       "currency": "USD", "market_price": 363.81, "avg_cost": 382.63, "market_value_base": 6548.60,  "weight_pct": 8.07,  "intraday_pct": -1.63, "vs_cost_pct": -4.92 },
+    { "ticker": "NOK",  "contract_id": 661513,    "quantity": 600,      "currency": "USD", "market_price": 10.02,  "avg_cost": 10.24,  "market_value_base": 6015.00,  "weight_pct": 7.41,  "intraday_pct": 2.61,  "vs_cost_pct": -2.09 },
+    { "ticker": "NVO",  "contract_id": 10611,     "quantity": 120,      "currency": "USD", "market_price": 46.55,  "avg_cost": 45.32,  "market_value_base": 5585.40,  "weight_pct": 6.88,  "intraday_pct": -2.03, "vs_cost_pct": 2.71 },
+    { "ticker": "SPUS", "contract_id": 396046406, "quantity": 322.5194, "currency": "USD", "market_price": 59.03,  "avg_cost": 58.79,  "market_value_base": 19038.32, "weight_pct": 23.46, "intraday_pct": -0.22, "vs_cost_pct": 0.41, "concentration_check_excluded": true },
+    { "ticker": "SPWO", "contract_id": 673665039, "quantity": 200,      "currency": "USD", "market_price": 33.72,  "avg_cost": 33.64,  "market_value_base": 6743.00,  "weight_pct": 8.31,  "intraday_pct": 1.06,  "vs_cost_pct": 0.24 },
+    { "ticker": "VRT",  "contract_id": 402783527, "quantity": 40,       "currency": "USD", "market_price": 276.04, "avg_cost": 262.18, "market_value_base": 11041.60, "weight_pct": 13.61, "intraday_pct": 2.68,  "vs_cost_pct": 5.29 }
+  ],
+  "ibkr_consecutive_failures": 0
+}

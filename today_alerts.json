@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-04",
+  "alerts": [
+    {
+      "id": "2026-09-04-concentration-AVGO",
+      "ticker": "AVGO",
+      "type": "concentration",
+      "threshold": "12% mandatory review",
+      "value_pct": 14.01,
+      "detected_at": "2026-09-04T17:19:00Z",
+      "email_delivered": false,
+      "delivery_error": "inkbox_unanswered_limit (20 messages sent without a reply)",
+      "notes": "Retry delivery on next run while breach persists; do not suppress until email_delivered is true."
+    },
+    {
+      "id": "2026-09-04-concentration-VRT",
+      "ticker": "VRT",
+      "type": "concentration",
+      "threshold": "12% mandatory review",
+      "value_pct": 13.61,
+      "detected_at": "2026-09-04T17:19:00Z",
+      "email_delivered": false,
+      "delivery_error": "inkbox_unanswered_limit (20 messages sent without a reply)",
+      "notes": "Retry delivery on next run while breach persists; do not suppress until email_delivered is true."
+    }
+  ]
+}
