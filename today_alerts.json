@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-06",
+  "alerts": [
+    {
+      "type": "concentration",
+      "symbol": "AVGO",
+      "weight_pct": 14.04,
+      "threshold": "12% mandatory review",
+      "logged_at": "2026-09-06T17:05:33Z",
+      "context": "weekly_review"
+    },
+    {
+      "type": "concentration",
+      "symbol": "VRT",
+      "weight_pct": 13.79,
+      "threshold": "12% mandatory review",
+      "logged_at": "2026-09-06T17:05:33Z",
+      "context": "weekly_review"
+    }
+  ]
+}

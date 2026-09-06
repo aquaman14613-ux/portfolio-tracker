@@ -1,0 +1,36 @@
+{
+  "snapshot_timestamp": "2026-09-06T17:05:33Z",
+  "source": "IBKR (live)",
+  "net_liquidation_value": 81392.78,
+  "cash_balance_usd": 3793.80,
+  "cash_weight_pct": 4.66,
+  "positions": [
+    {"symbol": "APP",  "shares": 21,       "avg_cost": 308.5995, "market_price": 320.56, "market_value": 6731.76,  "weight_pct": 8.27},
+    {"symbol": "AVGO", "shares": 32,       "avg_cost": 369.8377, "market_price": 357.07, "market_value": 11426.21, "weight_pct": 14.04},
+    {"symbol": "HIES", "shares": 140,      "avg_cost": 25.3368,  "market_price": 26.065, "market_value": 3649.10, "currency": "EUR", "weight_pct": 5.21},
+    {"symbol": "ISRG", "shares": 18,       "avg_cost": 382.6339, "market_price": 366.70, "market_value": 6600.60,  "weight_pct": 8.11},
+    {"symbol": "NOK",  "shares": 600,      "avg_cost": 10.2390,  "market_price": 10.06,  "market_value": 6036.00,  "weight_pct": 7.42},
+    {"symbol": "NVO",  "shares": 120,      "avg_cost": 45.3158,  "market_price": 46.50,  "market_value": 5580.00,  "weight_pct": 6.86},
+    {"symbol": "SPUS", "shares": 322.5194, "avg_cost": 58.7881,  "market_price": 59.03,  "market_value": 19038.32, "weight_pct": 23.39, "note": "benchmark ETF, excluded from concentration checks"},
+    {"symbol": "SPWO", "shares": 200,      "avg_cost": 33.6350,  "market_price": 33.78,  "market_value": 6756.00,  "weight_pct": 8.30},
+    {"symbol": "VRT",  "shares": 40,       "avg_cost": 262.1775, "market_price": 280.53, "market_value": 11221.20, "weight_pct": 13.79}
+  ],
+  "concentration_flags": [
+    {"symbol": "AVGO", "weight_pct": 14.04, "threshold": "12% mandatory review", "status": "breach"},
+    {"symbol": "VRT",  "weight_pct": 13.79, "threshold": "12% mandatory review", "status": "breach"}
+  ],
+  "week_trades_2026_08_31_to_2026_09_04": [
+    {"date": "2026-08-31", "symbol": "NOK",  "side": "BUY",  "shares": 200, "price": 10.05},
+    {"date": "2026-08-31", "symbol": "APP",  "side": "BUY",  "shares": 10,  "price": 307.20},
+    {"date": "2026-08-31", "symbol": "AVGO", "side": "BUY",  "shares": 10,  "price": 368.28},
+    {"date": "2026-08-31", "symbol": "VRT",  "side": "BUY",  "shares": 10,  "price": 258.16},
+    {"date": "2026-08-31", "symbol": "SPUS", "side": "BUY",  "shares": 114.5194, "price": 58.68},
+    {"date": "2026-09-01", "symbol": "VRT",  "side": "BUY",  "shares": 20,  "price": 255.14},
+    {"date": "2026-09-01", "symbol": "NOW",  "side": "BUY",  "shares": 40,  "price": 144.69},
+    {"date": "2026-09-02", "symbol": "AVGO", "side": "BUY",  "shares": 2,   "price": 362.12},
+    {"date": "2026-09-03", "symbol": "NOW",  "side": "SELL", "shares": 70,  "price": 145.69, "realized_pnl": 850.68, "note": "full exit"},
+    {"date": "2026-09-04", "symbol": "ISRG", "side": "BUY",  "shares": 8,   "price": 369.70},
+    {"date": "2026-09-04", "symbol": "AVGO", "side": "BUY",  "shares": 10,  "price": 357.91}
+  ],
+  "note": "First snapshot captured by automated weekly review — no prior snapshot existed in repo. Position-change deltas this week were derived from get_account_trades (DAYS_7), not from a snapshot diff."
+}
